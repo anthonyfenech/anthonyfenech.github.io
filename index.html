@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #fefefe;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .nav-links {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+
+        .nav-link {
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 2px;
+            transition: text-decoration-color 0.3s ease;
+            position: relative;
+            display: inline-block;
+        }
+
+        .nav-link.underlined {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+        }
+
+        .nav-left {
+            text-align: left;
+        }
+
+        .nav-center {
+            text-align: center;
+        }
+
+        .nav-right {
+            text-align: right;
+        }
+
+        .nav-link:hover {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+        }
+
+        .main-content {
+            margin: 80px 0;
+        }
+
+        .off-record-section {
+            padding: 30px;
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .off-record-title {
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            font-size: 4em;
+        }
+
+        .info-line {
+            margin-top: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .info-blank {
+            display: inline-block;
+            border-bottom: 1px solid #333;
+            width: 200px;
+            margin-left: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .email-form {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .email-form input[type="email"] {
+            flex: 1;
+            min-width: 250px;
+            padding: 12px 15px;
+            border: 2px solid #333;
+            background-color: #fff;
+            font-family: inherit;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+
+        .email-form input[type="email"]:focus {
+            outline: none;
+            background-color: #f9f9f9;
+        }
+
+        .email-form button {
+            padding: 12px 25px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            font-family: inherit;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .email-form button:hover {
+            background-color: #555;
+        }
+
+        .success-message {
+            margin-top: 15px;
+            color: #333;
+            font-weight: bold;
+            display: none;
+        }
+            .nav-links {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            body {
+                padding: 20px 15px;
+            }
+            
+            .off-record-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-links">
+            <a href="#bio" class="nav-link nav-left underlined">Bio</a>
+            <a href="#last-seen" class="nav-link nav-center underlined">Last Seen</a>
+            <a href="#contact" class="nav-link nav-right underlined">Contact</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="off-record-section">
+            <div class="off-record-title">Off-The-Record</div>
+
+            
+            <div class="info-line">
+                For More Info:
+            </div>
+            <div class="email-form">
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                <button type="button" onclick="submitEmail()">Submit</button>
+            </div>
+            <div id="successMessage" class="success-message">Thank you! We'll be in touch.</div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Your Website. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function submitEmail() {
+            const emailInput = document.getElementById('email');
+            const successMessage = document.getElementById('successMessage');
+            
+            if (emailInput.value && emailInput.checkValidity()) {
+                // Here you would typically send the email to your backend/service
+                console.log('Email submitted:', emailInput.value);
+                
+                // Show success message
+                successMessage.style.display = 'block';
+                emailInput.value = '';
+                
+                // Hide success message after 3 seconds
+                setTimeout(() => {
+                    successMessage.style.display = 'none';
+                }, 3000);
+            } else {
+                alert('Please enter a valid email address.');
+            }
+        }
+
+        // Allow Enter key to submit
+        document.getElementById('email').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                submitEmail();
+            }
+        });
+    </script>
+</body>
+</html>
