@@ -44,20 +44,6 @@
             display: inline-block;
         }
 
-        .nav-link.underlined {
-            text-decoration: underline;
-            text-decoration-color: #333;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 2px;
-        }
-
-        .nav-link:hover {
-            text-decoration: underline;
-            text-decoration-color: #333;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 2px;
-        }
-
         .nav-left {
             text-align: left;
         }
@@ -68,6 +54,13 @@
 
         .nav-right {
             text-align: right;
+        }
+
+        .nav-link.underlined {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
         }
 
         .nav-link:hover {
@@ -102,28 +95,13 @@
             letter-spacing: 0.5px;
         }
 
-        .info-blank {
-            display: inline-block;
-            border-bottom: 1px solid #333;
-            width: 200px;
-            margin-left: 10px;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 80px;
-            padding-top: 40px;
-            border-top: 1px solid #eee;
-            color: #666;
-            font-size: 14px;
-        }
-
         .email-form {
             margin-top: 20px;
             display: flex;
             gap: 10px;
             align-items: center;
             flex-wrap: wrap;
+            justify-content: center;
         }
 
         .email-form input[type="email"] {
@@ -165,9 +143,48 @@
             font-weight: bold;
             display: none;
         }
+
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+            position: relative;
+        }
+
+        .social-icons {
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-icon {
+            font-size: 24px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+
+        .twitter {
+            color: #1DA1F2;
+        }
+
+        .instagram {
+            color: #E4405F;
+        }
+
+        @media (max-width: 600px) {
             .nav-links {
                 flex-direction: column;
                 gap: 20px;
+                align-items: center;
             }
             
             body {
@@ -177,6 +194,21 @@
             .off-record-section {
                 padding: 20px;
             }
+
+            .email-form {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .email-form input[type="email"] {
+                min-width: auto;
+            }
+
+            .social-icons {
+                position: static;
+                justify-content: center;
+                margin-top: 20px;
+            }
         }
     </style>
 </head>
@@ -184,7 +216,7 @@
     <header class="header">
         <nav class="nav-links">
             <a href="#bio" class="nav-link nav-left underlined">Bio</a>
-            <a href="#last-seen" class="nav-link nav-center underlined">About</a>
+            <a href="#about" class="nav-link nav-center underlined">About</a>
             <a href="#contact" class="nav-link nav-right underlined">Contact</a>
         </nav>
     </header>
@@ -192,7 +224,6 @@
     <main class="main-content">
         <section class="off-record-section">
             <div class="off-record-title">Off-The-Record</div>
-
             
             <div class="info-line">
                 For More Info:
@@ -207,6 +238,10 @@
 
     <footer class="footer">
         <p>&copy; 2025 Your Website. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="https://twitter.com/anthonyfenech" target="_blank" class="social-icon twitter" aria-label="Twitter">𝕏</a>
+            <a href="https://instagram.com/afen10" target="_blank" class="social-icon instagram" aria-label="Instagram">📷</a>
+        </div>
     </footer>
 
     <script>
@@ -215,13 +250,11 @@
             const successMessage = document.getElementById('successMessage');
             
             if (emailInput.value && emailInput.checkValidity()) {
-                // Show loading state
                 const submitButton = document.querySelector('.email-form button');
                 const originalText = submitButton.textContent;
                 submitButton.textContent = 'Submitting...';
                 submitButton.disabled = true;
                 
-                // Send to Google Sheets
                 fetch('https://script.google.com/macros/s/AKfycbx5Fy6PoB1Co4oX5-yxukzyI_DgjXaapJtLy4XIdijzSMAG-c2byUKGzo7u11SeUSU2/exec', {
                     method: 'POST',
                     mode: 'no-cors',
@@ -256,6 +289,6 @@
                 submitEmail();
             }
         });
-</script>
+    </script>
 </body>
 </html>
