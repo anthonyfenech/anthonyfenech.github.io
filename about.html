@@ -20,7 +20,7 @@
         }
         
         .container {
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
         }
         
@@ -74,12 +74,38 @@
         li {
             margin-bottom: 10px;
         }
+        
+        .spreadsheet-container {
+            margin: 40px 0;
+            border: 2px solid #ddd;
+        }
+        
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+        
+        .link-section {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .link-section a {
+            color: #333;
+            text-decoration: underline;
+        }
+        
+        .link-section a:hover {
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <nav>
-            <a href="index.html">BIO</a>
+            <a href="index.html">HOME</a>
+            <a href="bio.html">BIO</a>
             <a href="about.html">ABOUT</a>
             <a href="blog.html">BLOG</a>
             <a href="contact.html">CONTACT</a>
@@ -104,6 +130,15 @@
             <h2>Education</h2>
             <p>Central Michigan University<br>
             Bachelor of Arts in Journalism</p>
+            
+            <h2>Press Coverage</h2>
+            <div class="spreadsheet-container">
+                <iframe src="https://docs.google.com/spreadsheets/d/1uXQ3FbPNsnBCCYSi7ka5IQdKwJzqQXhQgdHmogoHTlo/edit?usp=sharing&widget=true&headers=false&rm=minimal"></iframe>
+            </div>
+            
+            <div class="link-section">
+                <p><a href="https://docs.google.com/spreadsheets/d/1uXQ3FbPNsnBCCYSi7ka5IQdKwJzqQXhQgdHmogoHTlo" target="_blank">Open full spreadsheet →</a></p>
+            </div>
         </div>
     </div>
 </body>
