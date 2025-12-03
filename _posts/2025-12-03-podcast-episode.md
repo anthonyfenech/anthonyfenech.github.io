@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Latest Podcast Episode"
-date: 2025-12-03
+date: 2025-12-03 00:00:00
 ---
 
 Check out my latest podcast episode.
