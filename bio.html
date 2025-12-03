@@ -12,60 +12,154 @@
         }
         
         body {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Courier New', monospace;
+            background-color: #fefefe;
+            color: #333;
             line-height: 1.6;
-            color: #000;
-            overflow-y: scroll;
-            background: white;
             padding: 40px 20px;
             max-width: 800px;
             margin: 0 auto;
+            overflow-y: scroll;
         }
         
-        nav {
+        .header {
             text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            width: 100%;
             margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #000;
         }
         
-        nav a {
-            color: #000;
+        .nav-link {
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 2px;
+            transition: text-decoration-color 0.3s ease;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .nav-link.underlined {
             text-decoration: underline;
-            margin: 0 20px;
-            font-weight: normal;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
         }
         
-        nav a:hover {
-            text-decoration: none;
+        .nav-link:hover {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
         }
         
         h1 {
-            text-align: center;
-            margin-bottom: 40px;
-            text-decoration: underline;
+            font-size: 24px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .content {
+            font-size: 16px;
+            margin-bottom: 20px;
         }
         
         p {
             margin-bottom: 20px;
         }
+        
+        .footer {
+            text-align: center;
+            margin-top: 200px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+            position: relative;
+        }
+        
+        .social-icons {
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-icon {
+            font-size: 24px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+        
+        .twitter {
+            color: #1DA1F2;
+        }
+        
+        .instagram {
+            color: #E4405F;
+        }
+        
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+            
+            body {
+                padding: 20px 15px;
+            }
+            
+            .social-icons {
+                position: static;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="bio.html">BIO</a>
-        <a href="about.html">ABOUT</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="blog.html">BLOG</a>
-    </nav>
+    <header class="header">
+        <nav class="nav-links">
+            <a href="index.html" class="nav-link underlined">Home</a>
+            <a href="bio.html" class="nav-link underlined">Bio</a>
+            <a href="about.html" class="nav-link underlined">About</a>
+            <a href="contact.html" class="nav-link underlined">Contact</a>
+        </nav>
+
+        <a href="blog.html">Blog</a>
+        <h1>Bio</h1>
+    </header>
     
-    <h1>BIO</h1>
+    <div class="content">
+        <p>Fenech has worked as the Free Press' Tigers beat writer since 2015. He placed as one of the top 10 beat writers in the country by the Associated Press Sports Editors in 2017.</p>
+        
+        <p>Fenech started at the Free Press in 2007 by taking prep football scores and carrying longtime bowling writer Matt Fiorito’s chair.</p>
+        
+        <p>After internships with the Las Vegas Sun, Pittsburgh Post-Gazette and MLB.com, he returned in an official capacity in 2011, becoming the voice of the sports department on social media.</p>
+        
+        <p>A graduate of Woodhaven High School, Fenech considers himself the world record-holder for most live blogs in Freep.com history.</p>
+    </div>
     
-    <p>Anthony Fenech is a sports journalist who has covered the Detroit Tigers for the Detroit Free Press since 2008.</p>
-    
-    <p>He is the author of "Off the Record: A Memoir of 15 Years Covering the Detroit Tigers," which shares behind-the-scenes stories from the clubhouse, press box, and everywhere in between.</p>
-    
-    <p>A graduate of Central Michigan University with a Bachelor of Arts in Journalism, Anthony has been recognized by the Associated Press Sports Editors and the National Sports Media Association.</p>
+    <footer class="footer">
+        <p></p>
+        <div class="social-icons">
+            <a href="https://twitter.com/anthonyfenech" target="_blank" class="social-icon twitter" aria-label="Twitter">𝕏</a>
+            <a href="https://instagram.com/afen10" target="_blank" class="social-icon instagram" aria-label="Instagram">📷</a>
+        </div>
+    </footer>
 </body>
 </html>
