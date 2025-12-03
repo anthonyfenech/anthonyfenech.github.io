@@ -1,0 +1,7 @@
+title: Anthony Fenech
+description: My personal website
+baseurl: ""
+url: "https://anthonyfenech.com"
+
+# Build settings
+markdown: kramdown
