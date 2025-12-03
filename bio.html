@@ -1,3 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio - Anthony Fenech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #fefefe;
+            color: #333;
+            line-height: 1.6;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+        
+        .nav-link {
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 2px;
+            transition: text-decoration-color 0.3s ease;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .nav-link.underlined {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+        }
+        
+        .nav-link:hover {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .content {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 200px;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+            color: #666;
+            font-size: 14px;
+            position: relative;
+        }
+        
+        .social-icons {
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-icon {
+            font-size: 24px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-icon:hover {
+            transform: scale(1.2);
+        }
+        
+        .twitter {
+            color: #1DA1F2;
+        }
+        
+        .instagram {
+            color: #E4405F;
+        }
+        
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+            
+            body {
+                padding: 20px 15px;
+            }
+            
+            .social-icons {
+                position: static;
+                justify-content: center;
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
 <body>
     <header class="header">
         <nav class="nav-links">
@@ -29,3 +161,4 @@
         </div>
     </footer>
 </body>
+</html>
