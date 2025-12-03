@@ -1,1 +1,116 @@
+---
+layout: default
+---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Anthony Fenech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        nav {
+            text-align: center;
+            margin-bottom: 60px;
+            padding-top: 20px;
+        }
+        
+        nav a {
+            text-decoration: underline;
+            color: #333;
+            margin: 0 30px;
+            font-weight: bold;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+        
+        nav a:hover {
+            color: #666;
+        }
+        
+        h1 {
+            font-size: 24px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .post {
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .post:last-child {
+            border-bottom: none;
+        }
+        
+        .post-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .post-title a {
+            color: #333;
+            text-decoration: underline;
+        }
+        
+        .post-title a:hover {
+            color: #666;
+        }
+        
+        .post-date {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        
+        .post-excerpt {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <a href="index.html">BIO</a>
+            <a href="about.html">ABOUT</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+        
+        <h1>Blog</h1>
+        
+        {% for post in site.posts %}
+        <div class="post">
+            <h2 class="post-title">
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+            <div class="post-excerpt">
+                {{ post.excerpt }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
