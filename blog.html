@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Anthony Fenech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-y: scroll;
+            background: #f9f9f9;
+        }
+        
+        nav {
+            background: #2c3e50;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 2rem;
+            font-weight: 500;
+        }
+        
+        nav a:hover, nav a.active {
+            color: #3498db;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        
+        .post {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2.5rem;
+            border: 2px solid #333;
+            box-shadow: 4px 4px 0 #333;
+        }
+        
+        .post-header {
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid #333;
+            padding-bottom: 1rem;
+        }
+        
+        .post-header p {
+            margin: 0.3rem 0;
+            font-size: 1rem;
+        }
+        
+        .post-header strong {
+            font-weight: bold;
+        }
+        
+        .post-content {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.8;
+            font-size: 1.05rem;
+            white-space: pre-wrap;
+        }
+        
+        .post-content p {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="bio.html">Bio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html" class="active">Blog</a>
+    </nav>
+    
+    <main>
+        <h1>Blog</h1>
+        
+        <!-- POST 1 - NEWEST POST GOES HERE -->
+        <div class="post">
+            <div class="post-header">
+                <p><strong>DATE:</strong> December 3, 2025</p>
+                <p><strong>TIME:</strong> 8:15 AM</p>
+                <p><strong>TITLE:</strong> Welcome to My Blog</p>
+            </div>
+            <div class="post-content">
+                <p>This is my first blog post. I'm excited to share my thoughts and experiences here.</p>
+                
+                <p>This blog uses a simple letter-style format with Courier New font. Every post will have the date, time, and title clearly marked at the top.</p>
+                
+                <p>More posts coming soon!</p>
+            </div>
+        </div>
+        
+        <!-- POST 2 - ADD NEW POSTS BY COPYING THE STRUCTURE ABOVE -->
+        <!-- 
+        <div class="post">
+            <div class="post-header">
+                <p><strong>DATE:</strong> Month Day, Year</p>
+                <p><strong>TIME:</strong> Time</p>
+                <p><strong>TITLE:</strong> Your Post Title</p>
+            </div>
+            <div class="post-content">
+                <p>Your post content here...</p>
+                
+                <p>Add more paragraphs as needed.</p>
+            </div>
+        </div>
+        -->
+        
+    </main>
+</body>
+</html>
