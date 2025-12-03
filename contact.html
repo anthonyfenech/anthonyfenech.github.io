@@ -12,160 +12,80 @@
         }
         
         body {
-            font-family: 'Courier New', monospace;
-            background-color: #fefefe;
-            color: #333;
+            font-family: 'Courier New', Courier, monospace;
             line-height: 1.6;
+            color: #000;
+            overflow-y: scroll;
+            background: white;
             padding: 40px 20px;
             max-width: 800px;
             margin: 0 auto;
-            overflow-y: scroll;
         }
         
-        .header {
+        nav {
             text-align: center;
-            margin-bottom: 60px;
-        }
-        
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            width: 100%;
             margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #000;
         }
         
-        .nav-link {
-            color: #333;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            padding-bottom: 2px;
-            transition: text-decoration-color 0.3s ease;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .nav-link.underlined {
+        nav a {
+            color: #000;
             text-decoration: underline;
-            text-decoration-color: #333;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 2px;
+            margin: 0 20px;
+            font-weight: normal;
         }
         
-        .nav-link:hover {
-            text-decoration: underline;
-            text-decoration-color: #333;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 2px;
+        nav a:hover {
+            text-decoration: none;
         }
         
         h1 {
-            font-size: 24px;
-            margin-bottom: 30px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        
-        .content {
-            font-size: 16px;
+            text-align: center;
+            margin-bottom: 40px;
+            text-decoration: underline;
         }
         
         p {
             margin-bottom: 20px;
         }
         
-        a {
-            color: #333;
-            text-decoration: underline;
-        }
-        
-        a:hover {
-            color: #666;
-        }
-        
-        .footer {
+        .social-links {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
             text-align: center;
-            margin-top: 200px;
-            padding-top: 40px;
-            border-top: 1px solid #eee;
-            color: #666;
-            font-size: 14px;
-            position: relative;
         }
         
-        .social-icons {
-            position: absolute;
-            bottom: 10px;
-            right: 0;
-            display: flex;
-            gap: 15px;
+        .social-links a {
+            color: #000;
+            text-decoration: underline;
+            margin: 0 15px;
         }
         
-        .social-icon {
-            font-size: 24px;
+        .social-links a:hover {
             text-decoration: none;
-            transition: transform 0.3s ease;
-        }
-        
-        .social-icon:hover {
-            transform: scale(1.2);
-        }
-        
-        .twitter {
-            color: #1DA1F2;
-        }
-        
-        .instagram {
-            color: #E4405F;
-        }
-        
-        @media (max-width: 600px) {
-            .nav-links {
-                flex-direction: column;
-                gap: 20px;
-                align-items: center;
-            }
-            
-            body {
-                padding: 20px 15px;
-            }
-            
-            .social-icons {
-                position: static;
-                justify-content: center;
-                margin-top: 20px;
-            }
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <nav class="nav-links">
-            <a href="index.html" class="nav-link underlined">Home</a>
-            <a href="bio.html" class="nav-link underlined">Bio</a>
-            <a href="about.html" class="nav-link underlined">About</a>
-            <a href="contact.html" class="nav-link underlined">Contact</a>
-        </nav>
-        <a href="blog.html">Blog</a>
-        
-        <h1>Contact</h1>
-    </header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="bio.html">BIO</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="blog.html">BLOG</a>
+    </nav>
     
-    <div class="content">
-        <p>Email: [your email]</p>
-        
-        <p>Twitter: <a href="https://twitter.com/anthonyfenech" target="_blank">@anthonyfenech</a></p>
-        
-        <p>For book inquiries, media requests, or general questions.</p>
+    <h1>CONTACT</h1>
+    
+    <p>Email: anthony@example.com</p>
+    
+    <p>For media inquiries, please reach out via email.</p>
+    
+    <div class="social-links">
+        <a href="https://twitter.com/yourhandle" target="_blank">TWITTER</a>
+        <a href="https://instagram.com/yourhandle" target="_blank">INSTAGRAM</a>
     </div>
-    
-    <footer class="footer">
-        <p></p>
-        <div class="social-icons">
-            <a href="https://twitter.com/anthonyfenech" target="_blank" class="social-icon twitter" aria-label="Twitter">𝕏</a>
-            <a href="https://instagram.com/afen10" target="_blank" class="social-icon instagram" aria-label="Instagram">📷</a>
-        </div>
-    </footer>
 </body>
 </html>
