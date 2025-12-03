@@ -1,6 +1,0 @@
-title: Anthony Fenech
-description: Personal website
-baseurl: ""
-url: "https://anthonyfenech.com"
-markdown: kramdown
-permalink: /:year/:month/:day/:title/
