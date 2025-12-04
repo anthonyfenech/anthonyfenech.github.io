@@ -10,7 +10,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-
+        
         body {
             font-family: 'Courier New', monospace;
             background-color: #fefefe;
@@ -21,12 +21,12 @@
             margin: 0 auto;
             overflow-y: scroll;
         }
-
+        
         .header {
             text-align: center;
             margin-bottom: 60px;
         }
-
+        
         .nav-links {
             display: flex;
             justify-content: center;
@@ -34,7 +34,7 @@
             width: 100%;
             margin-bottom: 40px;
         }
-
+        
         .nav-link {
             color: #333;
             font-weight: bold;
@@ -45,131 +45,38 @@
             position: relative;
             display: inline-block;
         }
-
+        
         .nav-link.underlined {
             text-decoration: underline;
             text-decoration-color: #333;
             text-decoration-thickness: 2px;
             text-underline-offset: 2px;
         }
-
+        
         .nav-link:hover {
             text-decoration: underline;
             text-decoration-color: #333;
             text-decoration-thickness: 2px;
             text-underline-offset: 2px;
         }
-
-        .main-content {
-            margin: 80px 0;
+        
+        h1 {
+            font-size: 48px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            font-weight: bold;
         }
-
-        .off-record-section {
-            padding: 30px;
-            margin: 40px 0;
+        
+        .content {
+            font-size: 18px;
             text-align: center;
         }
-
-        .off-record-title {
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+        
+        p {
             margin-bottom: 20px;
-            font-size: 4em;
         }
-
-        .info-line {
-            margin-top: 30px;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .email-form {
-            margin-top: 20px;
-            display: flex;
-            gap: 10px;
-            align-items: center;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .email-form input[type="email"] {
-            flex: 1;
-            min-width: 250px;
-            padding: 12px 15px;
-            border: 2px solid #333;
-            background-color: #fff;
-            font-family: inherit;
-            font-size: 14px;
-            letter-spacing: 0.5px;
-        }
-
-        .email-form input[type="email"]:focus {
-            outline: none;
-            background-color: #f9f9f9;
-        }
-
-        .email-form button {
-            padding: 12px 25px;
-            background-color: #333;
-            color: #fff;
-            border: none;
-            font-family: inherit;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .email-form button:hover {
-            background-color: #555;
-        }
-
-        .success-message {
-            margin-top: 15px;
-            color: #333;
-            font-weight: bold;
-            display: none;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 200px;
-            padding-top: 40px;
-            border-top: 1px solid #eee;
-            color: #666;
-            font-size: 14px;
-            position: relative;
-        }
-
-        .social-icons {
-            position: absolute;
-            bottom: 10px;
-            right: 0;
-            display: flex;
-            gap: 15px;
-        }
-
-        .social-icon {
-            font-size: 24px;
-            text-decoration: none;
-            transition: transform 0.3s ease;
-        }
-
-        .social-icon:hover {
-            transform: scale(1.2);
-        }
-
-        .twitter {
-            color: #1DA1F2;
-        }
-
-        .instagram {
-            color: #E4405F;
-        }
-
+        
         @media (max-width: 600px) {
             .nav-links {
                 flex-direction: column;
@@ -181,23 +88,8 @@
                 padding: 20px 15px;
             }
             
-            .off-record-section {
-                padding: 20px;
-            }
-
-            .email-form {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .email-form input[type="email"] {
-                min-width: auto;
-            }
-
-            .social-icons {
-                position: static;
-                justify-content: center;
-                margin-top: 20px;
+            h1 {
+                font-size: 36px;
             }
         }
     </style>
@@ -211,76 +103,18 @@
             <a href="blog.html" class="nav-link underlined">Blog</a>
             <a href="contact.html" class="nav-link underlined">Contact</a>
         </nav>
+
+        <h1>OFF-THE-RECORD</h1>
     </header>
-
-    <main class="main-content">
-        <section class="off-record-section">
-            <div class="off-record-title">Off-The-Record</div>
-            
-            <div class="info-line">
-                Talk to me:
-            </div>
-            <div class="email-form">
-                <input type="email" id="email" placeholder="Enter your email address" required>
-                <button type="button" onclick="submitEmail()">Submit</button>
-            </div>
-            <div id="successMessage" class="success-message">Looking forward to it.</div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <p></p>
-        <div class="social-icons">
-            <a href="https://twitter.com/anthonyfenech" target="_blank" class="social-icon twitter" aria-label="Twitter">𝕏</a>
-            <a href="https://instagram.com/afen10" target="_blank" class="social-icon instagram" aria-label="Instagram">📷</a>
+    
+    <div class="content">
+        <p>A memoir about 15 years covering the Detroit Tigers.</p>
+        
+        <p>Author of "Off the Record: A Memoir of 15 Years Covering the Detroit Tigers"</p>
+        
+        <div style="text-align: center; margin: 40px 0;">
+            <iframe src="https://anthonyfenech.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
         </div>
-    </footer>
-
-    <script>
-        function submitEmail() {
-            const emailInput = document.getElementById('email');
-            const successMessage = document.getElementById('successMessage');
-            
-            if (emailInput.value && emailInput.checkValidity()) {
-                const submitButton = document.querySelector('.email-form button');
-                const originalText = submitButton.textContent;
-                submitButton.textContent = 'Submitting...';
-                submitButton.disabled = true;
-                
-                fetch('https://script.google.com/macros/s/AKfycbzvOD7t4DloXNEG1eAR5T7bsa7fgPeVlK8AtxH41qDrzyCJhS53tscuquCHkGkmvf8T/exec', {
-                    method: 'POST',
-                    mode: 'no-cors',
-                    headers: {
-                        'Content-Type': 'application/x-www-form-urlencoded',
-                    },
-                    body: 'email=' + encodeURIComponent(emailInput.value)
-                })
-                .then(() => {
-                    successMessage.style.display = 'block';
-                    emailInput.value = '';
-                    
-                    setTimeout(() => {
-                        successMessage.style.display = 'none';
-                    }, 3000);
-                })
-                .catch((error) => {
-                    console.error('Error:', error);
-                    alert('There was an error submitting your email. Please try again.');
-                })
-                .finally(() => {
-                    submitButton.textContent = originalText;
-                    submitButton.disabled = false;
-                });
-            } else {
-                alert('Please enter a valid email address.');
-            }
-        }
-
-        document.getElementById('email').addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') {
-                submitEmail();
-            }
-        });
-    </script>
+    </div>
 </body>
 </html>
