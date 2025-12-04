@@ -12,123 +12,116 @@
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            font-family: 'Courier New', Courier, monospace;
             line-height: 1.6;
-            color: #333;
+            color: #000;
             overflow-y: scroll;
-            background: #f9f9f9;
+            background: white;
+            padding: 40px 20px;
+            max-width: 800px;
+            margin: 0 auto;
         }
         
         nav {
-            background: #2c3e50;
-            padding: 1rem 2rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #000;
         }
         
         nav a {
-            color: white;
+            color: #000;
+            text-decoration: underline;
+            margin: 0 20px;
+            font-weight: normal;
+        }
+        
+        nav a:hover {
             text-decoration: none;
-            margin-right: 2rem;
-            font-weight: 500;
-        }
-        
-        nav a:hover, nav a.active {
-            color: #3498db;
-        }
-        
-        main {
-            max-width: 900px;
-            margin: 3rem auto;
-            padding: 0 2rem;
         }
         
         h1 {
-            color: #2c3e50;
-            margin-bottom: 3rem;
-            font-size: 2.5rem;
             text-align: center;
+            margin-bottom: 40px;
+            text-decoration: underline;
+            font-size: 2rem;
         }
         
-        .post {
-            background: white;
-            padding: 2.5rem;
-            margin-bottom: 2.5rem;
-            border: 2px solid #333;
-            box-shadow: 4px 4px 0 #333;
+        .post-meta {
+            margin-bottom: 0;
+            line-height: 1.4;
         }
         
-        .post-header {
-            font-family: 'Courier New', Courier, monospace;
-            margin-bottom: 2rem;
-            border-bottom: 2px solid #333;
-            padding-bottom: 1rem;
-        }
-        
-        .post-header p {
-            margin: 0.3rem 0;
-            font-size: 1rem;
-        }
-        
-        .post-header strong {
-            font-weight: bold;
+        .post-meta p {
+            margin: 0;
         }
         
         .post-content {
-            font-family: 'Courier New', Courier, monospace;
-            line-height: 1.8;
-            font-size: 1.05rem;
-            white-space: pre-wrap;
+            margin-top: 2rem;
+            margin-bottom: 3rem;
         }
         
         .post-content p {
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .separator {
+            text-align: center;
+            font-weight: bold;
+            margin: 3rem 0;
+            font-size: 1.2rem;
+        }
+        
+        strong {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
     <nav>
-            <a href="index.html" class="nav-link underlined">Home</a>
-            <a href="bio.html" class="nav-link underlined">Bio</a>
-            <a href="about.html" class="nav-link underlined">About</a>
-            <a href="blog.html" class="nav-link underlined">Blog</a>
-            <a href="contact.html" class="nav-link underlined">Contact</a>
+        <a href="index.html">HOME</a>
+        <a href="bio.html">BIO</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+        <a href="blog.html">BLOG</a>
     </nav>
     
-    <main>
-        <h1>Blog</h1>
+    <h1>BLOG</h1>
+    
+    <!-- NEWEST POST GOES HERE - ADD NEW POSTS AT THE TOP -->
+    
+    <div class="post-meta">
+        <p><strong>SUBJECT:</strong> Welcome to My Blog</p>
+        <p><strong>DATE:</strong> December 3, 2025</p>
+        <p><strong>TIME:</strong> 8:15 AM</p>
+    </div>
+    
+    <div class="post-content">
+        <p>This is my first blog post. I'm excited to share my thoughts and experiences here.</p>
         
-        <!-- POST 1 - NEWEST POST GOES HERE -->
-        <div class="post">
-            <div class="post-header">
-                <p><strong>DATE:</strong> December 3, 2025</p>
-                <p><strong>TIME:</strong> 8:15 AM</p>
-                <p><strong>TITLE:</strong> Welcome to My Blog</p>
-            </div>
-            <div class="post-content">
-                <p>This is my first blog post. I'm excited to share my thoughts and experiences here.</p>
-                
-                <p>This blog uses a simple letter-style format with Courier New font. Every post will have the date, time, and title clearly marked at the top.</p>
-                
-                <p>More posts coming soon!</p>
-            </div>
-        </div>
+        <p>This blog uses a simple format with Courier New font, just like my About page. Every post will have the subject, date, and time clearly marked at the top.</p>
         
-        <!-- POST 2 - ADD NEW POSTS BY COPYING THE STRUCTURE ABOVE -->
-        <!-- 
-        <div class="post">
-            <div class="post-header">
-                <p><strong>DATE:</strong> Month Day, Year</p>
-                <p><strong>TIME:</strong> Time</p>
-                <p><strong>TITLE:</strong> Your Post Title</p>
-            </div>
-            <div class="post-content">
-                <p>Your post content here...</p>
-                
-                <p>Add more paragraphs as needed.</p>
-            </div>
-        </div>
-        -->
+        <p>More posts coming soon!</p>
+    </div>
+    
+    <div class="separator">* * *</div>
+    
+    <!-- ADD YOUR NEXT POST HERE BY COPYING THE STRUCTURE ABOVE -->
+    <!-- 
+    <div class="post-meta">
+        <p><strong>SUBJECT:</strong> Your Post Title</p>
+        <p><strong>DATE:</strong> Month Day, Year</p>
+        <p><strong>TIME:</strong> Time</p>
+    </div>
+    
+    <div class="post-content">
+        <p>Your blog post content here...</p>
         
-    </main>
+        <p>Add more paragraphs as needed.</p>
+    </div>
+    
+    <div class="separator">* * *</div>
+    -->
+    
 </body>
 </html>
