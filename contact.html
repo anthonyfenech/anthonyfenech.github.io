@@ -70,6 +70,8 @@
         
         .content {
             font-size: 16px;
+            max-width: 400px;
+            margin: 0 auto;
         }
         
         .contact-item {
@@ -83,6 +85,7 @@
             font-size: 28px;
             width: 40px;
             text-align: center;
+            flex-shrink: 0;
         }
         
         .email-icon {
@@ -98,11 +101,12 @@
         }
         
         p {
-            margin-bottom: 20px;
+            margin: 0;
         }
         
-        strong {
-            font-weight: bold;
+        .footer-text {
+            margin-top: 40px;
+            text-align: center;
         }
         
         @media (max-width: 600px) {
@@ -134,20 +138,20 @@
     <div class="content">
         <div class="contact-item">
             <span class="contact-icon email-icon">✉</span>
-            <p><strong>Email:</strong> anthonyfenech@hotmail.com</p>
+            <p>anthonyfenech@hotmail.com</p>
         </div>
         
         <div class="contact-item">
             <span class="contact-icon twitter-icon">𝕏</span>
-            <p><strong>Twitter:</strong> @anthonyfenech</p>
+            <p>@anthonyfenech</p>
         </div>
         
         <div class="contact-item">
             <span class="contact-icon instagram-icon">📷</span>
-            <p><strong>Instagram:</strong> @afen10</p>
+            <p>@afen10</p>
         </div>
         
-        <p style="margin-top: 40px;">For book inquiries, media requests, or general questions.</p>
+        <p class="footer-text">For book inquiries, media requests, or general questions.</p>
     </div>
 </body>
 </html>
