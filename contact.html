@@ -97,7 +97,16 @@
         }
         
         .instagram-icon {
-            color: #E4405F;
+            color: #333;
+        }
+        
+        .contact-link {
+            color: #333;
+            text-decoration: none;
+        }
+        
+        .contact-link:hover {
+            text-decoration: underline;
         }
         
         p {
@@ -131,25 +140,30 @@
             <a href="blog.html" class="nav-link underlined">Blog</a>
             <a href="contact.html" class="nav-link underlined">Contact</a>
         </nav>
-
         <h1>Contact</h1>
     </header>
     
     <div class="content">
-        <div class="contact-item">
-            <span class="contact-icon email-icon">✉</span>
-            <p>anthonyfenech@hotmail.com</p>
-        </div>
+        <a href="mailto:anthonyfenech@hotmail.com" class="contact-link">
+            <div class="contact-item">
+                <span class="contact-icon email-icon">✉</span>
+                <p>anthonyfenech@hotmail.com</p>
+            </div>
+        </a>
         
-        <div class="contact-item">
-            <span class="contact-icon twitter-icon">𝕏</span>
-            <p>@anthonyfenech</p>
-        </div>
+        <a href="https://x.com/anthonyfenech" target="_blank" class="contact-link">
+            <div class="contact-item">
+                <span class="contact-icon twitter-icon">𝕏</span>
+                <p>@anthonyfenech</p>
+            </div>
+        </a>
         
-        <div class="contact-item">
-            <span class="contact-icon instagram-icon">📷</span>
-            <p>@afen10</p>
-        </div>
+        <a href="https://instagram.com/afen10" target="_blank" class="contact-link">
+            <div class="contact-item">
+                <span class="contact-icon instagram-icon">📷</span>
+                <p>@afen10</p>
+            </div>
+        </a>
         
         <p class="footer-text">For book inquiries, media requests, or general questions.</p>
     </div>
