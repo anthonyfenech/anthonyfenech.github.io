@@ -72,44 +72,37 @@
             font-size: 16px;
         }
         
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+            gap: 15px;
+        }
+        
+        .contact-icon {
+            font-size: 28px;
+            width: 40px;
+            text-align: center;
+        }
+        
+        .email-icon {
+            color: #333;
+        }
+        
+        .twitter-icon {
+            color: #1DA1F2;
+        }
+        
+        .instagram-icon {
+            color: #E4405F;
+        }
+        
         p {
             margin-bottom: 20px;
         }
         
-        .footer {
-            text-align: center;
-            margin-top: 200px;
-            padding-top: 40px;
-            border-top: 1px solid #eee;
-            color: #666;
-            font-size: 14px;
-            position: relative;
-        }
-        
-        .social-icons {
-            position: absolute;
-            bottom: 10px;
-            right: 0;
-            display: flex;
-            gap: 15px;
-        }
-        
-        .social-icon {
-            font-size: 24px;
-            text-decoration: none;
-            transition: transform 0.3s ease;
-        }
-        
-        .social-icon:hover {
-            transform: scale(1.2);
-        }
-        
-        .twitter {
-            color: #1DA1F2;
-        }
-        
-        .instagram {
-            color: #E4405F;
+        strong {
+            font-weight: bold;
         }
         
         @media (max-width: 600px) {
@@ -121,12 +114,6 @@
             
             body {
                 padding: 20px 15px;
-            }
-            
-            .social-icons {
-                position: static;
-                justify-content: center;
-                margin-top: 20px;
             }
         }
     </style>
@@ -145,17 +132,22 @@
     </header>
     
     <div class="content">
-        <p>Email: anthony@example.com</p>
-        
-        <p>For media inquiries, please reach out via email.</p>
-    </div>
-    
-    <footer class="footer">
-        <p></p>
-        <div class="social-icons">
-            <a href="https://twitter.com/anthonyfenech" target="_blank" class="social-icon twitter" aria-label="Twitter">𝕏</a>
-            <a href="https://instagram.com/afen10" target="_blank" class="social-icon instagram" aria-label="Instagram">📷</a>
+        <div class="contact-item">
+            <span class="contact-icon email-icon">✉</span>
+            <p><strong>Email:</strong> anthonyfenech@hotmail.com</p>
         </div>
-    </footer>
+        
+        <div class="contact-item">
+            <span class="contact-icon twitter-icon">𝕏</span>
+            <p><strong>Twitter:</strong> @anthonyfenech</p>
+        </div>
+        
+        <div class="contact-item">
+            <span class="contact-icon instagram-icon">📷</span>
+            <p><strong>Instagram:</strong> @afen10</p>
+        </div>
+        
+        <p style="margin-top: 40px;">For book inquiries, media requests, or general questions.</p>
+    </div>
 </body>
 </html>
