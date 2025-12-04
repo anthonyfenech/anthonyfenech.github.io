@@ -12,44 +12,69 @@
         }
         
         body {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'Courier New', monospace;
+            background-color: #fefefe;
+            color: #333;
             line-height: 1.6;
-            color: #000;
-            overflow-y: scroll;
-            background: white;
             padding: 40px 20px;
             max-width: 800px;
             margin: 0 auto;
+            overflow-y: scroll;
         }
         
-        nav {
+        .header {
             text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            width: 100%;
             margin-bottom: 40px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #000;
         }
         
-        nav a {
-            color: #000;
+        .nav-link {
+            color: #333;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 2px;
+            transition: text-decoration-color 0.3s ease;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .nav-link.underlined {
             text-decoration: underline;
-            margin: 0 20px;
-            font-weight: normal;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
         }
         
-        nav a:hover {
-            text-decoration: none;
+        .nav-link:hover {
+            text-decoration: underline;
+            text-decoration-color: #333;
+            text-decoration-thickness: 2px;
+            text-underline-offset: 2px;
         }
         
         h1 {
-            text-align: center;
-            margin-bottom: 40px;
-            text-decoration: underline;
-            font-size: 2rem;
+            font-size: 24px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .content {
+            font-size: 16px;
         }
         
         .post-meta {
             margin-bottom: 0;
             line-height: 1.4;
+            font-weight: bold;
         }
         
         .post-meta p {
@@ -75,53 +100,53 @@
         strong {
             font-weight: bold;
         }
+        
+        @media (max-width: 600px) {
+            .nav-links {
+                flex-direction: column;
+                gap: 20px;
+                align-items: center;
+            }
+            
+            body {
+                padding: 20px 15px;
+            }
+        }
     </style>
 </head>
 <body>
-    <nav>
-        <a href="index.html">HOME</a>
-        <a href="bio.html">BIO</a>
-        <a href="about.html">ABOUT</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="blog.html">BLOG</a>
-    </nav>
+    <header class="header">
+        <nav class="nav-links">
+            <a href="index.html" class="nav-link underlined">Home</a>
+            <a href="bio.html" class="nav-link underlined">Bio</a>
+            <a href="about.html" class="nav-link underlined">About</a>
+            <a href="blog.html" class="nav-link underlined">Blog</a>
+            <a href="contact.html" class="nav-link underlined">Contact</a>
+        </nav>
+
+        <h1>Blog</h1>
+    </header>
     
-    <h1>BLOG</h1>
-    
-    <!-- NEWEST POST GOES HERE - ADD NEW POSTS AT THE TOP -->
-    
-    <div class="post-meta">
-        <p><strong>SUBJECT:</strong> Welcome to My Blog</p>
-        <p><strong>DATE:</strong> December 3, 2025</p>
-        <p><strong>TIME:</strong> 8:15 AM</p>
-    </div>
-    
-    <div class="post-content">
-        <p>This is my first blog post. I'm excited to share my thoughts and experiences here.</p>
+    <div class="content">
+        <!-- NEWEST POST GOES HERE - ADD NEW POSTS AT THE TOP -->
         
-        <p>This blog uses a simple format with Courier New font, just like my About page. Every post will have the subject, date, and time clearly marked at the top.</p>
+        <div class="post-meta">
+            <p><strong>SUBJECT:</strong> Welcome to My Blog</p>
+            <p><strong>DATE:</strong> December 3, 2025</p>
+            <p><strong>TIME:</strong> 8:15 AM</p>
+        </div>
         
-        <p>More posts coming soon!</p>
-    </div>
-    
-    <div class="separator">* * *</div>
-    
-    <!-- ADD YOUR NEXT POST HERE BY COPYING THE STRUCTURE ABOVE -->
-    <!-- 
-    <div class="post-meta">
-        <p><strong>SUBJECT:</strong> Your Post Title</p>
-        <p><strong>DATE:</strong> Month Day, Year</p>
-        <p><strong>TIME:</strong> Time</p>
-    </div>
-    
-    <div class="post-content">
-        <p>Your blog post content here...</p>
+        <div class="post-content">
+            <p>This is my first blog post. I'm excited to share my thoughts and experiences here.</p>
+            
+            <p>This blog uses a simple format with Courier New font, just like my About page. Every post will have the subject, date, and time clearly marked at the top.</p>
+            
+            <p>More posts coming soon!</p>
+        </div>
         
-        <p>Add more paragraphs as needed.</p>
+        <div class="separator">* * *</div>
+        
+        <!-- ADD YOUR NEXT POST HERE BY COPYING THE STRUCTURE ABOVE -->
     </div>
-    
-    <div class="separator">* * *</div>
-    -->
-    
 </body>
 </html>
