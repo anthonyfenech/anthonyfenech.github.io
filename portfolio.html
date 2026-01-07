@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Anthony Fenech</title>
+    <title>Portfolio - Anthony Fenech</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <style>
         * {
@@ -11,7 +11,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Courier New', monospace;
             background-color: #fefefe;
@@ -22,12 +22,12 @@
             margin: 0 auto;
             overflow-y: scroll;
         }
-        
+
         .header {
             text-align: center;
             margin-bottom: 60px;
         }
-        
+
         .nav-links {
             display: flex;
             justify-content: center;
@@ -35,7 +35,7 @@
             width: 100%;
             margin-bottom: 40px;
         }
-        
+
         .nav-link {
             color: #333;
             font-weight: bold;
@@ -46,33 +46,33 @@
             position: relative;
             display: inline-block;
         }
-        
+
         .nav-link.underlined {
             text-decoration: underline;
             text-decoration-color: #333;
             text-decoration-thickness: 2px;
             text-underline-offset: 2px;
         }
-        
+
         .nav-link:hover {
             text-decoration: underline;
             text-decoration-color: #333;
             text-decoration-thickness: 2px;
             text-underline-offset: 2px;
         }
-        
+
         h1 {
             font-size: 24px;
             margin-bottom: 30px;
             text-transform: uppercase;
             letter-spacing: 2px;
         }
-        
+
         .letter-o {
             position: relative;
             display: inline-block;
         }
-        
+
         .red-dot {
             position: absolute;
             top: 48%;
@@ -83,66 +83,43 @@
             background-color: #e31c1c;
             border-radius: 50%;
         }
-        
+
         .content {
             font-size: 16px;
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        
-        .contact-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 25px;
-            gap: 15px;
-        }
-        
-        .contact-icon {
-            font-size: 28px;
-            width: 40px;
             text-align: center;
-            flex-shrink: 0;
         }
-        
-        .email-icon {
+
+        .pdf-container {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+
+        .download-link {
+            display: inline-block;
             color: #333;
-        }
-        
-        .twitter-icon {
-            color: #1DA1F2;
-        }
-        
-        .instagram-icon {
-            color: #333;
-        }
-        
-        .contact-link {
-            color: #333;
-            text-decoration: none;
-        }
-        
-        .contact-link:hover {
             text-decoration: underline;
+            margin-top: 20px;
         }
-        
-        p {
-            margin: 0;
+
+        .download-link:hover {
+            text-decoration-thickness: 2px;
         }
-        
-        .footer-text {
-            margin-top: 40px;
-            text-align: center;
-        }
-        
+
         @media (max-width: 600px) {
             .nav-links {
                 flex-direction: column;
                 gap: 20px;
                 align-items: center;
             }
-            
+
             body {
                 padding: 20px 15px;
+            }
+
+            .pdf-container {
+                height: 500px;
             }
         }
     </style>
@@ -156,32 +133,12 @@
             <a href="blog.html" class="nav-link underlined">Blog</a>
             <a href="contact.html" class="nav-link underlined">Contact</a>
         </nav>
-        <h1>C<span class="letter-o">O<span class="red-dot"></span></span>NTACT</h1>
+        <h1>P<span class="letter-o">O<span class="red-dot"></span></span>RTF<span class="letter-o">O<span class="red-dot"></span></span>LI<span class="letter-o">O<span class="red-dot"></span></span></h1>
     </header>
-    
+
     <div class="content">
-        <a href="mailto:anthonyfenech@hotmail.com" class="contact-link">
-            <div class="contact-item">
-                <span class="contact-icon email-icon">✉</span>
-                <p>anthonyfenech@hotmail.com</p>
-            </div>
-        </a>
-        
-        <a href="https://x.com/anthonyfenech" target="_blank" class="contact-link">
-            <div class="contact-item">
-                <span class="contact-icon twitter-icon">𝕏</span>
-                <p>@anthonyfenech</p>
-            </div>
-        </a>
-        
-        <a href="https://instagram.com/afen10" target="_blank" class="contact-link">
-            <div class="contact-item">
-                <span class="contact-icon instagram-icon">📷</span>
-                <p>@afen10</p>
-            </div>
-        </a>
-        
-        <p class="footer-text">For book inquiries, media requests, or general questions.</p>
+        <iframe class="pdf-container" src="portfolio.pdf" type="application/pdf"></iframe>
+        <p><a href="portfolio.pdf" download class="download-link">Download PDF</a></p>
     </div>
 </body>
 </html>
