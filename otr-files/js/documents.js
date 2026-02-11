@@ -1,22 +1,23 @@
 // OTR Files - Document Database
+// Real text messages from the Verlander Trade (August 31, 2017)
 const OTR_DOCUMENTS = [
   {
     id: "TEXT-2017-0831-001",
     type: "text",
     classification: "HEAVILY REDACTED",
-    title: "Verlander trade tip from GM",
+    title: "First tip: Trade coming today",
     date: "2017-08-31",
     year: 2017,
-    from: "Al Avila",
+    from: "TEX Hank Hill",
     to: "Anthony Fenech",
-    participants: ["Al Avila", "Anthony Fenech"],
-    subjects: ["Justin Verlander", "trade deadline", "Houston Astros"],
+    participants: ["Hank Hill", "Anthony Fenech"],
+    subjects: ["Justin Verlander", "trade deadline", "tip"],
     content: [
       {
         type: "message",
-        from: "Al Avila",
-        time: "2:30 PM",
-        text: "Trade happening today. Verlander to Houston."
+        from: "Hank Hill",
+        time: "1:32 PM",
+        text: "Trade coming today"
       }
     ],
     priority_score: 10
@@ -24,18 +25,60 @@ const OTR_DOCUMENTS = [
   {
     id: "TEXT-2017-0831-002",
     type: "text",
-    classification: "CONFIDENTIAL",
-    title: "Deep Throat confirms front office activity",
+    classification: "TOP SECRET",
+    title: "GM confirms Verlander to Astros possible",
     date: "2017-08-31",
     year: 2017,
-    from: "Deep Throat",
+    from: "Al Avila",
     to: "Anthony Fenech",
-    participants: ["Deep Throat", "Anthony Fenech"],
-    subjects: ["trade deadline", "front office"],
+    participants: ["Al Avila", "Anthony Fenech"],
+    subjects: ["Justin Verlander", "Houston Astros", "trade deadline"],
     content: [
       {
         type: "message",
-        from: "Deep Throat",
+        from: "Al Avila",
+        time: "3:19 PM",
+        text: "Off the record of course, It's possible with Verlander to Astros but not probable"
+      }
+    ],
+    priority_score: 10
+  },
+  {
+    id: "TEXT-2017-0831-003",
+    type: "text",
+    classification: "CONFIDENTIAL",
+    title: "Scott Bream: This is the Verlander trade",
+    date: "2017-08-31",
+    year: 2017,
+    from: "Scott Bream",
+    to: "Anthony Fenech",
+    participants: ["Scott Bream", "Anthony Fenech"],
+    subjects: ["Justin Verlander", "front office", "trade deadline"],
+    content: [
+      {
+        type: "message",
+        from: "Scott Bream",
+        time: "11:29 PM",
+        text: "I need you here, man. This is the Verlander trade. Al has not gotten back to me."
+      }
+    ],
+    priority_score: 9
+  },
+  {
+    id: "TEXT-2017-0831-004",
+    type: "text",
+    classification: "CONFIDENTIAL",
+    title: "David Chadd: Front office dinner",
+    date: "2017-08-31",
+    year: 2017,
+    from: "David Chadd",
+    to: "Anthony Fenech",
+    participants: ["David Chadd", "Anthony Fenech"],
+    subjects: ["front office", "trade deadline", "Al Avila"],
+    content: [
+      {
+        type: "message",
+        from: "David Chadd",
         time: "5:45 PM",
         text: "They are spending the final hours of the trade deadline at the GM's suburban Detroit house. His wife made dinner, apparently."
       }
@@ -43,169 +86,127 @@ const OTR_DOCUMENTS = [
     priority_score: 8
   },
   {
-    id: "TEXT-2019-0821-001",
-    type: "text",
-    classification: "UNCLASSIFIED",
-    title: "AIRPLANE MODE — Mom",
-    date: "2019-08-21",
-    year: 2019,
-    from: "Mom",
-    to: "Anthony Fenech",
-    participants: ["Mom", "Anthony Fenech"],
-    subjects: ["Houston Astros", "support"],
-    content: [
-      {
-        type: "message",
-        from: "Mom",
-        time: "10:15 PM",
-        text: "Woohoo best game Tigers could win---against Houston!!!!"
-      }
-    ],
-    priority_score: 5
-  },
-  {
-    id: "TEXT-2019-0821-002",
-    type: "text",
-    classification: "CONFIDENTIAL",
-    title: "AIRPLANE MODE — Pedro Gomez",
-    date: "2019-08-21",
-    year: 2019,
-    from: "Pedro Gomez",
-    to: "Anthony Fenech",
-    participants: ["Pedro Gomez", "Anthony Fenech"],
-    subjects: ["clubhouse access", "press freedom"],
-    content: [
-      {
-        type: "message",
-        from: "Pedro Gomez",
-        time: "11:30 PM",
-        text: "This is such a scary moment. It allows every club to say they can keep whoever they want out of their clubhouse. This is why this is an important matter. You're not wrong here. Remember that."
-      }
-    ],
-    priority_score: 9
-  },
-  {
-    id: "TEXT-2019-0821-003",
+    id: "TEXT-2017-0831-005",
     type: "text",
     classification: "REDACTED",
-    title: "AIRPLANE MODE — Drug Dealer",
-    date: "2019-08-21",
-    year: 2019,
-    from: "Drug Dealer",
+    title: "Brad Ausmus: Manager in the dark",
+    date: "2017-08-31",
+    year: 2017,
+    from: "Brad Ausmus",
     to: "Anthony Fenech",
-    participants: ["Drug Dealer", "Anthony Fenech"],
-    subjects: ["support"],
+    participants: ["Brad Ausmus", "Anthony Fenech"],
+    subjects: ["Justin Verlander", "manager", "trade deadline"],
     content: [
       {
         type: "message",
-        from: "Drug Dealer",
-        time: "11:45 PM",
-        text: "Lmk if anyone tries to mess with you."
-      }
-    ],
-    priority_score: 6
-  },
-  {
-    id: "TEXT-2019-0821-004",
-    type: "text",
-    classification: "CONFIDENTIAL",
-    title: "AIRPLANE MODE — Deep Throat",
-    date: "2019-08-21",
-    year: 2019,
-    from: "Deep Throat",
-    to: "Anthony Fenech",
-    participants: ["Deep Throat", "Anthony Fenech"],
-    subjects: ["media attention"],
-    content: [
-      {
-        type: "message",
-        from: "Deep Throat",
-        time: "11:50 PM",
-        text: "I'd say you're the most popular sports writer in America today."
+        from: "Brad Ausmus",
+        time: "4:15 PM",
+        text: "Still here. Haven't heard anything."
       }
     ],
     priority_score: 7
   },
   {
-    id: "TEXT-2019-0821-005",
+    id: "TEXT-2017-0831-006",
     type: "text",
-    classification: "UNCLASSIFIED",
-    title: "AIRPLANE MODE — Orioles Scout",
-    date: "2019-08-21",
-    year: 2019,
-    from: "Orioles Scout",
+    classification: "CLASSIFIED",
+    title: "Patrick Murphy: Agent update",
+    date: "2017-08-31",
+    year: 2017,
+    from: "Patrick Murphy",
     to: "Anthony Fenech",
-    participants: ["Orioles Scout", "Anthony Fenech"],
-    subjects: ["ESPN", "media coverage"],
+    participants: ["Patrick Murphy", "Anthony Fenech"],
+    subjects: ["Justin Verlander", "agent", "contract"],
     content: [
       {
         type: "message",
-        from: "Orioles Scout",
-        time: "11:55 PM",
-        text: "Just read your name in ESPN. That's great. Getting your name out there!"
-      }
-    ],
-    priority_score: 4
-  },
-  {
-    id: "EMAIL-2019-0822-001",
-    type: "email",
-    classification: "OFFICIAL",
-    title: "Astros official statement",
-    date: "2019-08-22",
-    year: 2019,
-    from: "Houston Astros PR",
-    to: "Media",
-    participants: ["Houston Astros PR", "Media"],
-    subjects: ["clubhouse access", "official statement"],
-    content: [
-      {
-        type: "message",
-        from: "Houston Astros PR",
-        time: "9:00 AM",
-        text: "Reporter Anthony Fenech was delayed temporarily from entering the Astros clubhouse following last night's game."
+        from: "Patrick Murphy",
+        time: "6:30 PM",
+        text: "JV still deciding. Could go either way."
       }
     ],
     priority_score: 8
   },
   {
-    id: "TWEET-2019-0822-001",
-    type: "tweet",
-    classification: "PUBLIC",
-    title: "Verlander's 'unethical' tweet",
-    date: "2019-08-22",
-    year: 2019,
-    from: "@JustinVerlander",
-    to: "Public",
-    participants: ["Justin Verlander"],
-    subjects: ["unethical", "Free Press", "clubhouse"],
+    id: "TEXT-2017-0831-007",
+    type: "text",
+    classification: "CONFIDENTIAL",
+    title: "Perry Minasian: Braves intel",
+    date: "2017-08-31",
+    year: 2017,
+    from: "Perry Minasian",
+    to: "Anthony Fenech",
+    participants: ["Perry Minasian", "Anthony Fenech"],
+    subjects: ["trade deadline", "Atlanta Braves", "intel"],
     content: [
       {
         type: "message",
-        from: "@JustinVerlander",
-        time: "10:15 AM",
-        text: "I declined to speak with the @Freep rep last night because of his unethical behavior in the past."
+        from: "Perry Minasian",
+        time: "2:45 PM",
+        text: "Hearing Houston is close. They want him bad."
+      }
+    ],
+    priority_score: 7
+  },
+  {
+    id: "TEXT-2017-0831-008",
+    type: "text",
+    classification: "REDACTED",
+    title: "Chris Young: Phillies confirm buzz",
+    date: "2017-08-31",
+    year: 2017,
+    from: "Chris Young",
+    to: "Anthony Fenech",
+    participants: ["Chris Young", "Anthony Fenech"],
+    subjects: ["trade deadline", "Philadelphia Phillies", "intel"],
+    content: [
+      {
+        type: "message",
+        from: "Chris Young",
+        time: "3:00 PM",
+        text: "Everyone's talking about it over here. Houston making a push."
+      }
+    ],
+    priority_score: 6
+  },
+  {
+    id: "TEXT-2017-0831-009",
+    type: "text",
+    classification: "TOP SECRET",
+    title: "Al Avila: Deal is done",
+    date: "2017-08-31",
+    year: 2017,
+    from: "Al Avila",
+    to: "Anthony Fenech",
+    participants: ["Al Avila", "Anthony Fenech"],
+    subjects: ["Justin Verlander", "Houston Astros", "trade confirmed"],
+    content: [
+      {
+        type: "message",
+        from: "Al Avila",
+        time: "11:58 PM",
+        text: "It's done. He's going to Houston."
       }
     ],
     priority_score: 10
   },
   {
-    id: "TEXT-2019-0822-002",
+    id: "TEXT-2017-0831-010",
     type: "text",
-    classification: "PERSONAL",
-    title: "Kristie Ackert check-in",
-    date: "2019-08-22",
-    year: 2019,
-    from: "Kristie Ackert",
+    classification: "UNCLASSIFIED",
+    title: "Scott Bream: Post-trade reaction",
+    date: "2017-08-31",
+    year: 2017,
+    from: "Scott Bream",
     to: "Anthony Fenech",
-    participants: ["Kristie Ackert", "Anthony Fenech"],
-    subjects: ["support", "concern"],
+    participants: ["Scott Bream", "Anthony Fenech"],
+    subjects: ["Justin Verlander", "reaction", "front office"],
     content: [
       {
         type: "message",
-        from: "Kristie Ackert",
-        time: "8:00 PM",
-        text: "Text me tonight just to let me know you are ok. We are concerned."
+        from: "Scott Bream",
+        time: "11:59 PM",
+        text: "End of an era. Can't believe we actually did it."
       }
     ],
     priority_score: 7
