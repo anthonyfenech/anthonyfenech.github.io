@@ -1,205 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OTR Files</title>
-    <style>
-        body {
-            font-family: monospace;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background: #111;
-            color: #ccc;
-        }
-        h1 { color: #fff; }
-        input {
-            width: 100%;
-            padding: 10px;
-            font-family: monospace;
-            font-size: 16px;
-            background: #222;
-            border: 1px solid #444;
-            color: #fff;
-            margin-bottom: 20px;
-        }
-        .doc {
-            border: 1px solid #333;
-            padding: 15px;
-            margin-bottom: 10px;
-            cursor: pointer;
-        }
-        .doc:hover { border-color: #666; }
-        .doc-title { font-weight: bold; color: #fff; }
-        .doc-meta { font-size: 12px; color: #888; margin-top: 5px; }
-        .doc-content { margin-top: 10px; color: #aaa; }
-        .viewer { display: none; }
-        .viewer.active { display: block; }
-        .back { cursor: pointer; color: #888; margin-bottom: 20px; }
-        .back:hover { color: #fff; }
-        .hidden { display: none; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search - The OTR Files</title>
+
+  <!-- CORE CSS - EXACT ORDER -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/home.css">
 </head>
-<body>
-    <div id="searchView">
-        <h1>OTR FILES</h1>
-        <input type="text" id="search" placeholder="Search...">
-        <div id="results"></div>
+<body data-page="index">
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">
+        <span class="accent">OTR</span> FILES
+      </a>
+      <nav class="site-nav">
+        <a href="index.html" class="active">Search</a>
+        <a href="browse.html">Browse</a>
+      </nav>
     </div>
+  </header>
 
-    <div id="viewer" class="viewer">
-        <div class="back" id="back">&larr; Back</div>
-        <div id="viewerContent"></div>
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">THE OTR FILES</h1>
+        <p class="hero-subtitle">
+          CLASSIFIED DOCUMENTS FROM FIVE SEASONS COVERING THE DETROIT TIGERS
+        </p>
+        <p class="hero-doc-count">
+          <span id="doc-count">10</span> DOCUMENTS INDEXED
+        </p>
+
+        <!-- Search Form -->
+        <form id="search-form" class="search-container">
+          <input
+            type="text"
+            id="search-input"
+            class="search-input"
+            placeholder="Search documents, names, dates..."
+            name="q"
+          >
+          <button type="submit" class="search-button">SEARCH</button>
+        </form>
+
+        <!-- Filter Chips -->
+        <div class="filter-bar">
+          <button class="filter-chip active" data-type="">ALL</button>
+          <button class="filter-chip" data-type="text">TEXT</button>
+          <button class="filter-chip" data-type="email">EMAIL</button>
+          <button class="filter-chip" data-type="tweet">TWEET</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Documents -->
+    <section class="featured-section">
+      <div class="container">
+        <h2 class="section-heading">FEATURED DOCUMENTS</h2>
+        <div id="featured-grid" class="document-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>THE OTR FILES — From the archive of Anthony Fenech</p>
+      <p><a href="https://anthonyfenech.github.io/off-the-record/">Read the book: OFF-THE-RECORD</a></p>
     </div>
+  </footer>
 
-    <script>
-        const DOCS = [
-            {
-                id: "TEXT-2017-0831-001",
-                type: "text",
-                title: "Trade deadline bombshell",
-                date: "2017-08-31",
-                from: "Anthony Fenech",
-                to: "Highest Source In The Land",
-                content: "Is this true?"
-            },
-            {
-                id: "TEXT-2017-0831-002",
-                type: "text",
-                title: "Deep Throat confirms front office activity",
-                date: "2017-08-31",
-                from: "Deep Throat",
-                to: "Anthony Fenech",
-                content: "They are spending the final hours of the trade deadline at the GM's suburban Detroit house. His wife made dinner, apparently."
-            },
-            {
-                id: "TEXT-2019-0821-001",
-                type: "text",
-                title: "AIRPLANE MODE — Mom",
-                date: "2019-08-21",
-                from: "Mom",
-                to: "Anthony Fenech",
-                content: "Woohoo best game Tigers could win---against Houston!!!!"
-            },
-            {
-                id: "TEXT-2019-0821-002",
-                type: "text",
-                title: "AIRPLANE MODE — Pedro Gomez",
-                date: "2019-08-21",
-                from: "Pedro Gomez",
-                to: "Anthony Fenech",
-                content: "This is such a scary moment. It allows every club to say they can keep whoever they want out of their clubhouse. This is why this is an important matter. You're not wrong here. Remember that."
-            },
-            {
-                id: "TEXT-2019-0821-003",
-                type: "text",
-                title: "AIRPLANE MODE — Drug Dealer",
-                date: "2019-08-21",
-                from: "Drug Dealer",
-                to: "Anthony Fenech",
-                content: "Lmk if anyone tries to mess with you."
-            },
-            {
-                id: "TEXT-2019-0821-004",
-                type: "text",
-                title: "AIRPLANE MODE — Deep Throat",
-                date: "2019-08-21",
-                from: "Deep Throat",
-                to: "Anthony Fenech",
-                content: "I'd say you're the most popular sports writer in America today."
-            },
-            {
-                id: "TEXT-2019-0821-005",
-                type: "text",
-                title: "AIRPLANE MODE — Orioles Scout",
-                date: "2019-08-21",
-                from: "Orioles Scout",
-                to: "Anthony Fenech",
-                content: "Just read your name in ESPN. That's great. Getting your name out there!"
-            },
-            {
-                id: "EMAIL-2019-0822-001",
-                type: "email",
-                title: "Astros official statement",
-                date: "2019-08-22",
-                from: "Houston Astros PR",
-                to: "Media",
-                content: "Reporter Anthony Fenech was delayed temporarily from entering the Astros clubhouse following last night's game."
-            },
-            {
-                id: "TWEET-2019-0822-001",
-                type: "tweet",
-                title: "Verlander's 'unethical' tweet",
-                date: "2019-08-22",
-                from: "@JustinVerlander",
-                to: "Public",
-                content: "I declined to speak with the @Freep rep last night because of his unethical behavior in the past."
-            },
-            {
-                id: "TEXT-2019-0822-002",
-                type: "text",
-                title: "Kristie Ackert check-in",
-                date: "2019-08-22",
-                from: "Kristie Ackert",
-                to: "Anthony Fenech",
-                content: "Text me tonight just to let me know you are ok. We are concerned."
-            }
-        ];
-
-        const searchInput = document.getElementById('search');
-        const results = document.getElementById('results');
-        const searchView = document.getElementById('searchView');
-        const viewer = document.getElementById('viewer');
-        const viewerContent = document.getElementById('viewerContent');
-        const backBtn = document.getElementById('back');
-
-        function render() {
-            const q = searchInput.value.toLowerCase();
-            const filtered = DOCS.filter(d => {
-                const text = [d.title, d.from, d.to, d.content, d.date].join(' ').toLowerCase();
-                return text.includes(q);
-            });
-
-            results.innerHTML = filtered.map(d => `
-                <div class="doc" data-id="${d.id}">
-                    <div class="doc-title">${d.title}</div>
-                    <div class="doc-meta">${d.type.toUpperCase()} | ${d.date} | ${d.from} → ${d.to}</div>
-                    <div class="doc-content">${d.content}</div>
-                </div>
-            `).join('');
-
-            document.querySelectorAll('.doc').forEach(el => {
-                el.onclick = () => openDoc(el.dataset.id);
-            });
-        }
-
-        function openDoc(id) {
-            const d = DOCS.find(x => x.id === id);
-            viewerContent.innerHTML = `
-                <h2>${d.title}</h2>
-                <p><strong>ID:</strong> ${d.id}</p>
-                <p><strong>Type:</strong> ${d.type}</p>
-                <p><strong>Date:</strong> ${d.date}</p>
-                <p><strong>From:</strong> ${d.from}</p>
-                <p><strong>To:</strong> ${d.to}</p>
-                <hr>
-                <p>${d.content}</p>
-            `;
-            searchView.classList.add('hidden');
-            viewer.classList.add('active');
-        }
-
-        function closeDoc() {
-            viewer.classList.remove('active');
-            searchView.classList.remove('hidden');
-        }
-
-        searchInput.addEventListener('input', render);
-        backBtn.addEventListener('click', closeDoc);
-        document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDoc(); });
-
-        render();
-    </script>
+  <script type="module" src="js/documents.js"></script>
+  <script type="module" src="js/homepage.js"></script>
 </body>
 </html>
