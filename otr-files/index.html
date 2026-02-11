@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THE OTR FILES | Classified Document Archive</title>
+    <title>THE OTR FILES — Classified Document Archive</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Source+Serif+4:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -16,18 +16,13 @@
 
         :root {
             --bg-dark: #0a0f19;
-            --card-bg: #111827;
-            --card-border: #1f2937;
+            --surface: #111827;
+            --border: #1f2937;
             --text-primary: #e5e7eb;
             --text-secondary: #9ca3af;
             --text-muted: #6b7280;
             --accent-red: #C0392B;
             --accent-navy: #1B2A4A;
-            --accent-blue: #007AFF;
-            --badge-red: #991b1b;
-            --badge-amber: #92400e;
-            --badge-gray: #374151;
-            --badge-green: #166534;
         }
 
         body {
@@ -42,391 +37,472 @@
             font-family: 'JetBrains Mono', monospace;
         }
 
-        /* Header */
-        .header {
-            background: linear-gradient(180deg, var(--accent-navy) 0%, var(--bg-dark) 100%);
-            padding: 40px 20px 30px;
+        /* 1. CLASSIFICATION BANNER */
+        .classification-banner {
+            background: var(--accent-red);
             text-align: center;
-            border-bottom: 1px solid var(--card-border);
+            padding: 8px 20px;
         }
 
-        .header h1 {
+        .classification-banner span {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 2.5rem;
+            font-size: 0.65rem;
             font-weight: 700;
-            letter-spacing: 0.15em;
-            color: var(--text-primary);
-            margin-bottom: 8px;
+            letter-spacing: 3px;
+            color: white;
         }
 
-        .header .subtitle {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            letter-spacing: 0.3em;
-            color: var(--accent-red);
-            text-transform: uppercase;
-        }
-
-        /* Stats Bar */
-        .stats-bar {
+        /* 2. SITE HEADER */
+        .site-header {
+            background: var(--accent-navy);
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 30px;
+        }
+
+        .site-logo {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .site-nav {
+            display: flex;
             gap: 30px;
-            padding: 15px 20px;
-            background: var(--card-bg);
-            border-bottom: 1px solid var(--card-border);
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
         }
 
-        .stat {
-            display: flex;
-            align-items: center;
-            gap: 8px;
+        .site-nav a {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            letter-spacing: 1px;
+            color: #8899aa;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .site-nav a:hover,
+        .site-nav a.active {
+            color: white;
+        }
+
+        /* 3. HERO SECTION */
+        .hero {
+            background: var(--bg-dark);
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .hero-title {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 5px;
+            color: white;
+            margin-bottom: 15px;
+        }
+
+        .hero-subtitle {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 1.1rem;
             color: var(--text-secondary);
+            margin-bottom: 20px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
-        .stat-value {
-            color: var(--accent-red);
-            font-weight: 600;
-        }
-
-        /* Container */
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 30px 20px;
-        }
-
-        /* Search */
-        .search-container {
-            margin-bottom: 25px;
-        }
-
-        .search-wrapper {
-            position: relative;
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            border-radius: 4px;
-            display: flex;
-            align-items: center;
-            padding: 0 15px;
-        }
-
-        .search-prompt {
+        .doc-count-badge {
             font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
             color: var(--accent-red);
-            font-size: 0.9rem;
-            margin-right: 10px;
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+        }
+
+        /* 4. SEARCH BAR */
+        .search-container {
+            max-width: 600px;
+            margin: 0 auto 20px;
         }
 
         .search-input {
-            flex: 1;
-            background: transparent;
-            border: none;
-            color: var(--text-primary);
+            width: 100%;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 15px 20px;
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.95rem;
-            padding: 15px 0;
+            font-size: 0.9rem;
+            color: var(--text-primary);
             outline: none;
+            transition: box-shadow 0.2s, border-color 0.2s;
         }
 
         .search-input::placeholder {
             color: var(--text-muted);
         }
 
-        .search-btn {
-            background: var(--accent-red);
-            color: white;
-            border: none;
-            padding: 8px 20px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.1em;
-            cursor: pointer;
-            border-radius: 3px;
-            transition: background 0.2s;
+        .search-input:focus {
+            border-color: var(--accent-red);
+            box-shadow: 0 0 20px rgba(192, 57, 43, 0.15);
         }
 
-        .search-btn:hover {
-            background: #a93226;
-        }
-
-        /* Filters */
-        .filters {
+        /* 5. FILTER CHIPS */
+        .filter-chips {
             display: flex;
+            justify-content: center;
             gap: 10px;
-            margin-top: 15px;
+            flex-wrap: wrap;
         }
 
-        .filter-btn {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            color: var(--text-secondary);
-            padding: 8px 16px;
+        .filter-chip {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
-            font-weight: 500;
-            letter-spacing: 0.1em;
+            padding: 8px 16px;
+            background: transparent;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text-secondary);
             cursor: pointer;
-            border-radius: 3px;
             transition: all 0.2s;
         }
 
-        .filter-btn:hover {
+        .filter-chip:hover {
             border-color: var(--text-muted);
             color: var(--text-primary);
         }
 
-        .filter-btn.active {
-            background: var(--accent-navy);
-            border-color: var(--accent-navy);
-            color: var(--text-primary);
+        .filter-chip.active {
+            border-color: var(--accent-red);
+            color: white;
         }
 
-        /* Results */
-        .results-header {
+        /* MAIN CONTENT */
+        .main-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 60px 30px;
+        }
+
+        /* Section Headers */
+        .section-header {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: var(--accent-red);
+            margin-bottom: 25px;
+        }
+
+        /* Results Info */
+        .results-info {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
             color: var(--text-muted);
-            letter-spacing: 0.1em;
-            margin-bottom: 15px;
-            text-transform: uppercase;
+            margin-bottom: 20px;
+            text-align: center;
         }
 
-        .results-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
+        /* 6. DOCUMENT CARDS GRID */
+        .documents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 20px;
+            margin-bottom: 60px;
         }
 
-        /* Document Card */
         .doc-card {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
+            background: var(--surface);
+            border: 1px solid var(--border);
             border-radius: 6px;
-            padding: 18px 20px;
+            padding: 20px;
             cursor: pointer;
             transition: all 0.2s;
         }
 
         .doc-card:hover {
-            border-color: var(--text-muted);
-            transform: translateY(-1px);
+            border-color: var(--accent-red);
+            transform: translateY(-2px);
         }
 
         .doc-card-header {
             display: flex;
-            align-items: flex-start;
-            gap: 12px;
-            margin-bottom: 10px;
-        }
-
-        .doc-icon {
-            font-size: 1.5rem;
-            line-height: 1;
-        }
-
-        .doc-meta {
-            flex: 1;
-        }
-
-        .doc-badges {
-            display: flex;
+            align-items: center;
             gap: 8px;
-            margin-bottom: 6px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
         }
 
         .badge {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.6rem;
-            font-weight: 600;
-            letter-spacing: 0.05em;
+            font-size: 0.55rem;
+            font-weight: 700;
             padding: 3px 8px;
             border-radius: 3px;
-            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
 
         .badge-type {
             background: var(--accent-navy);
-            color: var(--text-primary);
+            color: white;
         }
 
         .badge-classification {
             color: white;
         }
 
-        .badge-heavily-redacted { background: var(--badge-red); }
-        .badge-classified { background: var(--badge-amber); }
-        .badge-redacted { background: var(--badge-gray); }
-        .badge-unredacted { background: var(--badge-green); }
+        .badge-heavily-redacted { background: #991b1b; }
+        .badge-classified { background: #92400e; }
+        .badge-redacted { background: #374151; }
+        .badge-unredacted { background: #166534; }
 
         .doc-date {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
+            font-size: 0.65rem;
             color: var(--text-muted);
+            margin-left: auto;
         }
 
-        .doc-title {
-            font-size: 1.1rem;
+        .doc-card-title {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 1rem;
             font-weight: 600;
-            color: var(--text-primary);
-            margin-bottom: 6px;
+            color: white;
+            margin-bottom: 8px;
         }
 
-        .doc-preview {
-            font-size: 0.9rem;
+        .doc-card-preview {
+            font-size: 0.85rem;
             color: var(--text-secondary);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
             display: -webkit-box;
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
+            line-height: 1.5;
         }
 
-        .doc-participants {
+        .doc-card-tags {
             display: flex;
             flex-wrap: wrap;
             gap: 6px;
         }
 
-        .participant-tag {
+        .participant-pill {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            padding: 3px 8px;
+            background: rgba(192, 57, 43, 0.15);
+            border: 1px solid rgba(192, 57, 43, 0.3);
+            border-radius: 3px;
+            color: var(--accent-red);
+        }
+
+        /* 7. ARCHIVE STATS */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-bottom: 60px;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 25px 20px;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 2rem;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.65rem;
-            background: rgba(192, 57, 43, 0.2);
-            color: var(--accent-red);
-            padding: 3px 8px;
-            border-radius: 3px;
-            border: 1px solid rgba(192, 57, 43, 0.3);
+            color: var(--text-secondary);
+            letter-spacing: 1px;
         }
 
-        /* Document Viewer */
-        .viewer {
+        /* 8. FOOTER */
+        .site-footer {
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .footer-primary {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.65rem;
+            color: var(--text-muted);
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        .footer-secondary {
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        /* NO RESULTS */
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+
+        .no-results-cursor {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .no-results-cursor .blink {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
+        /* DOCUMENT VIEWER OVERLAY */
+        .viewer-overlay {
             display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--bg-dark);
+            z-index: 1000;
+            overflow-y: auto;
         }
 
-        .viewer.active {
+        .viewer-overlay.active {
             display: block;
         }
 
-        .search-view.hidden {
-            display: none;
+        .viewer-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 30px;
         }
 
         .viewer-header {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            margin-bottom: 25px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid var(--card-border);
+            margin-bottom: 30px;
         }
 
-        .back-btn {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
-            color: var(--text-secondary);
-            padding: 10px 18px;
+        .viewer-back-btn {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.75rem;
+            padding: 10px 20px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text-secondary);
             cursor: pointer;
-            border-radius: 3px;
             transition: all 0.2s;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            margin-bottom: 25px;
+            display: inline-block;
         }
 
-        .back-btn:hover {
+        .viewer-back-btn:hover {
             border-color: var(--text-muted);
-            color: var(--text-primary);
+            color: white;
         }
 
-        .viewer-title-area {
-            flex: 1;
+        .viewer-badges {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 10px;
         }
 
         .viewer-id {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
             color: var(--text-muted);
-            letter-spacing: 0.1em;
-            margin-bottom: 4px;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
         }
 
         .viewer-title {
-            font-size: 1.4rem;
-            font-weight: 600;
+            font-family: 'Source Serif 4', Georgia, serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
         }
 
-        /* Message Bubbles (Text Type) */
+        .viewer-context {
+            background: rgba(27, 42, 74, 0.4);
+            border-left: 3px solid var(--accent-navy);
+            padding: 15px 20px;
+            margin-bottom: 30px;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+
+        /* TEXT MESSAGE BUBBLES */
         .phone-frame {
             background: #000;
-            border-radius: 30px;
-            padding: 20px 15px;
-            max-width: 380px;
+            border-radius: 25px;
+            padding: 15px;
+            max-width: 400px;
             margin: 0 auto 30px;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
-        }
-
-        .phone-notch {
-            width: 120px;
-            height: 25px;
-            background: #1a1a1a;
-            border-radius: 0 0 15px 15px;
-            margin: -20px auto 15px;
-        }
-
-        .messages-container {
-            background: #000;
-            min-height: 200px;
-            padding: 10px;
-        }
-
-        .message-group {
-            margin-bottom: 15px;
-        }
-
-        .message-sender {
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.65rem;
-            color: var(--text-muted);
-            margin-bottom: 4px;
-            padding-left: 12px;
-        }
-
-        .message-sender.outgoing {
-            text-align: right;
-            padding-right: 12px;
-            padding-left: 0;
         }
 
         .message-bubble {
-            max-width: 85%;
+            max-width: 80%;
             padding: 10px 14px;
             border-radius: 18px;
+            margin-bottom: 8px;
             font-size: 0.95rem;
             line-height: 1.4;
         }
 
         .message-bubble.incoming {
-            background: var(--badge-gray);
-            color: var(--text-primary);
+            background: #374151;
+            color: white;
             border-bottom-left-radius: 4px;
         }
 
         .message-bubble.outgoing {
-            background: var(--accent-blue);
+            background: #007AFF;
             color: white;
             margin-left: auto;
             border-bottom-right-radius: 4px;
         }
 
-        /* Email Type */
+        .message-sender {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.6rem;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+            padding-left: 14px;
+        }
+
+        .message-sender.outgoing {
+            text-align: right;
+            padding-right: 14px;
+            padding-left: 0;
+        }
+
+        /* EMAIL RENDER */
         .email-container {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
+            background: var(--surface);
+            border: 1px solid var(--border);
             border-radius: 6px;
             overflow: hidden;
             margin-bottom: 30px;
@@ -435,7 +511,6 @@
         .email-header {
             background: var(--accent-navy);
             padding: 20px;
-            border-bottom: 1px solid var(--card-border);
         }
 
         .email-field {
@@ -444,16 +519,13 @@
             font-size: 0.85rem;
         }
 
-        .email-field:last-child {
-            margin-bottom: 0;
-        }
+        .email-field:last-child { margin-bottom: 0; }
 
         .email-label {
             font-family: 'JetBrains Mono', monospace;
-            font-weight: 600;
+            font-weight: 700;
             color: var(--text-muted);
             width: 70px;
-            flex-shrink: 0;
         }
 
         .email-value {
@@ -462,17 +534,16 @@
 
         .email-body {
             padding: 25px;
-            font-size: 1rem;
             line-height: 1.7;
         }
 
-        /* Tweet Type */
+        /* TWEET RENDER */
         .tweet-container {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
+            background: var(--surface);
+            border: 1px solid var(--border);
             border-radius: 16px;
             padding: 20px;
-            max-width: 550px;
+            max-width: 500px;
             margin: 0 auto 30px;
         }
 
@@ -494,23 +565,14 @@
             font-size: 1.5rem;
         }
 
-        .tweet-user-info {
-            flex: 1;
-        }
-
-        .tweet-name {
-            font-weight: 600;
-            font-size: 0.95rem;
-        }
-
         .tweet-handle {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             color: var(--text-muted);
         }
 
         .tweet-body {
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             line-height: 1.5;
             margin-bottom: 15px;
         }
@@ -520,13 +582,13 @@
             font-size: 0.75rem;
             color: var(--text-muted);
             padding-top: 12px;
-            border-top: 1px solid var(--card-border);
+            border-top: 1px solid var(--border);
         }
 
-        /* Metadata Section */
-        .doc-metadata {
-            background: var(--card-bg);
-            border: 1px solid var(--card-border);
+        /* VIEWER METADATA */
+        .viewer-metadata {
+            background: var(--surface);
+            border: 1px solid var(--border);
             border-radius: 6px;
             padding: 20px;
         }
@@ -535,8 +597,7 @@
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
             color: var(--text-muted);
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
+            letter-spacing: 2px;
             margin-bottom: 15px;
         }
 
@@ -547,15 +608,9 @@
 
         .metadata-label {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: var(--text-muted);
             width: 100px;
-            flex-shrink: 0;
-        }
-
-        .metadata-value {
-            font-size: 0.9rem;
-            color: var(--text-primary);
         }
 
         .metadata-tags {
@@ -566,429 +621,418 @@
 
         .clickable-tag {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.7rem;
-            background: rgba(192, 57, 43, 0.15);
-            color: var(--accent-red);
+            font-size: 0.65rem;
             padding: 4px 10px;
-            border-radius: 3px;
+            background: rgba(192, 57, 43, 0.15);
             border: 1px solid rgba(192, 57, 43, 0.3);
+            border-radius: 3px;
+            color: var(--accent-red);
             cursor: pointer;
-            transition: all 0.2s;
+            transition: background 0.2s;
         }
 
         .clickable-tag:hover {
             background: rgba(192, 57, 43, 0.3);
         }
 
-        .priority-bar {
-            display: flex;
-            gap: 3px;
-        }
-
-        .priority-pip {
-            width: 8px;
-            height: 8px;
-            background: var(--card-border);
-            border-radius: 2px;
-        }
-
-        .priority-pip.active {
-            background: var(--accent-red);
-        }
-
-        /* Context Box */
-        .context-box {
-            background: rgba(27, 42, 74, 0.3);
-            border-left: 3px solid var(--accent-navy);
-            padding: 15px 20px;
-            margin-bottom: 25px;
-            font-style: italic;
-            color: var(--text-secondary);
-        }
-
-        /* No Results */
-        .no-results {
-            text-align: center;
-            padding: 60px 20px;
-            color: var(--text-muted);
-        }
-
-        .no-results-icon {
-            font-size: 3rem;
-            margin-bottom: 15px;
-            opacity: 0.5;
-        }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            .header h1 {
-                font-size: 1.8rem;
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2rem;
+                letter-spacing: 3px;
             }
 
-            .stats-bar {
-                flex-wrap: wrap;
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .site-header {
+                flex-direction: column;
                 gap: 15px;
+                text-align: center;
             }
 
-            .filters {
-                flex-wrap: wrap;
+            .site-nav {
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .documents-grid {
+                grid-template-columns: 1fr;
             }
 
-            .phone-frame {
-                border-radius: 20px;
-                max-width: 100%;
+            .filter-chips {
+                gap: 6px;
+            }
+
+            .filter-chip {
+                padding: 6px 12px;
+                font-size: 0.65rem;
             }
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <h1>THE OTR FILES</h1>
-        <div class="subtitle">Classified Document Archive</div>
-    </header>
-
-    <div class="stats-bar">
-        <div class="stat">
-            <span>DOCUMENTS:</span>
-            <span class="stat-value" id="totalDocs">10</span>
-        </div>
-        <div class="stat">
-            <span>DATE RANGE:</span>
-            <span class="stat-value">2017-2019</span>
-        </div>
-        <div class="stat">
-            <span>TYPES:</span>
-            <span class="stat-value">TEXT / EMAIL / TWEET</span>
-        </div>
+    <!-- 1. CLASSIFICATION BANNER -->
+    <div class="classification-banner">
+        <span>CLASSIFIED — OFF-THE-RECORD DOCUMENT ARCHIVE</span>
     </div>
 
-    <div class="container">
-        <!-- Search View -->
-        <div class="search-view" id="searchView">
-            <div class="search-container">
-                <div class="search-wrapper">
-                    <span class="search-prompt mono">&gt;</span>
-                    <input type="text" class="search-input" id="searchInput" placeholder="Search documents..." autocomplete="off">
-                    <button class="search-btn" id="searchBtn">SEARCH</button>
-                </div>
-                <div class="filters">
-                    <button class="filter-btn active" data-filter="all">ALL</button>
-                    <button class="filter-btn" data-filter="text">TEXT</button>
-                    <button class="filter-btn" data-filter="email">EMAIL</button>
-                    <button class="filter-btn" data-filter="tweet">TWEET</button>
-                </div>
-            </div>
+    <!-- 2. SITE HEADER -->
+    <header class="site-header">
+        <a href="#" class="site-logo">THE OTR FILES</a>
+        <nav class="site-nav">
+            <a href="#" class="active">HOME</a>
+            <a href="#search">SEARCH</a>
+            <a href="#about">ABOUT</a>
+        </nav>
+    </header>
 
-            <div class="results-header" id="resultsHeader">SHOWING 10 DOCUMENTS</div>
-            <div class="results-list" id="resultsList"></div>
+    <!-- 3. HERO SECTION -->
+    <section class="hero" id="search">
+        <h1 class="hero-title">THE OTR FILES</h1>
+        <p class="hero-subtitle">Classified documents from five seasons covering the Detroit Tigers</p>
+        <div class="doc-count-badge">■ <span id="docCount">10</span> DOCUMENTS INDEXED</div>
+
+        <!-- 4. SEARCH BAR -->
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="Search documents, names, dates..." autocomplete="off">
         </div>
 
-        <!-- Document Viewer -->
-        <div class="viewer" id="viewer">
-            <div class="viewer-header">
-                <button class="back-btn" id="backBtn">
-                    <span>&larr;</span>
-                    <span>BACK</span>
-                </button>
-                <div class="viewer-title-area">
-                    <div class="viewer-id mono" id="viewerId"></div>
-                    <div class="doc-badges" id="viewerBadges"></div>
-                    <h2 class="viewer-title" id="viewerTitle"></h2>
-                </div>
-            </div>
+        <!-- 5. FILTER CHIPS -->
+        <div class="filter-chips">
+            <button class="filter-chip active" data-filter="all">ALL</button>
+            <button class="filter-chip" data-filter="text">TEXT 💬</button>
+            <button class="filter-chip" data-filter="email">EMAIL 📧</button>
+            <button class="filter-chip" data-filter="tweet">TWEET 🐦</button>
+        </div>
+    </section>
 
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <!-- Results Info -->
+        <div class="results-info" id="resultsInfo">Showing 10 of 10 documents</div>
+
+        <!-- 6. FEATURED DOCUMENTS -->
+        <h2 class="section-header">FEATURED DOCUMENTS</h2>
+        <div class="documents-grid" id="documentsGrid"></div>
+
+        <!-- 7. ARCHIVE STATS -->
+        <h2 class="section-header">ARCHIVE STATISTICS</h2>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number">10</div>
+                <div class="stat-label">Documents Indexed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2017-2020</div>
+                <div class="stat-label">Date Range</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">3</div>
+                <div class="stat-label">Document Types</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">47</div>
+                <div class="stat-label">People Referenced</div>
+            </div>
+        </div>
+    </main>
+
+    <!-- 8. FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-primary">OFF-THE-RECORD PUBLISHING LLC — EST. 2026</div>
+        <div class="footer-secondary">This archive contains documents from OFF-THE-RECORD by Anthony Fenech</div>
+    </footer>
+
+    <!-- DOCUMENT VIEWER OVERLAY -->
+    <div class="viewer-overlay" id="viewerOverlay">
+        <div class="viewer-container">
+            <div class="viewer-header">
+                <button class="viewer-back-btn" id="viewerBackBtn">← BACK TO ARCHIVE</button>
+                <div class="viewer-badges" id="viewerBadges"></div>
+                <div class="viewer-id" id="viewerId"></div>
+                <h2 class="viewer-title" id="viewerTitle"></h2>
+            </div>
             <div id="viewerContext"></div>
             <div id="viewerContent"></div>
-            <div class="doc-metadata" id="viewerMetadata"></div>
+            <div class="viewer-metadata" id="viewerMetadata"></div>
         </div>
     </div>
 
     <script>
-        // ============================================
+        // ============================================================
         // DOCUMENT DATA
-        // ============================================
+        // ============================================================
         const OTR_DOCUMENTS = [
             {
                 id: "TEXT-2017-0831-001",
+                type: "text",
+                classification: "HEAVILY REDACTED",
                 title: "Trade deadline bombshell",
                 date: "2017-08-31",
-                type: "text",
                 from: "Anthony Fenech",
                 to: "Highest Source In The Land",
+                participants: ["Anthony Fenech", "HSITL"],
+                subjects: ["Verlander trade", "trade deadline", "breaking news"],
                 content: "Is this true?",
-                context: "Sent after rival reporter broke Verlander trade news while Anthony was on his porch",
-                priority: 10,
-                classification: "HEAVILY REDACTED",
-                subjects: ["Verlander trade", "trade deadline", "breaking news"]
+                context: "Sent after rival reporter broke Verlander-to-Houston news",
+                priority: 10
             },
             {
                 id: "TEXT-2017-0831-002",
+                type: "text",
+                classification: "CLASSIFIED",
                 title: "Deep Throat confirms front office activity",
                 date: "2017-08-31",
-                type: "text",
                 from: "Deep Throat",
                 to: "Anthony Fenech",
+                participants: ["Deep Throat", "Anthony Fenech"],
+                subjects: ["trade deadline", "Deep Throat", "front office"],
                 content: "They are spending the final hours of the trade deadline at the GM's suburban Detroit house. His wife made dinner, apparently.",
-                priority: 9,
-                classification: "CLASSIFIED",
-                subjects: ["trade deadline", "Deep Throat", "front office"]
+                priority: 9
             },
             {
                 id: "TEXT-2019-0821-001",
+                type: "text",
+                classification: "UNREDACTED",
                 title: "AIRPLANE MODE — Mom",
                 date: "2019-08-21",
-                type: "text",
                 from: "Mom",
                 to: "Anthony Fenech",
+                participants: ["Mom", "Anthony Fenech"],
+                subjects: ["Verlander", "family", "Houston"],
                 content: "Woohoo best game Tigers could win---against Houston!!!!",
-                priority: 7,
-                classification: "UNREDACTED",
-                subjects: ["Verlander", "family", "Houston"]
+                priority: 7
             },
             {
                 id: "TEXT-2019-0821-002",
+                type: "text",
+                classification: "CLASSIFIED",
                 title: "AIRPLANE MODE — Pedro Gomez",
                 date: "2019-08-21",
-                type: "text",
                 from: "Pedro Gomez",
                 to: "Anthony Fenech",
+                participants: ["Pedro Gomez", "Anthony Fenech"],
+                subjects: ["Verlander", "BBWAA", "clubhouse access", "Pedro Gomez"],
                 content: "This is such a scary moment. It allows every club to say they can keep whoever they want out of their clubhouse. This is why this is an important matter. You're not wrong here. Remember that.",
-                priority: 10,
-                classification: "CLASSIFIED",
-                subjects: ["Verlander", "BBWAA", "clubhouse access", "Pedro Gomez"]
+                priority: 10
             },
             {
                 id: "TEXT-2019-0821-003",
+                type: "text",
+                classification: "HEAVILY REDACTED",
                 title: "AIRPLANE MODE — Drug Dealer",
                 date: "2019-08-21",
-                type: "text",
                 from: "Drug Dealer",
                 to: "Anthony Fenech",
+                participants: ["Drug Dealer", "Anthony Fenech"],
+                subjects: ["Verlander controversy", "personal"],
                 content: "Lmk if anyone tries to mess with you.",
-                priority: 8,
-                classification: "HEAVILY REDACTED",
-                subjects: ["Verlander controversy", "personal"]
+                priority: 8
             },
             {
                 id: "TEXT-2019-0821-004",
+                type: "text",
+                classification: "CLASSIFIED",
                 title: "AIRPLANE MODE — Deep Throat",
                 date: "2019-08-21",
-                type: "text",
                 from: "Deep Throat",
                 to: "Anthony Fenech",
+                participants: ["Deep Throat", "Anthony Fenech"],
+                subjects: ["Verlander controversy", "viral"],
                 content: "I'd say you're the most popular sports writer in America today.",
-                priority: 8,
-                classification: "CLASSIFIED",
-                subjects: ["Verlander controversy", "Deep Throat", "viral"]
+                priority: 8
             },
             {
                 id: "TEXT-2019-0821-005",
+                type: "text",
+                classification: "REDACTED",
                 title: "AIRPLANE MODE — Orioles Scout",
                 date: "2019-08-21",
-                type: "text",
                 from: "Orioles Scout",
                 to: "Anthony Fenech",
+                participants: ["Orioles Scout", "Anthony Fenech"],
+                subjects: ["Verlander controversy", "ESPN", "scouts"],
                 content: "Just read your name in ESPN. That's great. Getting your name out there!",
-                priority: 6,
-                classification: "REDACTED",
-                subjects: ["Verlander controversy", "ESPN", "scouts"]
+                priority: 6
             },
             {
                 id: "EMAIL-2019-0822-001",
-                title: "Astros official statement",
-                date: "2019-08-22",
                 type: "email",
+                classification: "UNREDACTED",
+                title: "Astros official statement on clubhouse ban",
+                date: "2019-08-22",
                 from: "Houston Astros PR",
                 to: "Media",
+                participants: ["Houston Astros PR", "Anthony Fenech", "Justin Verlander"],
+                subjects: ["Verlander", "Astros", "clubhouse ban", "official statement"],
                 content: "Reporter Anthony Fenech was delayed temporarily from entering the Astros clubhouse following last night's game. This course of action was taken after taking into consideration the past history between Fenech and one of our players, Justin Verlander, Verlander's legitimate concerns about past interactions with Fenech, and the best interests of the other media members working the game.",
-                priority: 10,
-                classification: "UNREDACTED",
-                subjects: ["Verlander", "Astros", "clubhouse ban", "official statement"]
+                priority: 10
             },
             {
                 id: "TWEET-2019-0822-001",
+                type: "tweet",
+                classification: "UNREDACTED",
                 title: "Verlander's 'unethical' tweet",
                 date: "2019-08-22",
-                type: "tweet",
-                from: "Justin Verlander (@JustinVerlander)",
+                from: "@JustinVerlander",
                 to: "Public",
+                participants: ["Justin Verlander", "Anthony Fenech", "Detroit Free Press"],
+                subjects: ["Verlander", "unethical", "viral", "Twitter"],
                 content: "I declined to speak with the @Freep rep last night because of his unethical behavior in the past. I reached out to the @Freep multiple times before the game to notify them why and to give them an opportunity to have someone else there. Ironically they didn't answer.",
-                priority: 10,
-                classification: "UNREDACTED",
-                subjects: ["Verlander", "unethical", "viral", "Twitter"]
+                priority: 10
             },
             {
                 id: "TEXT-2019-0822-002",
+                type: "text",
+                classification: "REDACTED",
                 title: "Kristie Ackert check-in",
                 date: "2019-08-22",
-                type: "text",
                 from: "Kristie Ackert",
                 to: "Anthony Fenech",
+                participants: ["Kristie Ackert", "Anthony Fenech"],
+                subjects: ["Verlander aftermath", "colleagues", "emotional"],
                 content: "Text me tonight just to let me know you are ok. We are concerned.",
-                reply_from: "Anthony Fenech",
-                reply_content: "I'm down, I'm tired, I'm done with today. But I'm ok.",
-                priority: 9,
-                classification: "REDACTED",
-                subjects: ["Verlander aftermath", "colleagues", "emotional"]
+                priority: 9
             }
         ];
 
-        // ============================================
+        // ============================================================
         // STATE
-        // ============================================
+        // ============================================================
         let currentFilter = 'all';
         let currentQuery = '';
-        let lastQuery = '';
 
-        // ============================================
-        // ELEMENTS
-        // ============================================
+        // ============================================================
+        // DOM ELEMENTS
+        // ============================================================
         const searchInput = document.getElementById('searchInput');
-        const searchBtn = document.getElementById('searchBtn');
-        const resultsList = document.getElementById('resultsList');
-        const resultsHeader = document.getElementById('resultsHeader');
-        const searchView = document.getElementById('searchView');
-        const viewer = document.getElementById('viewer');
-        const backBtn = document.getElementById('backBtn');
-        const filterBtns = document.querySelectorAll('.filter-btn');
+        const documentsGrid = document.getElementById('documentsGrid');
+        const resultsInfo = document.getElementById('resultsInfo');
+        const viewerOverlay = document.getElementById('viewerOverlay');
+        const viewerBackBtn = document.getElementById('viewerBackBtn');
+        const filterChips = document.querySelectorAll('.filter-chip');
 
-        // ============================================
+        // ============================================================
         // UTILITIES
-        // ============================================
-        function getTypeIcon(type) {
-            const icons = {
-                text: '💬',
-                email: '📧',
-                tweet: '🐦'
-            };
-            return icons[type] || '📄';
+        // ============================================================
+        function formatDate(dateStr) {
+            const d = new Date(dateStr);
+            return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
         }
 
         function getClassificationClass(classification) {
-            const classes = {
+            const map = {
                 'HEAVILY REDACTED': 'badge-heavily-redacted',
                 'CLASSIFIED': 'badge-classified',
                 'REDACTED': 'badge-redacted',
                 'UNREDACTED': 'badge-unredacted'
             };
-            return classes[classification] || 'badge-gray';
+            return map[classification] || 'badge-redacted';
         }
 
-        function formatDate(dateStr) {
-            const date = new Date(dateStr);
-            return date.toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'short',
-                day: 'numeric'
-            });
+        function getTypeEmoji(type) {
+            const map = { text: '💬', email: '📧', tweet: '🐦' };
+            return map[type] || '📄';
         }
 
-        function getParticipants(doc) {
-            const participants = [];
-            if (doc.from) participants.push(doc.from);
-            if (doc.to && doc.to !== 'Public' && doc.to !== 'Media') participants.push(doc.to);
-            if (doc.reply_from) participants.push(doc.reply_from);
-            return [...new Set(participants)];
-        }
-
-        // ============================================
+        // ============================================================
         // SEARCH & FILTER
-        // ============================================
+        // ============================================================
         function filterDocuments() {
-            const query = currentQuery.toLowerCase();
+            let results = OTR_DOCUMENTS;
 
-            return OTR_DOCUMENTS.filter(doc => {
-                // Type filter
-                if (currentFilter !== 'all' && doc.type !== currentFilter) {
-                    return false;
-                }
+            // Type filter
+            if (currentFilter !== 'all') {
+                results = results.filter(doc => doc.type === currentFilter);
+            }
 
-                // Search query
-                if (query) {
-                    const searchFields = [
+            // Search query
+            if (currentQuery.trim() !== '') {
+                const q = currentQuery.toLowerCase();
+                results = results.filter(doc => {
+                    const searchable = [
                         doc.title,
                         doc.from,
                         doc.to,
                         doc.content,
-                        doc.reply_content || '',
+                        doc.date,
+                        ...doc.participants,
                         ...doc.subjects
                     ].join(' ').toLowerCase();
+                    return searchable.includes(q);
+                });
+            }
 
-                    return searchFields.includes(query);
-                }
-
-                return true;
-            });
+            return results;
         }
 
-        function renderResults() {
+        function renderDocuments() {
             const docs = filterDocuments();
-            resultsHeader.textContent = `SHOWING ${docs.length} DOCUMENT${docs.length !== 1 ? 'S' : ''}`;
+
+            resultsInfo.textContent = `Showing ${docs.length} of ${OTR_DOCUMENTS.length} documents`;
 
             if (docs.length === 0) {
-                resultsList.innerHTML = `
-                    <div class="no-results">
-                        <div class="no-results-icon">🔍</div>
-                        <div>No documents found matching your criteria.</div>
+                documentsGrid.innerHTML = `
+                    <div class="no-results" style="grid-column: 1 / -1;">
+                        <div class="no-results-cursor">> <span class="blink">_</span></div>
+                        <div>No documents match your query</div>
                     </div>
                 `;
                 return;
             }
 
-            resultsList.innerHTML = docs.map(doc => `
+            documentsGrid.innerHTML = docs.map(doc => `
                 <div class="doc-card" data-id="${doc.id}">
                     <div class="doc-card-header">
-                        <span class="doc-icon">${getTypeIcon(doc.type)}</span>
-                        <div class="doc-meta">
-                            <div class="doc-badges">
-                                <span class="badge badge-type">${doc.type.toUpperCase()}</span>
-                                <span class="badge badge-classification ${getClassificationClass(doc.classification)}">${doc.classification}</span>
-                            </div>
-                            <div class="doc-date mono">${formatDate(doc.date)}</div>
-                        </div>
+                        <span class="badge badge-type">${doc.type.toUpperCase()}</span>
+                        <span class="badge badge-classification ${getClassificationClass(doc.classification)}">${doc.classification}</span>
+                        <span class="doc-date">${formatDate(doc.date)}</span>
                     </div>
-                    <div class="doc-title">${doc.title}</div>
-                    <div class="doc-preview">${doc.content}</div>
-                    <div class="doc-participants">
-                        ${getParticipants(doc).map(p => `<span class="participant-tag">${p}</span>`).join('')}
+                    <div class="doc-card-title">${doc.title}</div>
+                    <div class="doc-card-preview">${doc.content}</div>
+                    <div class="doc-card-tags">
+                        ${doc.participants.slice(0, 3).map(p => `<span class="participant-pill">${p}</span>`).join('')}
                     </div>
                 </div>
             `).join('');
 
             // Add click handlers
             document.querySelectorAll('.doc-card').forEach(card => {
-                card.addEventListener('click', () => openDocument(card.dataset.id));
+                card.addEventListener('click', function() {
+                    openViewer(this.dataset.id);
+                });
             });
         }
 
-        // ============================================
+        // ============================================================
         // DOCUMENT VIEWER
-        // ============================================
-        function openDocument(id) {
+        // ============================================================
+        function openViewer(id) {
             const doc = OTR_DOCUMENTS.find(d => d.id === id);
             if (!doc) return;
 
-            lastQuery = currentQuery;
-
-            // Update header
-            document.getElementById('viewerId').textContent = doc.id;
-            document.getElementById('viewerTitle').textContent = doc.title;
+            // Badges
             document.getElementById('viewerBadges').innerHTML = `
                 <span class="badge badge-type">${doc.type.toUpperCase()}</span>
                 <span class="badge badge-classification ${getClassificationClass(doc.classification)}">${doc.classification}</span>
             `;
 
+            document.getElementById('viewerId').textContent = doc.id;
+            document.getElementById('viewerTitle').textContent = doc.title;
+
             // Context
             const contextEl = document.getElementById('viewerContext');
             if (doc.context) {
-                contextEl.innerHTML = `<div class="context-box">${doc.context}</div>`;
+                contextEl.innerHTML = `<div class="viewer-context">${doc.context}</div>`;
             } else {
                 contextEl.innerHTML = '';
             }
 
-            // Content based on type
+            // Content
             const contentEl = document.getElementById('viewerContent');
-
             if (doc.type === 'text') {
                 contentEl.innerHTML = renderTextMessage(doc);
             } else if (doc.type === 'email') {
@@ -998,114 +1042,16 @@
             }
 
             // Metadata
-            document.getElementById('viewerMetadata').innerHTML = renderMetadata(doc);
-
-            // Add click handlers for tags
-            document.querySelectorAll('.clickable-tag').forEach(tag => {
-                tag.addEventListener('click', () => {
-                    currentQuery = tag.dataset.search;
-                    searchInput.value = currentQuery;
-                    closeViewer();
-                    renderResults();
-                });
-            });
-
-            // Show viewer
-            searchView.classList.add('hidden');
-            viewer.classList.add('active');
-        }
-
-        function renderTextMessage(doc) {
-            const isOutgoing = doc.from === 'Anthony Fenech';
-
-            let messagesHTML = `
-                <div class="message-group">
-                    <div class="message-sender ${isOutgoing ? 'outgoing' : ''}">${doc.from}</div>
-                    <div class="message-bubble ${isOutgoing ? 'outgoing' : 'incoming'}">${doc.content}</div>
-                </div>
-            `;
-
-            if (doc.reply_content) {
-                const replyOutgoing = doc.reply_from === 'Anthony Fenech';
-                messagesHTML += `
-                    <div class="message-group">
-                        <div class="message-sender ${replyOutgoing ? 'outgoing' : ''}">${doc.reply_from}</div>
-                        <div class="message-bubble ${replyOutgoing ? 'outgoing' : 'incoming'}">${doc.reply_content}</div>
-                    </div>
-                `;
-            }
-
-            return `
-                <div class="phone-frame">
-                    <div class="phone-notch"></div>
-                    <div class="messages-container">
-                        ${messagesHTML}
-                    </div>
-                </div>
-            `;
-        }
-
-        function renderEmail(doc) {
-            return `
-                <div class="email-container">
-                    <div class="email-header">
-                        <div class="email-field">
-                            <span class="email-label">From:</span>
-                            <span class="email-value">${doc.from}</span>
-                        </div>
-                        <div class="email-field">
-                            <span class="email-label">To:</span>
-                            <span class="email-value">${doc.to}</span>
-                        </div>
-                        <div class="email-field">
-                            <span class="email-label">Date:</span>
-                            <span class="email-value">${formatDate(doc.date)}</span>
-                        </div>
-                        <div class="email-field">
-                            <span class="email-label">Subject:</span>
-                            <span class="email-value">${doc.title}</span>
-                        </div>
-                    </div>
-                    <div class="email-body">${doc.content}</div>
-                </div>
-            `;
-        }
-
-        function renderTweet(doc) {
-            const handle = doc.from.match(/@\w+/) ? doc.from.match(/@\w+/)[0] : '@unknown';
-            const name = doc.from.replace(/\s*\(@.*\)/, '');
-
-            return `
-                <div class="tweet-container">
-                    <div class="tweet-header">
-                        <div class="tweet-avatar">🐦</div>
-                        <div class="tweet-user-info">
-                            <div class="tweet-name">${name}</div>
-                            <div class="tweet-handle">${handle}</div>
-                        </div>
-                    </div>
-                    <div class="tweet-body">${doc.content}</div>
-                    <div class="tweet-time">${formatDate(doc.date)}</div>
-                </div>
-            `;
-        }
-
-        function renderMetadata(doc) {
-            const participants = getParticipants(doc);
-            const priorityPips = Array(10).fill(0).map((_, i) =>
-                `<div class="priority-pip ${i < doc.priority ? 'active' : ''}"></div>`
-            ).join('');
-
-            return `
+            document.getElementById('viewerMetadata').innerHTML = `
                 <div class="metadata-title">DOCUMENT METADATA</div>
                 <div class="metadata-row">
                     <span class="metadata-label">Date:</span>
-                    <span class="metadata-value">${formatDate(doc.date)}</span>
+                    <span>${formatDate(doc.date)}</span>
                 </div>
                 <div class="metadata-row">
                     <span class="metadata-label">Participants:</span>
                     <div class="metadata-tags">
-                        ${participants.map(p => `<span class="clickable-tag" data-search="${p}">${p}</span>`).join('')}
+                        ${doc.participants.map(p => `<span class="clickable-tag" data-search="${p}">${p}</span>`).join('')}
                     </div>
                 </div>
                 <div class="metadata-row">
@@ -1114,59 +1060,93 @@
                         ${doc.subjects.map(s => `<span class="clickable-tag" data-search="${s}">${s}</span>`).join('')}
                     </div>
                 </div>
-                <div class="metadata-row">
-                    <span class="metadata-label">Priority:</span>
-                    <div class="priority-bar">${priorityPips}</div>
+            `;
+
+            // Clickable tags
+            document.querySelectorAll('.clickable-tag').forEach(tag => {
+                tag.addEventListener('click', function() {
+                    currentQuery = this.dataset.search;
+                    searchInput.value = currentQuery;
+                    closeViewer();
+                    renderDocuments();
+                });
+            });
+
+            viewerOverlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function renderTextMessage(doc) {
+            const isOutgoing = doc.from === 'Anthony Fenech';
+            return `
+                <div class="phone-frame">
+                    <div class="message-sender ${isOutgoing ? 'outgoing' : ''}">${doc.from}</div>
+                    <div class="message-bubble ${isOutgoing ? 'outgoing' : 'incoming'}">${doc.content}</div>
+                </div>
+            `;
+        }
+
+        function renderEmail(doc) {
+            return `
+                <div class="email-container">
+                    <div class="email-header">
+                        <div class="email-field"><span class="email-label">From:</span><span class="email-value">${doc.from}</span></div>
+                        <div class="email-field"><span class="email-label">To:</span><span class="email-value">${doc.to}</span></div>
+                        <div class="email-field"><span class="email-label">Date:</span><span class="email-value">${formatDate(doc.date)}</span></div>
+                        <div class="email-field"><span class="email-label">Subject:</span><span class="email-value">${doc.title}</span></div>
+                    </div>
+                    <div class="email-body">${doc.content}</div>
+                </div>
+            `;
+        }
+
+        function renderTweet(doc) {
+            return `
+                <div class="tweet-container">
+                    <div class="tweet-header">
+                        <div class="tweet-avatar">🐦</div>
+                        <div class="tweet-handle">${doc.from}</div>
+                    </div>
+                    <div class="tweet-body">${doc.content}</div>
+                    <div class="tweet-time">${formatDate(doc.date)}</div>
                 </div>
             `;
         }
 
         function closeViewer() {
-            viewer.classList.remove('active');
-            searchView.classList.remove('hidden');
+            viewerOverlay.classList.remove('active');
+            document.body.style.overflow = '';
         }
 
-        // ============================================
-        // EVENT HANDLERS
-        // ============================================
-        searchInput.addEventListener('input', (e) => {
-            currentQuery = e.target.value;
-            renderResults();
+        // ============================================================
+        // EVENT LISTENERS
+        // ============================================================
+        searchInput.addEventListener('keyup', function() {
+            currentQuery = this.value;
+            renderDocuments();
         });
 
-        searchBtn.addEventListener('click', () => {
-            currentQuery = searchInput.value;
-            renderResults();
-        });
-
-        searchInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                currentQuery = searchInput.value;
-                renderResults();
-            }
-        });
-
-        filterBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                filterBtns.forEach(b => b.classList.remove('active'));
-                btn.classList.add('active');
-                currentFilter = btn.dataset.filter;
-                renderResults();
+        filterChips.forEach(chip => {
+            chip.addEventListener('click', function() {
+                filterChips.forEach(c => c.classList.remove('active'));
+                this.classList.add('active');
+                currentFilter = this.dataset.filter;
+                renderDocuments();
             });
         });
 
-        backBtn.addEventListener('click', closeViewer);
+        viewerBackBtn.addEventListener('click', closeViewer);
 
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape' && viewer.classList.contains('active')) {
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && viewerOverlay.classList.contains('active')) {
                 closeViewer();
             }
         });
 
-        // ============================================
+        // ============================================================
         // INIT
-        // ============================================
-        renderResults();
+        // ============================================================
+        renderDocuments();
     </script>
 </body>
 </html>
