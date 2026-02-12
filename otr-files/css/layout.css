@@ -167,6 +167,127 @@ main {
   color: var(--color-accent-hover);
 }
 
+.view-link.disabled {
+  color: var(--color-text-muted);
+  cursor: not-allowed;
+}
+
+/* Access Badges */
+.access-badge {
+  display: inline-block;
+  font-size: var(--text-xs);
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: var(--space-1) var(--space-2);
+  margin-bottom: var(--space-2);
+}
+
+.open-badge {
+  background: rgba(34, 197, 94, 0.15);
+  color: #22c55e;
+  border: 1px solid rgba(34, 197, 94, 0.3);
+}
+
+.restricted-badge {
+  background: rgba(245, 158, 11, 0.15);
+  color: #f59e0b;
+  border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.classified-badge {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* Tier-specific card styles */
+.result-card.restricted-card,
+.document-card.restricted-card {
+  opacity: 0.7;
+}
+
+.result-card.classified-card,
+.document-card.classified-card {
+  opacity: 0.4;
+}
+
+.result-card.open-card,
+.document-card.open-card {
+  border-left: 3px solid #22c55e;
+}
+
+/* Document snippet */
+.doc-snippet {
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-3);
+  line-height: 1.4;
+}
+
+.doc-from {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+}
+
+/* Restricted/Classified viewer styles */
+.classified-notice,
+.restricted-notice {
+  text-align: center;
+  padding: var(--space-10) var(--space-6);
+  margin: var(--space-8) 0;
+  border: 2px dashed var(--color-border);
+}
+
+.lock-icon {
+  font-size: 48px;
+  margin-bottom: var(--space-4);
+}
+
+.classified-notice h1,
+.restricted-notice h2 {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: var(--space-4);
+}
+
+.classified-notice {
+  border-color: #ef4444;
+  background: rgba(239, 68, 68, 0.05);
+}
+
+.restricted-notice {
+  border-color: #f59e0b;
+  background: rgba(245, 158, 11, 0.05);
+}
+
+.declassify-note {
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin-top: var(--space-4);
+}
+
+.redacted-content,
+.redacted-preview {
+  padding: var(--space-6);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+}
+
+.redacted-line {
+  font-family: var(--font-mono);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-2);
+  letter-spacing: -0.05em;
+}
+
+.classification-footer {
+  text-align: center;
+  padding: var(--space-6);
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .site-header .container {

@@ -29,7 +29,33 @@
   font-size: var(--text-xs);
   letter-spacing: 0.2em;
   color: var(--color-accent);
+  margin-bottom: var(--space-4);
+}
+
+/* Tier Stats */
+.tier-stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-6);
   margin-bottom: var(--space-8);
+  font-size: var(--text-xs);
+  letter-spacing: 0.1em;
+}
+
+.tier-stat {
+  text-transform: uppercase;
+}
+
+.tier-stat.released {
+  color: #22c55e;
+}
+
+.tier-stat.restricted {
+  color: #f59e0b;
+}
+
+.tier-stat.classified {
+  color: #ef4444;
 }
 
 /* Search Container */
