@@ -54,7 +54,7 @@
   color: var(--color-text-secondary);
   transition: color var(--transition-fast);
   padding: var(--space-2) 0;
-  border-bottom: 2px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 
 .site-nav a:hover {
@@ -183,21 +183,21 @@ main {
 }
 
 .open-badge {
-  background: rgba(34, 197, 94, 0.15);
-  color: #22c55e;
-  border: 1px solid rgba(34, 197, 94, 0.3);
+  background: transparent;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
 }
 
 .restricted-badge {
-  background: rgba(245, 158, 11, 0.15);
-  color: #f59e0b;
-  border: 1px solid rgba(245, 158, 11, 0.3);
+  background: transparent;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
 }
 
 .classified-badge {
-  background: rgba(239, 68, 68, 0.15);
-  color: #ef4444;
-  border: 1px solid rgba(239, 68, 68, 0.3);
+  background: transparent;
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
 }
 
 /* Tier-specific card styles */
@@ -213,7 +213,7 @@ main {
 
 .result-card.open-card,
 .document-card.open-card {
-  border-left: 3px solid #22c55e;
+  border-left: 1px solid var(--color-accent);
 }
 
 /* Document snippet */
@@ -236,7 +236,7 @@ main {
   text-align: center;
   padding: var(--space-10) var(--space-6);
   margin: var(--space-8) 0;
-  border: 2px dashed var(--color-border);
+  border: 1px solid var(--color-border);
 }
 
 .lock-icon {
@@ -252,13 +252,13 @@ main {
 }
 
 .classified-notice {
-  border-color: #ef4444;
-  background: rgba(239, 68, 68, 0.05);
+  border-color: var(--color-accent);
+  background: transparent;
 }
 
 .restricted-notice {
-  border-color: #f59e0b;
-  background: rgba(245, 158, 11, 0.05);
+  border-color: var(--color-accent);
+  background: transparent;
 }
 
 .declassify-note {
