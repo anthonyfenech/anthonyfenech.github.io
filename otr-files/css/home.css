@@ -47,15 +47,15 @@
 }
 
 .tier-stat.released {
-  color: #22c55e;
+  color: var(--color-text);
 }
 
 .tier-stat.restricted {
-  color: #f59e0b;
+  color: var(--color-text-secondary);
 }
 
 .tier-stat.classified {
-  color: #ef4444;
+  color: var(--color-accent);
 }
 
 /* Search Container */
