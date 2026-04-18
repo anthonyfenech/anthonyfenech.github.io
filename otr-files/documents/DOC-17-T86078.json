@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T86078",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-03-18",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:33 PM",
+      "text": "You know anything about J.D.? I’m at Disney"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "2:34 PM",
+      "text": "Not yet. He was taken for x-rays"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:34 PM",
+      "text": "Ok"
+    }
+  ]
+}

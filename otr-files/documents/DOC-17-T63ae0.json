@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-T63ae0",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2017-03-03",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "8:20 AM",
+      "text": "If you’re in Lakeland today, George is planning to stop by after they work out. He wanted me to let you know"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "8:20 AM",
+      "text": "Okay thanks. I'm here. Feel free to give him my number if he needs to correspond."
+    },
+    {
+      "from": "Fenech",
+      "time": "8:21 AM",
+      "text": "Yep I will"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "8:21 AM",
+      "text": "Thanks"
+    }
+  ]
+}

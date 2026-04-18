@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-Tf91c3",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2017-04-07",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "8:38 AM",
+      "text": "Good morning, do we have our name at the parking garage?"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "8:38 AM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "8:38 AM",
+      "text": "Thank you"
+    }
+  ]
+}

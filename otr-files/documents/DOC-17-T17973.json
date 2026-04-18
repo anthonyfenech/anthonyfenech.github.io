@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-T17973",
+  "title": "Text: ████████████████ ↔ Anthony Fenech",
+  "date": "2017-09-11",
+  "from": "████████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:26 AM",
+      "text": "How did it go?"
+    },
+    {
+      "from": "████████████████",
+      "time": "11:28 AM",
+      "text": "We got extremely lucky. Looks like we are okay according to our neighbors. Thank you for asking"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:29 AM",
+      "text": "Good report...got family in Ft Myers who said same thing"
+    },
+    {
+      "from": "████████████████",
+      "time": "11:29 AM",
+      "text": "That's wonderful"
+    }
+  ]
+}

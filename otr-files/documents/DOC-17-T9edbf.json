@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T9edbf",
+  "title": "Text: DET Dick Egan ↔ Anthony Fenech",
+  "date": "2017-08-14",
+  "from": "DET Dick Egan",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:22 PM",
+      "text": "Are you coming to the park this series?"
+    },
+    {
+      "from": "DET Dick Egan",
+      "time": "2:23 PM",
+      "text": "Yep"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:23 PM",
+      "text": "Sweet. See you then"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "DOC-16-Ta08da",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2016-09-19",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:17 PM",
+      "text": "You in Minnesota? Eat lunch? About to go to Hell's Kitchen around 2 p.m. if you want to come with."
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "2:29 PM",
+      "text": "No. I had to get work done on a tooth. I will be there tomorrow."
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "2:29 PM",
+      "text": "Thanks though."
+    },
+    {
+      "from": "Fenech",
+      "time": "2:36 PM",
+      "text": "Ok, see you then"
+    }
+  ]
+}

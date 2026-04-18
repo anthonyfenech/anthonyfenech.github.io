@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Tec509",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2017-03-17",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "8:33 AM",
+      "text": "Brad is during BP, right?"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "8:33 AM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:27 PM",
+      "text": "Do you know where Tom's signing is located?"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:27 PM",
+      "text": "Never mind"
+    }
+  ]
+}

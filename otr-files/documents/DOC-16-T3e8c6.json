@@ -1,0 +1,31 @@
+{
+  "id": "DOC-16-T3e8c6",
+  "title": "Text: DET Ron Colangelo ↔ Anthony Fenech",
+  "date": "2016-02-22",
+  "from": "DET Ron Colangelo",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:56 PM",
+      "text": "Are you around?"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "1:00 PM",
+      "text": "Yed"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "1:00 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:01 PM",
+      "text": "Where at?"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "DOC-17-T34fc4",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-06-05",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "9:06 AM",
+      "text": "Did █████████'s MRI show anything?"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "9:19 AM",
+      "text": "Nothing more than what we reported earlier. It's mild. He is expected to make his next start. He said he could have stayed in the game. We will be cautious. Day to day."
+    },
+    {
+      "from": "Fenech",
+      "time": "9:22 AM",
+      "text": "Ok, thanks for update"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:24 AM",
+      "text": "What does a GM do on his off day?"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "9:29 AM",
+      "text": "Work."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "DOC-17-T538da",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2017-06-12",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:44 PM",
+      "text": "Just so I don't forget: can you get a credenti██ and parking  for Mark Snyder on Sunday?"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "2:45 PM",
+      "text": "██l credenti██s need to be applied for online by your editor, I can add Mark to the parking list. Is this a reporter or an intern?"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:46 PM",
+      "text": "Reporter, he covers Michigan"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "2:46 PM",
+      "text": "Okay, please have Kevin request the credenti██ online. Thanks."
+    },
+    {
+      "from": "Fenech",
+      "time": "2:46 PM",
+      "text": "Ok"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DOC-16-T6d4f2",
+  "title": "Text: DET ████████████████ ↔ Anthony Fenech",
+  "date": "2016-12-14",
+  "from": "DET ████████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:30 PM",
+      "text": "Hey, just double-checking but I heard you guys signed Zack Cox to a minors de██."
+    },
+    {
+      "from": "DET ████████████████",
+      "time": "8:07 PM",
+      "text": "Yes. No quotes. Not offici██ly until signed contract. That may take a week."
+    },
+    {
+      "from": "Fenech",
+      "time": "8:09 PM",
+      "text": "Ok, thank you"
+    }
+  ]
+}

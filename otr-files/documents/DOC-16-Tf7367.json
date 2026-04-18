@@ -1,0 +1,21 @@
+{
+  "id": "DOC-16-Tf7367",
+  "title": "Text: DET ██████████████ Leyland ↔ Anthony Fenech",
+  "date": "2016-11-01",
+  "from": "DET ██████████████ Leyland",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:56 PM",
+      "text": "Hey it's ███████. Are you in Cleveland?"
+    },
+    {
+      "from": "DET ██████████████ Leyland",
+      "time": "2:15 PM",
+      "text": "Yes"
+    }
+  ]
+}

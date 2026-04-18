@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Tca106",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-06-02",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:56 PM",
+      "text": "I'm told Stumpf is coming up, what's the move?"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:46 PM",
+      "text": "Stumpf?"
+    },
+    {
+      "from": "Fenech",
+      "time": "10:39 PM",
+      "text": "I texted you 8 hours ago about Stumpf. Bullshit"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "10:50 PM",
+      "text": "Oh yea. Stumpf"
+    }
+  ]
+}

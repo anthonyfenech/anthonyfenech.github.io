@@ -1,0 +1,36 @@
+{
+  "id": "DOC-17-Ta4f7f",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-08-17",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:13 PM",
+      "text": "What are you doing?"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "8:43 PM",
+      "text": "London Chop House with People from Lakeland"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:19 PM",
+      "text": "Nice. Was sitting on my porch earlier, was gonna give you a c██l."
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "9:46 PM",
+      "text": "My parents are coming this weekend, I think you will like to speak to my Dad and listen to his stories."
+    },
+    {
+      "from": "Fenech",
+      "time": "10:04 PM",
+      "text": "For sure"
+    }
+  ]
+}

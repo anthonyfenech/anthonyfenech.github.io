@@ -1,0 +1,31 @@
+{
+  "id": "DOC-16-T4ef78",
+  "title": "Text: DET █████████████████ ↔ Anthony Fenech",
+  "date": "2016-11-29",
+  "from": "DET █████████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:25 PM",
+      "text": "Adrian?"
+    },
+    {
+      "from": "DET █████████████████",
+      "time": "7:26 PM",
+      "text": "This is tony"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:30 PM",
+      "text": "Tony who?"
+    },
+    {
+      "from": "DET █████████████████",
+      "time": "8:00 PM",
+      "text": "If you don't know my last name then you don't need to have my number"
+    }
+  ]
+}

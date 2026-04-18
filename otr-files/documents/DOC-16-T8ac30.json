@@ -1,0 +1,26 @@
+{
+  "id": "DOC-16-T8ac30",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2016-08-21",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:42 AM",
+      "text": "Did you activate him"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:46 AM",
+      "text": "Nm"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "11:49 AM",
+      "text": "Yes"
+    }
+  ]
+}

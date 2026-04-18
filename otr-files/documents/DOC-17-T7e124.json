@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-T7e124",
+  "title": "Text: DET David Chadd ↔ Anthony Fenech",
+  "date": "2017-05-28",
+  "from": "DET David Chadd",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "9:52 AM",
+      "text": "Is this report about Collins getting DFA'd true?"
+    },
+    {
+      "from": "DET David Chadd",
+      "time": "10:14 AM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "10:14 AM",
+      "text": "Thanks"
+    },
+    {
+      "from": "DET David Chadd",
+      "time": "10:14 AM",
+      "text": "No problem"
+    }
+  ]
+}

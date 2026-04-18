@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-Td8fd4",
+  "title": "Text: DET ████████████████ ↔ Anthony Fenech",
+  "date": "2017-07-19",
+  "from": "DET ████████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:57 PM",
+      "text": "Lugo to AA, ██cantara to Lakeland, King to ?"
+    },
+    {
+      "from": "DET ████████████████",
+      "time": "1:15 PM",
+      "text": "Yes."
+    },
+    {
+      "from": "Fenech",
+      "time": "1:15 PM",
+      "text": "Ty"
+    }
+  ]
+}

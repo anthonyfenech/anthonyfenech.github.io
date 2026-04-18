@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T00de6",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-08-16",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "3:50 PM",
+      "text": "Have you heard anything from the league about Kinsler?"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "3:53 PM",
+      "text": "No"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:54 PM",
+      "text": "I couldn't believe it. Knowing him, I probably should have."
+    }
+  ]
+}

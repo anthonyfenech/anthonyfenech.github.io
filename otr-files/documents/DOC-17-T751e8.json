@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T751e8",
+  "title": "Text: DET ███ Olander ↔ Anthony Fenech",
+  "date": "2017-01-11",
+  "from": "DET ███ Olander",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET ███ Olander",
+      "time": "8:26 PM",
+      "text": "Hi ███████"
+    },
+    {
+      "from": "Fenech",
+      "time": "8:44 PM",
+      "text": "Hey ███, thanks for getting in touch with me. At dinner right now, can I c██l you tomorrow?"
+    },
+    {
+      "from": "DET ███ Olander",
+      "time": "8:46 PM",
+      "text": "Absolutely"
+    }
+  ]
+}

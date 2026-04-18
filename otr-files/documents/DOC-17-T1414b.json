@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T1414b",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2017-02-27",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "3:11 PM",
+      "text": "Are you still down there?"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "3:12 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:12 PM",
+      "text": "Ok"
+    }
+  ]
+}

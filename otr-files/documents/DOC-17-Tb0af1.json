@@ -1,0 +1,41 @@
+{
+  "id": "DOC-17-Tb0af1",
+  "title": "Text: █████████████ ↔ Anthony Fenech",
+  "date": "2017-02-11",
+  "from": "█████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:15 AM",
+      "text": "Hey Ray, it's ███████ from the Free Press. Got a random question: What do you think about Francis Martes?"
+    },
+    {
+      "from": "█████████████",
+      "time": "11:25 AM",
+      "text": "One of Astros top pitching prospects, I like him, power stuff."
+    },
+    {
+      "from": "Fenech",
+      "time": "11:27 AM",
+      "text": "Thanks... When do you get to Lakeland?"
+    },
+    {
+      "from": "█████████████",
+      "time": "1:29 PM",
+      "text": "Feb 26"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:06 PM",
+      "text": "Sweet, see you then. Safe travels"
+    },
+    {
+      "from": "█████████████",
+      "time": "2:06 PM",
+      "text": "Same to You"
+    }
+  ]
+}

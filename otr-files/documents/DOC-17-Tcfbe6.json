@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Tcfbe6",
+  "title": "Text: DET ██████████████ Leyland ↔ Anthony Fenech",
+  "date": "2017-02-03",
+  "from": "DET ██████████████ Leyland",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:49 AM",
+      "text": "Hey it's ███████. I heard W██ly is going to be your hitting coach this spring, is that right?"
+    },
+    {
+      "from": "DET ██████████████ Leyland",
+      "time": "11:50 AM",
+      "text": "No that's not correct Tino Martinez is my hitting coach"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:51 AM",
+      "text": "Ok, thank you. This is why I ask, don't want to be wrong"
+    },
+    {
+      "from": "DET ██████████████ Leyland",
+      "time": "11:54 AM",
+      "text": "Ok"
+    }
+  ]
+}

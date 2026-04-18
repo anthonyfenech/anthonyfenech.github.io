@@ -1,0 +1,41 @@
+{
+  "id": "DOC-17-Tbb76d",
+  "title": "Text: DET Ron Colangelo ↔ Anthony Fenech",
+  "date": "2017-02-10",
+  "from": "DET Ron Colangelo",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "6:33 PM",
+      "text": "Is this report about Mr. I true?"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "6:51 PM",
+      "text": "Sending press release"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "7:16 PM",
+      "text": "Sending you a statement from ██"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:18 PM",
+      "text": "Ok... send it. I’d rather tweet something from ██ before I tweet something from Dave"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "7:22 PM",
+      "text": "Thank you for doing it in that order"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "8:02 PM",
+      "text": "From Brad Ausmus:"
+    }
+  ]
+}

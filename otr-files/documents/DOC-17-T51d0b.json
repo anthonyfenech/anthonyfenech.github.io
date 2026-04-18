@@ -1,0 +1,56 @@
+{
+  "id": "DOC-17-T51d0b",
+  "title": "Text: DET █████████████████ ↔ Anthony Fenech",
+  "date": "2017-07-20",
+  "from": "DET █████████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET █████████████████",
+      "time": "2:49 AM",
+      "text": "Got breaking news!"
+    },
+    {
+      "from": "DET █████████████████",
+      "time": "2:50 AM",
+      "text": "More breaking news!!!!!!!!!!!!!!"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:44 AM",
+      "text": "Did you get traded?"
+    },
+    {
+      "from": "DET █████████████████",
+      "time": "11:45 AM",
+      "text": "Not yet"
+    },
+    {
+      "from": "DET █████████████████",
+      "time": "11:58 AM",
+      "text": "Your not very well liked in the clubhouse I hear"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:07 PM",
+      "text": "Re██ly?"
+    },
+    {
+      "from": "DET █████████████████",
+      "time": "12:36 PM",
+      "text": "That's what I hear"
+    },
+    {
+      "from": "DET █████████████████",
+      "time": "12:36 PM",
+      "text": "Why weren't you there after the game"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:50 PM",
+      "text": "I left"
+    }
+  ]
+}

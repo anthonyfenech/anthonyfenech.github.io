@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-T63ec9",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-08-27",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:05 PM",
+      "text": "What's up"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:32 PM",
+      "text": "Is there insurance on Victor's contract? Like if he wasn't medic██ly cleared to keep playing"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "3:03 PM",
+      "text": "No"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:12 PM",
+      "text": "Ty"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Tdbdd4",
+  "title": "Text: DET Ron Colangelo ↔ Anthony Fenech",
+  "date": "2017-03-24",
+  "from": "DET Ron Colangelo",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:52 PM",
+      "text": "Are you at work?"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "12:55 PM",
+      "text": "██ways \"at work\""
+    },
+    {
+      "from": "Fenech",
+      "time": "1:09 PM",
+      "text": "She's here"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "1:10 PM",
+      "text": "On my way back"
+    }
+  ]
+}

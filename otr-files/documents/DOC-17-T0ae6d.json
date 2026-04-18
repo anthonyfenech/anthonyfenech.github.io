@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T0ae6d",
+  "title": "Text: DET ████████████████ ↔ Anthony Fenech",
+  "date": "2017-03-18",
+  "from": "DET ████████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:03 PM",
+      "text": "Do you have a list of minors probables you can get me?"
+    },
+    {
+      "from": "DET ████████████████",
+      "time": "12:37 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:41 PM",
+      "text": "Thank you. Just for my info.."
+    }
+  ]
+}

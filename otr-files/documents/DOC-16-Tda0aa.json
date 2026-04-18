@@ -1,0 +1,41 @@
+{
+  "id": "DOC-16-Tda0aa",
+  "title": "Text: DET ██████████████ Leyland ↔ Anthony Fenech",
+  "date": "2016-12-05",
+  "from": "DET ██████████████ Leyland",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:15 PM",
+      "text": "Hey it’s ███████... I heard █████████ isn’t pitching in WBC. Before I write it, I wanted to double-check with you so I’m not wrong."
+    },
+    {
+      "from": "DET ██████████████ Leyland",
+      "time": "1:18 PM",
+      "text": "Haven't heard that"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:19 PM",
+      "text": "Ok thanks for getting back to me"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:33 PM",
+      "text": "Sorry to bug again: Heard same thing again about █████████ not pitching, is that true?"
+    },
+    {
+      "from": "DET ██████████████ Leyland",
+      "time": "6:34 PM",
+      "text": "Probably not pitching great t██k with him today"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:36 PM",
+      "text": "Ok thank you"
+    }
+  ]
+}

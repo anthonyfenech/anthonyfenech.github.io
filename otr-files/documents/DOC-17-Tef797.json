@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Tef797",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-08-28",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:44 PM",
+      "text": "Is there anything going on with trades?"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "3:54 PM",
+      "text": "If anything is going to happen, it will be this week by August 31."
+    },
+    {
+      "from": "Fenech",
+      "time": "3:54 PM",
+      "text": "Wow"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:54 PM",
+      "text": "Insightful"
+    }
+  ]
+}

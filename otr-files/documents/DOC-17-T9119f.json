@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T9119f",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2017-03-05",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:09 AM",
+      "text": "Is everything this morning - clubhouse, Brad - in Clearwater?"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "7:12 AM",
+      "text": "Brad will be in Clearwater. We'll open the clubhouse here at 8 and it'll ██so be open in Clearwater for a bit when the team arrives"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:12 AM",
+      "text": "Ok thanks"
+    }
+  ]
+}

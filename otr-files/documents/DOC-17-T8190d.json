@@ -1,0 +1,26 @@
+{
+  "id": "DOC-17-T8190d",
+  "title": "Text: DET David Chadd ↔ Anthony Fenech",
+  "date": "2017-09-11",
+  "from": "DET David Chadd",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:13 AM",
+      "text": "Is Fulmer's appointment this morning? Afternoon?"
+    },
+    {
+      "from": "DET David Chadd",
+      "time": "11:15 AM",
+      "text": "I'm not sure"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:16 AM",
+      "text": "Ok...just seeing if I could narrow it down"
+    }
+  ]
+}

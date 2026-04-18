@@ -1,0 +1,41 @@
+{
+  "id": "DOC-17-T77988",
+  "title": "Text: DET ██ Avila ↔ Anthony Fenech",
+  "date": "2017-01-13",
+  "from": "DET ██ Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:36 PM",
+      "text": "I heard Iglesias has settled, is that true?"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "1:36 PM",
+      "text": "You did not here it from me."
+    },
+    {
+      "from": "Fenech",
+      "time": "1:37 PM",
+      "text": "Ok, how much?"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "1:37 PM",
+      "text": "To many ??"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:41 PM",
+      "text": "Hearing a little more than $4 million"
+    },
+    {
+      "from": "DET ██ Avila",
+      "time": "2:17 PM",
+      "text": "Tad over."
+    }
+  ]
+}

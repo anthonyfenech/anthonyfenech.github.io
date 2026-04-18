@@ -1,0 +1,36 @@
+{
+  "id": "DOC-17-Tce75b",
+  "title": "Text: █████████████ ↔ Anthony Fenech",
+  "date": "2017-08-01",
+  "from": "█████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:23 PM",
+      "text": "You ever see German Marquez? With COL?"
+    },
+    {
+      "from": "█████████████",
+      "time": "2:25 PM",
+      "text": "No"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:25 PM",
+      "text": "Who covers COL"
+    },
+    {
+      "from": "█████████████",
+      "time": "2:26 PM",
+      "text": "Olander?"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:26 PM",
+      "text": "I'll see"
+    }
+  ]
+}
