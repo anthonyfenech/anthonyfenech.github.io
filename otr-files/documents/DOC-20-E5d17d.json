@@ -1,0 +1,46 @@
+{
+  "id": "DOC-20-E5d17d",
+  "title": "Email: Fw: Good luck",
+  "date": "2020-05-23",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-23",
+      "subject": "Fw: Good luck"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Fenech, Anthony\nSent: Tuesday, October 1, 2019 3:19 PM\nTo: msilverman@raysbaseball.com <msilverman@raysbaseball.com>\nSubject: Good luck \n \nHey Matt,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Long time no time but it's Anthony Fenech from Detroit.  Just wanted to say congrats on making the postseason and good luck tomorrow night and going forward. Really appreciated you being accessible way back in my rookie year. Hope all is well."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech"
+    }
+  ]
+}

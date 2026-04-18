@@ -1,0 +1,38 @@
+{
+  "id": "DOC-20-Ea7d81",
+  "title": "Email: Fw: Hello from Lakeland",
+  "date": "2020-08-02",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-02",
+      "subject": "Fw: Hello from Lakeland"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: suzyn waldman <swaldman0907@gmail.com>\nSent: Monday, February 29, 2016 11:26 AM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Re: Hello from Lakeland \n \nHey Anthony! \nI don’t get down until Wednesday evening….so won’t be at the park on Wednesday!\nBut…see you soon!!\nSuzyn\nOn Feb 29, 2016, at 10:56 AM, Fenech, Anthony <afenech@freepress.com> wrote:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hi Susan,"
+    },
+    {
+      "type": "paragraph",
+      "text": "It's Anthony Fenech from the Detroit Free Press. Just dropping you a note to say hello. Hope to see you at the park this week!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech \nDetroit Free Press\nTigers beat writer\nTwitter: @anthonyfenech"
+    }
+  ]
+}

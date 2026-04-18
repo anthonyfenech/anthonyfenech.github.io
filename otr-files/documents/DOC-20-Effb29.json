@@ -1,0 +1,30 @@
+{
+  "id": "DOC-20-Effb29",
+  "title": "Email: Fw: Grammar",
+  "date": "2020-08-02",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-02",
+      "subject": "Fw: Grammar"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Jeremiah Juncker <jeremiah.juncker@gmail.com>\nSent: Wednesday, July 15, 2015 1:06 AM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Grammar \n \nAnthony, you do not seem to know the difference between using \"I\" and \"me\" in a sentence with two subjects. You wrote on Twitter \"Marlins man and I\", when \"me\" should have been used."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thanks."
+    },
+    {
+      "type": "paragraph",
+      "text": "-JJ"
+    }
+  ]
+}

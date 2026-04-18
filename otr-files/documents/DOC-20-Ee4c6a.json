@@ -1,0 +1,42 @@
+{
+  "id": "DOC-20-Ee4c6a",
+  "title": "Email: Fw: Tuesday",
+  "date": "2020-05-23",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-23",
+      "subject": "Fw: Tuesday"
+    },
+    {
+      "type": "paragraph",
+      "text": "________________________________________\nFrom: Fenech, Anthony <afenech@freepress.com>\nSent: Sunday, June 28, 2015 5:22 PM\nTo: Snyder, Mark\nSubject: Re: Tuesday"
+    },
+    {
+      "type": "paragraph",
+      "text": "Yeah, not sure why I'm the last to hear about these things. E-mail michele.wysocki@detroittigers.com for the parking and credential."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nDetroit Free Press\nTigers beat writer\nc: 734-752-9667\nTwitter: @anthonyfenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "________________________________________\nFrom: Snyder, Mark\nSent: Sunday, June 28, 2015 5:08 PM\nTo: Fenech, Anthony\nSubject: Tuesday"
+    },
+    {
+      "type": "paragraph",
+      "text": "I saw on mlive Harbaugh is throwing out the first pitch on Tuesday. How do I get a parking and credential?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thanks."
+    }
+  ]
+}

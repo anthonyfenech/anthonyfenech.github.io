@@ -1,0 +1,46 @@
+{
+  "id": "DOC-20-Ea5d1a",
+  "title": "Email: Fw: Thank you!",
+  "date": "2020-08-03",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-03",
+      "subject": "Fw: Thank you!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Van De Ryt, Jenna (NBCUniversal) <Jenna.VanDeRyt@nbcuni.com>\nSent: Tuesday, September 19, 2017 6:16 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Thank you! \n \nThanks so much for joining us! You did a great job, we really appreciate it your time and insight."
+    },
+    {
+      "type": "paragraph",
+      "text": "-Jenna"
+    },
+    {
+      "type": "paragraph",
+      "text": "JENNA VAN DE RYT"
+    },
+    {
+      "type": "paragraph",
+      "text": "PRODUCTION ASSISTANT"
+    },
+    {
+      "type": "paragraph",
+      "text": "360 Third Street | Suite 100 | San Francisco, CA"
+    },
+    {
+      "type": "paragraph",
+      "text": "jenna.vanderyt@nbcuni.com | C 707.327.8892"
+    },
+    {
+      "type": "paragraph",
+      "text": "nbcsportsbayarea.com |  nbcsportscalifornia.com"
+    }
+  ]
+}

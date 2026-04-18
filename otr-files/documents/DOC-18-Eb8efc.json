@@ -1,0 +1,33 @@
+{
+  "id": "DOC-18-Eb8efc",
+  "title": "Email: Re: D.C. Athletic",
+  "date": "2018-07-21",
+  "from": "Ken Rosenthal",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Ken Rosenthal",
+      "to": "",
+      "date": "2018-07-21",
+      "subject": "Re: D.C. Athletic"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2018-07-21",
+      "subject": "Re: D.C. Athletic"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

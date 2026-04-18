@@ -1,0 +1,33 @@
+{
+  "id": "DOC-18-E56ea8",
+  "title": "Email: Re: alert to the beat guys",
+  "date": "2018-10-25",
+  "from": "Evan Woodbery",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Evan Woodbery",
+      "to": "",
+      "date": "2018-10-25",
+      "subject": "Re: alert to the beat guys"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "tgage402@aol.com",
+      "to": "",
+      "date": "2018-10-25",
+      "subject": "Re: alert to the beat guys"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

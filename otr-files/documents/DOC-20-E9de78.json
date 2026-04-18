@@ -1,0 +1,34 @@
+{
+  "id": "DOC-20-E9de78",
+  "title": "Email: Fw: Jet",
+  "date": "2020-05-22",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-22",
+      "subject": "Fw: Jet"
+    },
+    {
+      "type": "paragraph",
+      "text": "________________________________________\nFrom: Ben Speer <pamejet@icloud.com>\nSent: Saturday, June 23, 2018 11:44 PM\nTo: Fenech, Anthony\nSubject: Jet"
+    },
+    {
+      "type": "paragraph",
+      "text": "I complain when there is no box score included with your column - so I feel like I should thank you when it’s there ..\nFor me the reader it just helps complete the process- thank you"
+    },
+    {
+      "type": "paragraph",
+      "text": "Benny\nwww.facebook.com/BennyandtheJets"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from my iPhone"
+    }
+  ]
+}

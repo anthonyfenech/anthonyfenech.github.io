@@ -1,0 +1,22 @@
+{
+  "id": "DOC-21-E35070",
+  "title": "Email: Re: Job contract",
+  "date": "2021-12-09",
+  "from": "Anthony Fenech",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2021-12-09",
+      "subject": "Re: Job contract"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "DOC-20-Eedb3f",
+  "title": "Email: Fw: WOW!!!!!",
+  "date": "2020-11-30",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-11-30",
+      "subject": "Fw: WOW!!!!!"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: McCabe, Mick <mmccabe@freepress.com>\nSent: Wednesday, November 12, 2014 7:51 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: WOW!!!!! \n \n​Anthony,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Obviously, Gene didn't listen to me!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Seriously, congratulations!!!! I know you will do well."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mick"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "DOC-15-E35a2b",
+  "title": "Email: Docs 2",
+  "date": "2015-07-24",
+  "from": "Fenech, Anthony",
+  "to": "anthonyfenech@hotmail.com",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "anthonyfenech@hotmail.com",
+      "date": "2015-07-24",
+      "subject": "Docs 2"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "c: 734-752-9667"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech"
+    }
+  ]
+}

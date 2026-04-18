@@ -1,0 +1,44 @@
+{
+  "id": "DOC-19-Ecf31e",
+  "title": "Email: Re: Astros baseballs",
+  "date": "2019-12-20",
+  "from": "Passan, Jeffrey",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Passan, Jeffrey",
+      "to": "",
+      "date": "2019-12-20",
+      "subject": "Re: Astros baseballs"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2019-11-14",
+      "subject": "Re: Astros baseballs"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2019-11-14",
+      "subject": "Re: Astros baseballs"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

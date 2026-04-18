@@ -1,0 +1,50 @@
+{
+  "id": "DOC-20-E84467",
+  "title": "Email: Fw: Style change",
+  "date": "2020-08-03",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-03",
+      "subject": "Fw: Style change"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Thomas, Christopher <cdthomas@freepress.com>\nSent: Wednesday, September 20, 2017 2:23 PM\nTo: Solari, Chris <CSOLARI@lsj.com>; Baumgardner, Nicholas <NBaumgardn@freepress.com>; Birkett, David <dbirkett@freepress.com>; Monarrez, Carlos <cmonarrez@freepress.com>; Sipple, George <gsipple@freepress.com>; Alter, Marlowe <malter@freepress.com>; Crawford, Kirkland <kcrawford@freepress.com>; Fenech, Anthony <afenech@freepress.com>; St. James, Helene <hstjames@freepress.com>; Ellis, Vince <vellis@freepress.com>; Ford, Ryan <rford@freepress.com>\nSubject: Style change \n \nAll: Starting now, please do not use “today” in online copy. Please reference the actual day, instead."
+    },
+    {
+      "type": "paragraph",
+      "text": "This change has been made for two reasons: \nKirkland is on vacation. \nIt creates an extra step for the copy desk."
+    },
+    {
+      "type": "paragraph",
+      "text": "Let me know if you have any questions."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chris Thomas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sports content coach"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mobile: 865.399.1959"
+    },
+    {
+      "type": "paragraph",
+      "text": "Office: 313.222.8803"
+    },
+    {
+      "type": "paragraph",
+      "text": "cdthomas@freepress.com"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "DOC-20-E1220c",
+  "title": "Email: Today",
+  "date": "2020-08-10",
+  "from": "Fenech, Anthony",
+  "to": "Thomas, Christopher",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Thomas, Christopher",
+      "date": "2020-08-10",
+      "subject": "Today"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hey Chris,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Taking a sick day today. I put it in DayForce."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech"
+    }
+  ]
+}

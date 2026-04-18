@@ -1,0 +1,42 @@
+{
+  "id": "DOC-20-Ef3346",
+  "title": "Email: Fw: Testing",
+  "date": "2020-05-23",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-23",
+      "subject": "Fw: Testing"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Fenech, Anthony\nSent: Saturday, June 27, 2015 2:17 PM\nTo: brad.ausmus@detroittigers.com <brad.ausmus@detroittigers.com>\nSubject: Testing \n \nIs this your e-mail?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "c: 734-752-9667"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech"
+    }
+  ]
+}

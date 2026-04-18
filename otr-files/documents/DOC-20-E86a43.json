@@ -1,0 +1,122 @@
+{
+  "id": "DOC-20-E86a43",
+  "title": "Email: Fw: Low-severity alert: Creation of forwarding/redirect rule to \"anthonyfenech@hotmail.com\"",
+  "date": "2020-07-26",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-07-26",
+      "subject": "Fw: Low-severity alert: Creation of forwarding/redirect rule to \"anthonyfenech@hotmail.com\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Mendez, Alexander <amendez@gannett.com>\nSent: Wednesday, April 29, 2020 12:51 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: RE: Low-severity alert: Creation of forwarding/redirect rule to \"anthonyfenech@hotmail.com\" \n \nThank you for your quick response."
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Fenech, Anthony <afenech@freepress.com> \nSent: Wednesday, April 29, 2020 9:49 AM\nTo: Mendez, Alexander <amendez@gannett.com>\nSubject: Re: Low-severity alert: Creation of forwarding/redirect rule to \"anthonyfenech@hotmail.com\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Yes, thank you."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Mendez, Alexander <amendez@gannett.com>\nSent: Wednesday, April 29, 2020 10:22 AM\nTo: GCI-Office365 <GCI-Office365@gannett.com>; ByteBack (Gannett Cybersecurity Team) <byteback@gannett.com>; Fenech, Anthony <afenech@freepress.com>\nSubject: RE: Low-severity alert: Creation of forwarding/redirect rule to \"anthonyfenech@hotmail.com\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Hello Anthony,"
+    },
+    {
+      "type": "paragraph",
+      "text": "We just received this notice that you have a forward rule in Office 365 that is sending email outside of Gannett."
+    },
+    {
+      "type": "paragraph",
+      "text": "Could you please provide details on this forward as it’s against company policy to forward emails to outside sources?"
+    },
+    {
+      "type": "paragraph",
+      "text": "The activity of forwarding email to external email accounts is strictly prohibited per Gannett's Acceptable Use policy which states the following –"
+    },
+    {
+      "type": "paragraph",
+      "text": "\"Transmission of Gannett business data to external sources without proper authorization is strictly prohibited\""
+    },
+    {
+      "type": "paragraph",
+      "text": "Can you please remove this forward rule you have created?"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Office365Alerts@microsoft.com <Office365Alerts@microsoft.com> \nSent: Tuesday, April 28, 2020 8:04 PM\nTo: GCI-Office365 <GCI-Office365@gannett.com>; ByteBack (Gannett Cybersecurity Team) <byteback@gannett.com>\nSubject: Low-severity alert: Creation of forwarding/redirect rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "A low-severity alert has been triggered"
+    },
+    {
+      "type": "paragraph",
+      "text": "⚠ Creation of forwarding/redirect rule"
+    },
+    {
+      "type": "paragraph",
+      "text": "Severity: ● Low"
+    },
+    {
+      "type": "paragraph",
+      "text": "Time: 4/29/2020 3:15:00 AM (UTC)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Activity: MailRedirect"
+    },
+    {
+      "type": "paragraph",
+      "text": "User: afenech@gannett.com"
+    },
+    {
+      "type": "paragraph",
+      "text": "Details: MailRedirect. This alert is triggered whenever someone gets access to read your user's email."
+    },
+    {
+      "type": "paragraph",
+      "text": "Malicious FilehashMalicious Filename(s)Message Received Datetime(s)Network MessageId(s)App/WorkloadFile LocationInternet MessageId(s)Malicious URLDetection MethodOverride TypeOverride DetailsRecipients or UsersTagsSubjectSender(P2)Sender IPURL Click TimeZAP Event DatetimeZAP ResultZAP Location\n((MaliciousFilehash))((MaliciousFilename))((MessageReceivedDatetime))((NetworkMessageId))((AppWorkload))((FileLocation))((InternetMessageId))((MaliciousUrl))((DetectionMethod))((OverrideType))((OverrideDetails))((RecipientsOrUsers))((Tags))((Subject))((P2Sender))((SenderIP))((UrlClickTime))((ZapEventDatetime))((ZapResult))((ZapLocation))\n   View alert details"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thank you, \nThe Office 365 Team"
+    },
+    {
+      "type": "paragraph",
+      "text": "One Microsoft Way\nRedmond, WA\n98052-6399 USA"
+    },
+    {
+      "type": "paragraph",
+      "text": "Privacy | Legal"
+    }
+  ]
+}

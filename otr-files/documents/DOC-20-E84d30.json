@@ -1,0 +1,30 @@
+{
+  "id": "DOC-20-E84d30",
+  "title": "Email: Fw: New Employee phone list",
+  "date": "2020-07-29",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-07-29",
+      "subject": "Fw: New Employee phone list"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Oakes, Thelma <toakes@freepress.com>\nSent: Friday, January 12, 2018 5:12 PM\nTo: DFP_Everybody <DFP_Everybody@freepress.com>\nSubject: New Employee phone list \n \nPlease take a look at the employee phone list I put together.  Let me know if your phone number is wrong. In some cases – mostly sports – I put a cell phone number in because that seems like the best way to reach you.  The cell will be for internal use only. If you don’t want that in the list just let me know."
+    },
+    {
+      "type": "paragraph",
+      "text": "Once I make the changes I will hand out a hard copy to everyone."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thank you."
+    }
+  ]
+}

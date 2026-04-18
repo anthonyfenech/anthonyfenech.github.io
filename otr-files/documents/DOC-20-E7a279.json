@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-E7a279",
+  "title": "Email: Fw: Please proof read",
+  "date": "2020-07-26",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-07-26",
+      "subject": "Fw: Please proof read"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Oakes, Thelma <toakes@freepress.com>\nSent: Wednesday, January 17, 2018 5:32 PM\nTo: DFP_Everybody <DFP_Everybody@freepress.com>\nSubject: Please proof read \n \nPlease take a look at the cellphone numbers I added to this list and let me know if your number needs correcting."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thank you."
+    }
+  ]
+}

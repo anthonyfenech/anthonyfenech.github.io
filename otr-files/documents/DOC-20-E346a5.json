@@ -1,0 +1,46 @@
+{
+  "id": "DOC-20-E346a5",
+  "title": "Email: Fw: Police Report",
+  "date": "2020-05-01",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-01",
+      "subject": "Fw: Police Report"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech\nFrom: Jeff Moss <detroitsportsrag@gmail.com>\nSent: Thursday, November 27, 2014 3:01 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Police Report \n \nWell, my source said you had at least one DUI. Maybe two."
+    },
+    {
+      "type": "paragraph",
+      "text": "I found one. But I have only been working on it for a few hours."
+    },
+    {
+      "type": "paragraph",
+      "text": "My source also said you didn't graduate CMU. And that you backstabbed Sipple."
+    },
+    {
+      "type": "paragraph",
+      "text": "Any comment now?"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "DOC-16-E18211",
+  "title": "Email: Re: writer's prayer",
+  "date": "2016-04-07",
+  "from": "Jason Beck",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Jason Beck",
+      "to": "",
+      "date": "2016-04-07",
+      "subject": "Re: writer's prayer"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "Chris Iott",
+      "to": "",
+      "date": "2016-04-05",
+      "subject": "Re: writer's prayer"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "tgage402@aol.com",
+      "to": "",
+      "date": "2016-04-05",
+      "subject": "Re: writer's prayer"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

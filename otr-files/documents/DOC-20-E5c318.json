@@ -1,0 +1,62 @@
+{
+  "id": "DOC-20-E5c318",
+  "title": "Email: Fw: Sent you a few texts",
+  "date": "2020-07-23",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-07-23",
+      "subject": "Fw: Sent you a few texts"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Thomas, Christopher <cdthomas@freepress.com>\nSent: Wednesday, October 10, 2018 11:50 AM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: RE: Sent you a few texts \n \nJust saw your text after I sent email."
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Thomas, Christopher \nSent: Wednesday, October 10, 2018 11:51 AM\nTo: Anthony Fenech <afenech@freepress.com>\nSubject: Sent you a few texts"
+    },
+    {
+      "type": "paragraph",
+      "text": "Please advise."
+    },
+    {
+      "type": "paragraph",
+      "text": "I think you talk to your source about stating what you know. We can’t wait anymore."
+    },
+    {
+      "type": "paragraph",
+      "text": "Let me know."
+    },
+    {
+      "type": "paragraph",
+      "text": "It’s important to communicate here."
+    },
+    {
+      "type": "paragraph",
+      "text": "Chris Thomas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sports editor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mobile: 865.399.1959"
+    },
+    {
+      "type": "paragraph",
+      "text": "Office: 313.222.8803"
+    },
+    {
+      "type": "paragraph",
+      "text": "cdthomas@freepress.com"
+    }
+  ]
+}

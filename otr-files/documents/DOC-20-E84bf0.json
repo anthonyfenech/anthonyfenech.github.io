@@ -1,0 +1,30 @@
+{
+  "id": "DOC-20-E84bf0",
+  "title": "Email: Fw: Reservation Folio From RAMADA LAKELAND",
+  "date": "2020-05-22",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-22",
+      "subject": "Fw: Reservation Folio From RAMADA LAKELAND"
+    },
+    {
+      "type": "paragraph",
+      "text": "________________________________________\nFrom: Jerry Lewis <Jerry.Lewis@tigers.com>\nSent: Thursday, July 25, 2019 10:43 AM\nTo: Fenech, Anthony\nSubject: FW: Reservation Folio From RAMADA LAKELAND"
+    },
+    {
+      "type": "paragraph",
+      "text": "-----Original Message-----\nFrom: management@ramadalakeland.com <management@ramadalakeland.com>\nSent: Thursday, July 25, 2019 10:36 AM\nTo: Jerry Lewis <Jerry.Lewis@tigers.com>\nSubject: Reservation Folio From RAMADA LAKELAND"
+    },
+    {
+      "type": "paragraph",
+      "text": "This email and attached report was sent to you from the RAMADA LAKELAND"
+    }
+  ]
+}

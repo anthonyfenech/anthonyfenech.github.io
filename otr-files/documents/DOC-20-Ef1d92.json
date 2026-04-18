@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-Ef1d92",
+  "title": "Email: Fw: Fyi",
+  "date": "2020-08-02",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-02",
+      "subject": "Fw: Fyi"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Sipple, George <gsipple@freepress.com>\nSent: Monday, September 7, 2015 9:41 AM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Fyi \n \nSeen note that team will take team photo tomorrow at 4.. Be on lookout for owner"
+    },
+    {
+      "type": "paragraph",
+      "text": "George Sipple\nSports writer\nDetroit Free Press\n313-530-2542\nTwitter: @GeorgeSipple"
+    }
+  ]
+}

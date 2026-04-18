@@ -1,0 +1,33 @@
+{
+  "id": "DOC-18-E2e3e5",
+  "title": "Email: Re: Resume",
+  "date": "2018-12-08",
+  "from": "Smith, Mark W.",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Smith, Mark W.",
+      "to": "",
+      "date": "2018-12-08",
+      "subject": "Re: Resume"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2018-12-06",
+      "subject": "Re: Resume"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

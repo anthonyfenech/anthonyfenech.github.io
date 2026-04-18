@@ -1,0 +1,30 @@
+{
+  "id": "DOC-20-E160d0",
+  "title": "Email: Fw: JV",
+  "date": "2020-08-02",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-02",
+      "subject": "Fw: JV"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Robert Boots <rboots1@cogeco.ca>\nSent: Sunday, April 3, 2016 6:59 AM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: JV \n \nReally enjoyed your interview with Verlander today.  Gained a new appreciation for his “real human” side vs the struggles on the field we’ve seen the last couple years."
+    },
+    {
+      "type": "paragraph",
+      "text": "Thanks,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rob Boots\nWindsor"
+    }
+  ]
+}

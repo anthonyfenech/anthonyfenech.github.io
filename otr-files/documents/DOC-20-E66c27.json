@@ -1,0 +1,33 @@
+{
+  "id": "DOC-20-E66c27",
+  "title": "Email: Yankees beat reporter candidate - Anthony Fenech",
+  "date": "2020-02-11",
+  "from": "Anthony Fenech",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2020-02-11",
+      "subject": "Yankees beat reporter candidate - Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    },
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2020-02-11",
+      "subject": "Yankees beat reporter candidate - Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

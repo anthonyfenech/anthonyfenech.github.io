@@ -1,0 +1,50 @@
+{
+  "id": "DOC-20-E41f5c",
+  "title": "Email: Fw: Dogs",
+  "date": "2020-08-02",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-02",
+      "subject": "Fw: Dogs"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Sipple, George <gsipple@freepress.com>\nSent: Thursday, March 31, 2016 4:25 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Re: Dogs \n \nYep will send to you"
+    },
+    {
+      "type": "paragraph",
+      "text": "George Sipple \nSports writer\nDetroit Free Press\n313-530-2542\nTwitter: @GeorgeSipple"
+    },
+    {
+      "type": "paragraph",
+      "text": "On Mar 31, 2016, at 4:15 PM, Fenech, Anthony <afenech@freepress.com> wrote:"
+    },
+    {
+      "type": "paragraph",
+      "text": "Did he say anything about dogs?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech"
+    }
+  ]
+}

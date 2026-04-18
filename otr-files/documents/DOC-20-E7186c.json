@@ -1,0 +1,22 @@
+{
+  "id": "DOC-20-E7186c",
+  "title": "Email: Fw: Great job last night/this am",
+  "date": "2020-08-02",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-02",
+      "subject": "Fw: Great job last night/this am"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Bull, Kevin <kbull@freepress.com>\nSent: Friday, September 11, 2015 12:42 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Great job last night/this am"
+    }
+  ]
+}

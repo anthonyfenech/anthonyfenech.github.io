@@ -1,0 +1,22 @@
+{
+  "id": "DOC-16-E27385",
+  "title": "Email: FW: Travel Receipt for LIPP/ALEXANDRA Travel Date 03Mar",
+  "date": "2016-02-25",
+  "from": "Anthony Fenech",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2016-02-25",
+      "subject": "FW: Travel Receipt for LIPP/ALEXANDRA Travel Date 03Mar"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

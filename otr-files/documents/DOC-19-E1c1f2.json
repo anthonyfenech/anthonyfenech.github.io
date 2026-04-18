@@ -1,0 +1,22 @@
+{
+  "id": "DOC-19-E1c1f2",
+  "title": "Email: AL MVP column",
+  "date": "2019-11-14",
+  "from": "Anthony Fenech",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2019-11-14",
+      "subject": "AL MVP column"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

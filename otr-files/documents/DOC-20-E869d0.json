@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-E869d0",
+  "title": "Email: Fw: Lou",
+  "date": "2020-05-23",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-23",
+      "subject": "Fw: Lou"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: haroldtoddhayes <haroldtoddhayes@gmail.com>\nSent: Tuesday, December 17, 2019 6:56 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Lou \n \nSir, As a Security Supervisor at Comerica, Lou is one of the most humble ex players to  be around... Fantastic article."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from my T-Mobile 4G LTE Device"
+    }
+  ]
+}

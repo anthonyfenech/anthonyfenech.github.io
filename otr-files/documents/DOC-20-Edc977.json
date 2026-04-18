@@ -1,0 +1,46 @@
+{
+  "id": "DOC-20-Edc977",
+  "title": "Email: Fw: Welcome",
+  "date": "2020-08-09",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-09",
+      "subject": "Fw: Welcome"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Fenech, Anthony\nSent: Monday, May 11, 2020 7:06 PM\nTo: Petzold, Evan <EPetzold@gannett.com>\nSubject: Welcome \n \nHey Evan,"
+    },
+    {
+      "type": "paragraph",
+      "text": "Welcome to the Free Press, it's awesome to have a Central Michigan kid here. Congrats and enjoy it. My cell phone number is 734-752-9667, give me a shout. Look forward to meeting you."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech"
+    }
+  ]
+}

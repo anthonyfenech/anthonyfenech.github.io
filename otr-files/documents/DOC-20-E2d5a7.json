@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-E2d5a7",
+  "title": "Email: Fw: Thursday",
+  "date": "2020-05-22",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-05-22",
+      "subject": "Fw: Thursday"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Mj4981 <mj4981@aol.com>\nSent: Monday, June 25, 2018 6:08 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Re: Thursday \n \nWent golfing last week and just catching up on my freeps. \nLast Thursday you mentioned Tom + Chee in Troy, sorry it \nclosed a couple of months ago. You'll have to go scout the \nLugnuts as there is one in Lansing."
+    },
+    {
+      "type": "paragraph",
+      "text": "Mike O'Hare\nTroy"
+    }
+  ]
+}

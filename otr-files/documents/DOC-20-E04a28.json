@@ -1,0 +1,30 @@
+{
+  "id": "DOC-20-E04a28",
+  "title": "Email: Fw: TMZ",
+  "date": "2020-08-02",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-08-02",
+      "subject": "Fw: TMZ"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Bruce Mason <brucemason19@gmail.com>\nSent: Thursday, October 11, 2018 3:35 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: TMZ \n \nHas journalism really resorted to a TMZ-esque report of two MLB announcers fighting with one another?"
+    },
+    {
+      "type": "paragraph",
+      "text": "This is prima-donna stuff."
+    },
+    {
+      "type": "paragraph",
+      "text": "You, and both of those guys, have a better life than 99 percent of the world, where there is poverty, hunger, poor drinking water, etc."
+    }
+  ]
+}

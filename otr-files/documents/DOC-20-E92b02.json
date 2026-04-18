@@ -1,0 +1,22 @@
+{
+  "id": "DOC-20-E92b02",
+  "title": "Email: Fw: Detroit Tigers Employees",
+  "date": "2020-05-08",
+  "from": "Anthony Fenech",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2020-05-08",
+      "subject": "Fw: Detroit Tigers Employees"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

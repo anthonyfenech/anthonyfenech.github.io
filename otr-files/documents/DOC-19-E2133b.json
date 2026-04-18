@@ -1,0 +1,22 @@
+{
+  "id": "DOC-19-E2133b",
+  "title": "Email: Red Sox reporter candidate - Anthony Fenech",
+  "date": "2019-03-28",
+  "from": "Anthony Fenech",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Anthony Fenech",
+      "to": "",
+      "date": "2019-03-28",
+      "subject": "Red Sox reporter candidate - Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

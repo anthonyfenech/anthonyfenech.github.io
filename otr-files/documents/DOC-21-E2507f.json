@@ -1,0 +1,22 @@
+{
+  "id": "DOC-21-E2507f",
+  "title": "Email: Re: Meeting tomorrow",
+  "date": "2021-01-07",
+  "from": "Stevie Blanchard",
+  "to": "",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Stevie Blanchard",
+      "to": "",
+      "date": "2021-01-07",
+      "subject": "Re: Meeting tomorrow"
+    },
+    {
+      "type": "paragraph",
+      "text": "[No body text — metadata only]"
+    }
+  ]
+}

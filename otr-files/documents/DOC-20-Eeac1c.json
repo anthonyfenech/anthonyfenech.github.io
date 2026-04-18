@@ -1,0 +1,194 @@
+{
+  "id": "DOC-20-Eeac1c",
+  "title": "Email: Fw: OBS Settings Check",
+  "date": "2020-07-26",
+  "from": "Fenech, Anthony",
+  "to": "Anthony Fenech",
+  "type": "email",
+  "subjects": [],
+  "content": [
+    {
+      "type": "email-header",
+      "from": "Fenech, Anthony",
+      "to": "Anthony Fenech",
+      "date": "2020-07-26",
+      "subject": "Fw: OBS Settings Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech\nTigers beat writer\nDetroit Free Press\n(734) 752-9667\nTwitter: @anthonyfenech\nFrom: Skip Natty <skipnatty@outlook.com>\nSent: Wednesday, April 1, 2020 6:36 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: RE: OBS Settings Check \n \nhttps://www.ign.com/wikis/playstation-4/How_to_Use_Twitch_with_PS4"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from Mail for Windows 10"
+    },
+    {
+      "type": "paragraph",
+      "text": "From: Fenech, Anthony <afenech@freepress.com>\nSent: Wednesday, April 1, 2020 6:21:42 PM\nTo: Skip Natty <skipnatty@outlook.com>\nSubject: Re: OBS Settings Check \n \nOK... right now I have Base (canvas) resolution at 1280x720 and Output (scaled) resolution at 852x480. You can also call me at 734-752-9667 if that's easier."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech\nFrom: Skip Natty <skipnatty@outlook.com>\nSent: Wednesday, April 1, 2020 6:18 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Re: OBS Settings Check \n \nThat's a result of your encoder not being able to handle what obs is throwing at it.  You may want to try a 480p stream instead of 720p also."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from my Verizon, Samsung Galaxy smartphone"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------- Original message --------\nFrom: \"Fenech, Anthony\" <afenech@freepress.com> \nDate: 4/1/20 6:14 PM (GMT-05:00) \nTo: Skip Natty <skipnatty@outlook.com> \nSubject: Re: OBS Settings Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "In my first try, it said \"encoding overloaded\" and recommended I turn down my video settings ..."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech\nFrom: Skip Natty <skipnatty@outlook.com>\nSent: Wednesday, April 1, 2020 5:24 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Re: OBS Settings Check \n \nSounds good, I may actually be streaming pinball when you're live but i have notifications on in twitch for the freepsports channel!  I'll definitely be around."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from my Verizon, Samsung Galaxy smartphone"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------- Original message --------\nFrom: \"Fenech, Anthony\" <afenech@freepress.com> \nDate: 4/1/20 5:22 PM (GMT-05:00) \nTo: Skip Natty <skipnatty@outlook.com> \nSubject: Re: OBS Settings Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "I put it at 2. I'll let you know when I go live later to see if the connection is any better"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech\nFrom: Skip Natty <skipnatty@outlook.com>\nSent: Wednesday, April 1, 2020 5:02 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Re: OBS Settings Check \n \nBasically a number of seconds that OBS will allow packet loss while trying to send full packets rather than partials, so 2-3 is recommended.  That way it should send full packets all the time rather than chunks."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from my Verizon, Samsung Galaxy smartphone"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------- Original message --------\nFrom: \"Fenech, Anthony\" <afenech@freepress.com> \nDate: 4/1/20 4:57 PM (GMT-05:00) \nTo: Skip Natty <skipnatty@outlook.com> \nSubject: Re: OBS Settings Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "What is the Keyframe Interval? Mine is set to 0"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech\nFrom: Skip Natty <skipnatty@outlook.com>\nSent: Wednesday, April 1, 2020 4:14 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: Re: OBS Settings Check \n \nYou're welcome!  I'm local (in Canton) and just stream for fun on weekends but there is so much to consider, unfortunately.  Hardware is a big factor...sounds like you're on a Mac, so you might want to try the H264 software encoder and see if that helps too...it'll take the load off of your processor.  Ultimately it's trial and error until you find what works for your hardware setup, and even then, if your upload speeds are slow, there's not much you can do."
+    },
+    {
+      "type": "paragraph",
+      "text": "I would recommend recording some gameplay offline as well via obs then playing it back to see how it turns out with the settings changes."
+    },
+    {
+      "type": "paragraph",
+      "text": "Welcome to the wonderful world of streaming :)  i love it, chatting with a community of folks is a blast."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from my Verizon, Samsung Galaxy smartphone"
+    },
+    {
+      "type": "paragraph",
+      "text": "-------- Original message --------\nFrom: \"Fenech, Anthony\" <afenech@freepress.com> \nDate: 4/1/20 4:06 PM (GMT-05:00) \nTo: Skip Natty <skipnatty@outlook.com> \nSubject: Re: OBS Settings Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "Thank you for this ..."
+    },
+    {
+      "type": "paragraph",
+      "text": "My only options for the encoder are \"x264\" and \"Apple VT H264 Hardware encoder\" and \"Apple VT H264 software encoder\" .... My bit rate was at 2300ish and I just manually put it to 4000, not sure if that will work. I changed the options under the video tab. We'll see how it goes. Thanks for stopping by, I appreciate it."
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony"
+    },
+    {
+      "type": "paragraph",
+      "text": "Anthony Fenech"
+    },
+    {
+      "type": "paragraph",
+      "text": "Detroit Free Press"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tigers beat writer"
+    },
+    {
+      "type": "paragraph",
+      "text": "Twitter: @anthonyfenech\nFrom: Skip Natty <skipnatty@outlook.com>\nSent: Wednesday, April 1, 2020 2:17 PM\nTo: Fenech, Anthony <afenech@freepress.com>\nSubject: OBS Settings Check"
+    },
+    {
+      "type": "paragraph",
+      "text": "Check your encoder (if you have an NVIDIA GPU, use the above) … Your bit rate should be 4000-6000 Kbps depending on how quick your upload is…do you know what you speedtest at for upload?"
+    },
+    {
+      "type": "paragraph",
+      "text": "This depends on hardware, but you may not be able to handle outputting at 1080p … 720p is a nice option for that (OUTPUT RESOLUTION); using that downscaler will help in that case and change your Common FPS Values to 60."
+    },
+    {
+      "type": "paragraph",
+      "text": "These are the easiest things to check provided your CPU hardware and internet can stand up to broadcasting."
+    },
+    {
+      "type": "paragraph",
+      "text": "Good luck!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sent from Mail for Windows 10"
+    }
+  ]
+}
