@@ -1,0 +1,36 @@
+{
+  "id": "DOC-19-T593b7",
+  "title": "Text: DET Ben Fidelman ↔ Anthony Fenech",
+  "date": "2019-02-02",
+  "from": "DET Ben Fidelman",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Ben Fidelman",
+      "time": "10:10 AM",
+      "text": "Someone will be there at noon to let you into the lobby"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:40 AM",
+      "text": "See if he can come now"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:41 AM",
+      "text": "We gotta play in like 20 min"
+    },
+    {
+      "from": "DET Ben Fidelman",
+      "time": "11:42 AM",
+      "text": "Skip the first half inning"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:42 AM",
+      "text": "We only play two innings"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-Tf8223",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2018-09-29",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:03 AM",
+      "text": "Come down"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:10 PM",
+      "text": "If you want to call me before your media session, my line is open!"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "5:13 PM",
+      "text": "I can talk to you after"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:14 PM",
+      "text": "Then you won’t know what questions I’m going to ask...see you there"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "DOC-18-Tee8a5",
+  "title": "Text: DET John Westhoff ↔ Anthony Fenech",
+  "date": "2018-02-12",
+  "from": "DET John Westhoff",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET John Westhoff",
+      "time": "12:11 PM",
+      "text": "I'm sitting on the beach drinking a beer, watching the dolphins go by. Is it important?"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:11 PM",
+      "text": "Not in the least"
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "12:13 PM",
+      "text": "You're just calling to bust my chops because I'm not in Lakeland. Will be there on Sunday!"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:17 PM",
+      "text": "Yeah, I didn't see you at Chili's last night. Enjoy..."
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "12:19 PM",
+      "text": "Thx. See you soon"
+    }
+  ]
+}

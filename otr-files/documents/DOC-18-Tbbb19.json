@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-Tbbb19",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2018-12-06",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:36 PM",
+      "text": "Are you going to do anything before Vegas?"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "2:59 PM",
+      "text": "It does not look that way."
+    },
+    {
+      "from": "Fenech",
+      "time": "3:50 PM",
+      "text": "K"
+    }
+  ]
+}

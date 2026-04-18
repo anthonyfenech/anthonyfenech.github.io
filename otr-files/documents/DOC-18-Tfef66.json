@@ -1,0 +1,41 @@
+{
+  "id": "DOC-18-Tfef66",
+  "title": "Text: DET Lloyd McClendon ↔ Anthony Fenech",
+  "date": "2018-12-12",
+  "from": "DET Lloyd McClendon",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:47 PM",
+      "text": "Did they let Bruce Fields go?"
+    },
+    {
+      "from": "DET Lloyd McClendon",
+      "time": "5:47 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:48 PM",
+      "text": "K...did they hire a new guy yet?"
+    },
+    {
+      "from": "DET Lloyd McClendon",
+      "time": "5:48 PM",
+      "text": "Yes Jeff Branson"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:49 PM",
+      "text": "Thank you. Do you know him at all?"
+    },
+    {
+      "from": "DET Lloyd McClendon",
+      "time": "5:50 PM",
+      "text": "Not much"
+    }
+  ]
+}

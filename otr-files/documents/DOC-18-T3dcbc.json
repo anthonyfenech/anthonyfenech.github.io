@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-T3dcbc",
+  "title": "Text: DET Steve Liddle ↔ Anthony Fenech",
+  "date": "2018-10-11",
+  "from": "DET Steve Liddle",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "3:33 PM",
+      "text": "I just talked to Al, he tipped me off about Stewart’s visit to Philly not going so well. Maybe surgery? Do you know anything?"
+    },
+    {
+      "from": "DET Steve Liddle",
+      "time": "3:57 PM",
+      "text": "I know he went to see a Dr Meyers in Philadelphia. What do you know about Hicks and Iglesias? Didn’t they see the same guy?"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:01 PM",
+      "text": "Core muscle surgery"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:01 PM",
+      "text": "Stewart and Zimm"
+    }
+  ]
+}

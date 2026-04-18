@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Te0111",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2017-12-09",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:21 PM",
+      "text": "What time is the HOF announcement?"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "1:21 PM",
+      "text": "6 pm tomorrow"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:21 PM",
+      "text": "Ok, cool. Safe travels"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "1:21 PM",
+      "text": "You too"
+    }
+  ]
+}

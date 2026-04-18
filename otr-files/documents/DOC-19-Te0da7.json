@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-Te0da7",
+  "title": "Text: DET Jerry Lewis ↔ Anthony Fenech",
+  "date": "2019-02-04",
+  "from": "DET Jerry Lewis",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:34 PM",
+      "text": "Could you pass along a number for the photographer?"
+    },
+    {
+      "from": "DET Jerry Lewis",
+      "time": "1:51 PM",
+      "text": "Sure.  Rick Dupler. 586-726-4744.  Cell 586-484-3755. Might be still driving home"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:52 PM",
+      "text": "Thank you!"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "DOC-18-T1bad7",
+  "title": "Text: DET John Westhoff ↔ Anthony Fenech",
+  "date": "2018-02-21",
+  "from": "DET John Westhoff",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "3:40 PM",
+      "text": "Chili's?"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:19 PM",
+      "text": "Questioned “Chili's?”"
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "5:20 PM",
+      "text": "John is with wife. Maybe another time when my drinking partner arrives"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:24 PM",
+      "text": "Who is your drinking partner?"
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "5:25 PM",
+      "text": "I can't tell you. He's in AA."
+    },
+    {
+      "from": "Fenech",
+      "time": "5:25 PM",
+      "text": "Lol"
+    }
+  ]
+}

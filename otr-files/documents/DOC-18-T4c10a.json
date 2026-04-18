@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T4c10a",
+  "title": "Text: DET David Chadd ↔ Anthony Fenech",
+  "date": "2018-05-17",
+  "from": "DET David Chadd",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "4:27 PM",
+      "text": "Are you coming to see Mize?"
+    },
+    {
+      "from": "DET David Chadd",
+      "time": "4:28 PM",
+      "text": "He's pitching tomorrow"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:29 PM",
+      "text": "Yeah I know"
+    }
+  ]
+}

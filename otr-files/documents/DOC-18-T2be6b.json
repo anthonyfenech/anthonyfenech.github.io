@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T2be6b",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2018-02-05",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Chad Crunk",
+      "time": "6:07 PM",
+      "text": "You close to the park?"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:07 PM",
+      "text": "Oh crap, no, I'll bring it by tomorrow. Got caught up with some stuff"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "6:08 PM",
+      "text": "No problem"
+    }
+  ]
+}

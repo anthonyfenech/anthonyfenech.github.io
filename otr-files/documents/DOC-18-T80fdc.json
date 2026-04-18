@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T80fdc",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2018-01-22",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:15 PM",
+      "text": "You got anything cooking?"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "4:51 PM",
+      "text": "Nope"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:59 PM",
+      "text": "Ok, see you soon."
+    }
+  ]
+}

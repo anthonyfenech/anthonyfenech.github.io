@@ -1,0 +1,46 @@
+{
+  "id": "DOC-18-T95b08",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2018-09-30",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:00 AM",
+      "text": "What’s going on"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:20 PM",
+      "text": "Did you leave yet?"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:23 PM",
+      "text": "Questioned “Did you leave yet?”"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "7:23 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:24 PM",
+      "text": "Damnit, been waiting for you outside the clubhouse."
+    },
+    {
+      "from": "Fenech",
+      "time": "7:24 PM",
+      "text": "Thank you for the help this season"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "7:25 PM",
+      "text": "Your welcome. Bus left at 6:15"
+    }
+  ]
+}

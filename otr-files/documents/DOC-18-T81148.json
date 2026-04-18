@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-T81148",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2018-03-07",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Chad Crunk",
+      "time": "6:19 PM",
+      "text": "Hey Anthony, hasn’t victor’s dad already passed away? Noticed a tweet from earlier today that referenced his dad"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:30 PM",
+      "text": "Yeah, but that was like his US dad"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:30 PM",
+      "text": "At game today"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "6:34 PM",
+      "text": "Gotcha, just seems like that would be an important distinction to make"
+    }
+  ]
+}

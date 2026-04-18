@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-T84a49",
+  "title": "Text: DET John Westhoff ↔ Anthony Fenech",
+  "date": "2018-01-10",
+  "from": "DET John Westhoff",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:00 PM",
+      "text": "Can I check in with you on Friday about arb deals?"
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "2:08 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:09 PM",
+      "text": "Thanks. You guys sign any of them yet?"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:35 PM",
+      "text": "Questioned “Thanks. You guys sign any of them yet?”"
+    }
+  ]
+}

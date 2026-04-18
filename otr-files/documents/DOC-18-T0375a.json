@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T0375a",
+  "title": "Text: DET John Westhoff ↔ Anthony Fenech",
+  "date": "2018-05-23",
+  "from": "DET John Westhoff",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:12 AM",
+      "text": "Come to dugout"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:39 AM",
+      "text": "Where are you, let's go"
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "11:39 AM",
+      "text": "Busy"
+    }
+  ]
+}

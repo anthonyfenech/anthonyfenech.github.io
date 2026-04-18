@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T5024f",
+  "title": "Text: DET John Westhoff ↔ Anthony Fenech",
+  "date": "2018-04-17",
+  "from": "DET John Westhoff",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "9:43 AM",
+      "text": "Gimme a few, wrapping up at gym"
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "9:43 AM",
+      "text": "Butt call. Don't bother"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:44 AM",
+      "text": "Oh ok"
+    }
+  ]
+}

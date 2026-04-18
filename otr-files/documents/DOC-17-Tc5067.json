@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Tc5067",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2017-12-14",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:47 AM",
+      "text": "You wanna smoke a cigar?"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "1:52 AM",
+      "text": "Sorry. But had to finish working through some things. Maybe next week"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "1:52 AM",
+      "text": "Or this weekend"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:59 AM",
+      "text": "Ok, later"
+    }
+  ]
+}

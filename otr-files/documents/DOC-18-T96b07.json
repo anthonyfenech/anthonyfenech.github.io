@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T96b07",
+  "title": "Text: DET Ben Fidelman ↔ Anthony Fenech",
+  "date": "2018-01-30",
+  "from": "DET Ben Fidelman",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "10:24 PM",
+      "text": "Are you in Lakeland?"
+    },
+    {
+      "from": "DET Ben Fidelman",
+      "time": "10:27 PM",
+      "text": "Was for a few days"
+    },
+    {
+      "from": "DET Ben Fidelman",
+      "time": "10:27 PM",
+      "text": "Just got back"
+    }
+  ]
+}

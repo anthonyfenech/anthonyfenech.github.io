@@ -1,0 +1,41 @@
+{
+  "id": "DOC-17-T43822",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2017-11-15",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "10:17 AM",
+      "text": "When do you leave?"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "11:26 AM",
+      "text": "Tomorrow"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:47 AM",
+      "text": "Me too. Let's get together at some point today. What's your schedule like?"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "12:00 PM",
+      "text": "Can’t I have the owner here and owners dinner tonight. If I get freed up I will let you know"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:01 PM",
+      "text": "Ok"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:06 PM",
+      "text": "You still at dinner?"
+    }
+  ]
+}

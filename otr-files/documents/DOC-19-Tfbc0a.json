@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-Tfbc0a",
+  "title": "Text: DET Jerry Lewis ↔ Anthony Fenech",
+  "date": "2019-03-17",
+  "from": "DET Jerry Lewis",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Jerry Lewis",
+      "time": "2:53 PM",
+      "text": "Hope your doing well. Got myself a bad cold. Call you during the week. Look forward to seeing you opening day in Comerica"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:53 PM",
+      "text": "Ok, feel better"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:53 PM",
+      "text": "Orange Juice and Airborne pills"
+    }
+  ]
+}

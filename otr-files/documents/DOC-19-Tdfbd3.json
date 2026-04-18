@@ -1,0 +1,41 @@
+{
+  "id": "DOC-19-Tdfbd3",
+  "title": "Text: DET Jay Sartori ↔ Anthony Fenech",
+  "date": "2019-02-14",
+  "from": "DET Jay Sartori",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "6:21 PM",
+      "text": "What’s Kaan’s name"
+    },
+    {
+      "from": "DET Jay Sartori",
+      "time": "6:21 PM",
+      "text": "Kan Ikeda"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:21 PM",
+      "text": "Thanks"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:22 PM",
+      "text": "What’s his title"
+    },
+    {
+      "from": "DET Jay Sartori",
+      "time": "6:22 PM",
+      "text": "Video Operations Coordinator"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:23 PM",
+      "text": "Thanks"
+    }
+  ]
+}

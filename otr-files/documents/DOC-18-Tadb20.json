@@ -1,0 +1,41 @@
+{
+  "id": "DOC-18-Tadb20",
+  "title": "Text: DET Michele Wysocki ↔ Anthony Fenech",
+  "date": "2018-07-07",
+  "from": "DET Michele Wysocki",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Michele Wysocki",
+      "time": "3:15 PM",
+      "text": "Do you need parking on the road at all?"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:26 PM",
+      "text": "Tampa"
+    },
+    {
+      "from": "DET Michele Wysocki",
+      "time": "3:26 PM",
+      "text": "Yeah"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:26 PM",
+      "text": "You doing the trip?"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:26 PM",
+      "text": "Oh nice!"
+    },
+    {
+      "from": "DET Michele Wysocki",
+      "time": "3:26 PM",
+      "text": "Yeah, looking forward to it"
+    }
+  ]
+}

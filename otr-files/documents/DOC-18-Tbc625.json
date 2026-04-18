@@ -1,0 +1,21 @@
+{
+  "id": "DOC-18-Tbc625",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2018-05-21",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:02 PM",
+      "text": "Hello Al, this is Anthony Fenech from the Detroit Free Press, I cover the Tigers. I'm working on a story. If you have some time to talk, let me know."
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "12:55 PM",
+      "text": "I will call you in a little while"
+    }
+  ]
+}

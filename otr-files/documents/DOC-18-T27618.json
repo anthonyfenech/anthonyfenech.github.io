@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T27618",
+  "title": "Text: DET Ben Fidelman ↔ Anthony Fenech",
+  "date": "2018-12-04",
+  "from": "DET Ben Fidelman",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "3:41 PM",
+      "text": "Does Moore have a number?"
+    },
+    {
+      "from": "DET Ben Fidelman",
+      "time": "3:54 PM",
+      "text": "No"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:13 PM",
+      "text": "Is that legal?"
+    }
+  ]
+}

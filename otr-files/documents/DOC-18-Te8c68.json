@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-Te8c68",
+  "title": "Text: DET Dave Littlefield ↔ Anthony Fenech",
+  "date": "2018-08-18",
+  "from": "DET Dave Littlefield",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:50 PM",
+      "text": "Where is Blackwell going"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:51 PM",
+      "text": "ERI?"
+    },
+    {
+      "from": "DET Dave Littlefield",
+      "time": "7:51 PM",
+      "text": "Yes"
+    }
+  ]
+}

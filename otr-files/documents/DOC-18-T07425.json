@@ -1,0 +1,41 @@
+{
+  "id": "DOC-18-T07425",
+  "title": "Text: DET Greg Garno ↔ Anthony Fenech",
+  "date": "2018-06-01",
+  "from": "DET Greg Garno",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:51 PM",
+      "text": "Is Cabrera being activated today?"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "3:07 PM",
+      "text": "Haven’t heard anything"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:52 PM",
+      "text": "Anything?"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "3:59 PM",
+      "text": "Nothing dude"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:00 PM",
+      "text": "Weird"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:08 PM",
+      "text": "They're waiting to see if he's good to go"
+    }
+  ]
+}

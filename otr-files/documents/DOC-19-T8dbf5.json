@@ -1,0 +1,36 @@
+{
+  "id": "DOC-19-T8dbf5",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2019-02-22",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:21 PM",
+      "text": "Can you text when Mize comes in"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "2:21 PM",
+      "text": "He’s in here now"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:21 PM",
+      "text": "Talking?"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "2:22 PM",
+      "text": "Not yet; but I think Chris is going to try and get him"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:22 PM",
+      "text": "Ok"
+    }
+  ]
+}

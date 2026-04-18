@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-T8e262",
+  "title": "Text: DET Sam Menzin ↔ Anthony Fenech",
+  "date": "2018-01-28",
+  "from": "DET Sam Menzin",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Sam Menzin",
+      "time": "4:47 PM",
+      "text": "Hey what’s up"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:49 PM",
+      "text": "Nothing just calling to say what up, wanted to see if you’d answer lol"
+    },
+    {
+      "from": "DET Sam Menzin",
+      "time": "4:49 PM",
+      "text": "I would have but I’m with someone at the moment"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:49 PM",
+      "text": "Cool, hit me up later"
+    }
+  ]
+}

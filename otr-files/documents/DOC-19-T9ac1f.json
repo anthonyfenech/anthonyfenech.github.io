@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T9ac1f",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-01-03",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "6:10 PM",
+      "text": "Call me on your way home"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "7:23 PM",
+      "text": "I called Rizzo left him a voice mail to call me back."
+    },
+    {
+      "from": "Fenech",
+      "time": "7:29 PM",
+      "text": "Awesome"
+    }
+  ]
+}

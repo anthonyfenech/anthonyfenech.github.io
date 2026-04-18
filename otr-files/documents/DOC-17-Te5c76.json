@@ -1,0 +1,31 @@
+{
+  "id": "DOC-17-Te5c76",
+  "title": "Text: DET Jim Leyland ↔ Anthony Fenech",
+  "date": "2017-11-08",
+  "from": "DET Jim Leyland",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "8:28 PM",
+      "text": "Hey it's Anthony. Give Geno my number, tell him to give me a call sometime."
+    },
+    {
+      "from": "DET Jim Leyland",
+      "time": "8:32 PM",
+      "text": "Why don't you just call him"
+    },
+    {
+      "from": "Fenech",
+      "time": "8:32 PM",
+      "text": "I don't have his number"
+    },
+    {
+      "from": "DET Jim Leyland",
+      "time": "8:32 PM",
+      "text": "Ok"
+    }
+  ]
+}

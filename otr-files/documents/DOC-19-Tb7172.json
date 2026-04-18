@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-Tb7172",
+  "title": "Text: DET Sam Menzin ↔ Anthony Fenech",
+  "date": "2019-02-06",
+  "from": "DET Sam Menzin",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:36 PM",
+      "text": "Have a great day, Sam"
+    },
+    {
+      "from": "DET Sam Menzin",
+      "time": "12:38 PM",
+      "text": "Thanks....you too...?"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:48 PM",
+      "text": "Thank you!"
+    },
+    {
+      "from": "DET Sam Menzin",
+      "time": "9:19 PM",
+      "text": "Call me tomorrow. Today got away from me"
+    }
+  ]
+}

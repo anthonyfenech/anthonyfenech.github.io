@@ -1,0 +1,36 @@
+{
+  "id": "DOC-18-T3c2bf",
+  "title": "Text: DET Lloyd McClendon ↔ Anthony Fenech",
+  "date": "2018-02-17",
+  "from": "DET Lloyd McClendon",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:34 PM",
+      "text": "You got dinner plans tonight?"
+    },
+    {
+      "from": "DET Lloyd McClendon",
+      "time": "5:34 PM",
+      "text": "Just finished!"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:34 PM",
+      "text": "Ah ok"
+    },
+    {
+      "from": "DET Lloyd McClendon",
+      "time": "5:35 PM",
+      "text": "Sorry buddy"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:35 PM",
+      "text": "No worries"
+    }
+  ]
+}

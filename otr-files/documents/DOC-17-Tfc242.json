@@ -1,0 +1,41 @@
+{
+  "id": "DOC-17-Tfc242",
+  "title": "Text: DET David Chadd ↔ Anthony Fenech",
+  "date": "2017-12-11",
+  "from": "DET David Chadd",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:10 AM",
+      "text": "Do you find out if Alcantara cleared at 1 pm today? I know you guys put him on waivers but I told Al I wouldn’t put it out there because he wanted him to clear"
+    },
+    {
+      "from": "DET David Chadd",
+      "time": "11:15 AM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:19 AM",
+      "text": "Ok I will check in after then"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:38 PM",
+      "text": "Did he clear?"
+    },
+    {
+      "from": "DET David Chadd",
+      "time": "2:28 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:30 PM",
+      "text": "Thanks"
+    }
+  ]
+}

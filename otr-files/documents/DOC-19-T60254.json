@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T60254",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-03-30",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:13 PM",
+      "text": "Let me know when you find out about Cabrera x-Ray results"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "5:39 PM",
+      "text": "Negative  just a contusion"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:39 PM",
+      "text": "Ty"
+    }
+  ]
+}

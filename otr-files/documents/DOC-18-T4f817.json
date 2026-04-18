@@ -1,0 +1,36 @@
+{
+  "id": "DOC-18-T4f817",
+  "title": "Text: DET Greg Garno ↔ Anthony Fenech",
+  "date": "2018-01-25",
+  "from": "DET Greg Garno",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:32 AM",
+      "text": "Gimme a call"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "11:32 AM",
+      "text": "How urgent is it? I’m in office talking."
+    },
+    {
+      "from": "Fenech",
+      "time": "11:33 AM",
+      "text": "Not urgent, will you be at caravan kickoff"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "11:33 AM",
+      "text": "Oh yeah."
+    },
+    {
+      "from": "Fenech",
+      "time": "11:33 AM",
+      "text": "Ok"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T279ea",
+  "title": "Text: DET Dick Egan ↔ Anthony Fenech",
+  "date": "2018-03-18",
+  "from": "DET Dick Egan",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "6:16 PM",
+      "text": "What is your schedule like the next few days?"
+    },
+    {
+      "from": "DET Dick Egan",
+      "time": "6:17 PM",
+      "text": "Games at Boston"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:17 PM",
+      "text": "See you there"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-Tb8439",
+  "title": "Text: DET Michele Wysocki ↔ Anthony Fenech",
+  "date": "2018-05-14",
+  "from": "DET Michele Wysocki",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:44 PM",
+      "text": "What number is Lugo wearing?"
+    },
+    {
+      "from": "DET Michele Wysocki",
+      "time": "5:44 PM",
+      "text": "18"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:45 PM",
+      "text": "Thanks"
+    }
+  ]
+}

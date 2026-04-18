@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-Te451c",
+  "title": "Text: DET Michele Wysocki ↔ Anthony Fenech",
+  "date": "2018-03-13",
+  "from": "DET Michele Wysocki",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:06 PM",
+      "text": "Can you text me when Zimmermann is ready, I'm in the other room"
+    },
+    {
+      "from": "DET Michele Wysocki",
+      "time": "2:08 PM",
+      "text": "Yes, will do"
+    },
+    {
+      "from": "DET Michele Wysocki",
+      "time": "3:04 PM",
+      "text": "Zimm is ready"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:05 PM",
+      "text": "Thank you!"
+    }
+  ]
+}

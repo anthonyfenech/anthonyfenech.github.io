@@ -1,0 +1,51 @@
+{
+  "id": "DOC-19-T103f9",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-03-19",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:54 AM",
+      "text": "Call me"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:09 PM",
+      "text": "Emphasized “Call me ”"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:51 PM",
+      "text": "What’s up"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "12:57 PM",
+      "text": "Calling you and it went to VM"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "12:57 PM",
+      "text": "I will try again"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:44 PM",
+      "text": "1/2 off wine night at grill smith"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "7:18 PM",
+      "text": "That’s Boring. We are at Scarpa’s"
+    },
+    {
+      "from": "Fenech",
+      "time": "8:02 PM",
+      "text": "Out of the Free Press price range!"
+    }
+  ]
+}

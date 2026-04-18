@@ -1,0 +1,41 @@
+{
+  "id": "DOC-18-T63dd4",
+  "title": "Text: DET Tom Moore ↔ Anthony Fenech",
+  "date": "2018-03-14",
+  "from": "DET Tom Moore",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:52 PM",
+      "text": "Know your international guys are here, you got any time?"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "12:56 PM",
+      "text": "Now would be good if it works for you."
+    },
+    {
+      "from": "Fenech",
+      "time": "12:56 PM",
+      "text": "Yep, walking into lobby"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "12:57 PM",
+      "text": "👍"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:00 PM",
+      "text": "I'm downstairs"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "1:01 PM",
+      "text": "Coming down."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DOC-18-T8982b",
+  "title": "Text: DET Dave Littlefield ↔ Anthony Fenech",
+  "date": "2018-05-22",
+  "from": "DET Dave Littlefield",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "3:47 PM",
+      "text": "Is there a good time today to call you?"
+    },
+    {
+      "from": "DET Dave Littlefield",
+      "time": "4:08 PM",
+      "text": "Now"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:08 PM",
+      "text": "Ok...give me two minutes"
+    }
+  ]
+}

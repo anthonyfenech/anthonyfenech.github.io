@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-T2a419",
+  "title": "Text: DET Lloyd McClendon ↔ Anthony Fenech",
+  "date": "2018-02-13",
+  "from": "DET Lloyd McClendon",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "6:52 PM",
+      "text": "Where do you stay down here?"
+    },
+    {
+      "from": "DET Lloyd McClendon",
+      "time": "6:58 PM",
+      "text": "Residence inn"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:06 PM",
+      "text": "Oh, nice. I'm in Hampton Inn, right by you. Let's get dinner/drinks soon"
+    },
+    {
+      "from": "DET Lloyd McClendon",
+      "time": "7:06 PM",
+      "text": "Sounds good"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "DOC-18-T253cb",
+  "title": "Text: DET Ron Colangelo ↔ Anthony Fenech",
+  "date": "2018-01-18",
+  "from": "DET Ron Colangelo",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:13 AM",
+      "text": "On phone, give me a few minutes"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "11:17 AM",
+      "text": "I have an important call at 11:30"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:23 AM",
+      "text": "More important than me?"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "11:28 AM",
+      "text": "Equally"
+    }
+  ]
+}
