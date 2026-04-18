@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-Tdb1c4",
+  "title": "Text: DET Jerry Lewis ↔ Anthony Fenech",
+  "date": "2019-12-25",
+  "from": "DET Jerry Lewis",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:01 PM",
+      "text": "Merry Christmas Jerry"
+    },
+    {
+      "from": "DET Jerry Lewis",
+      "time": "7:01 PM",
+      "text": "Thank you so very much. Same back to you and a happy New Year"
+    },
+    {
+      "from": "DET Jerry Lewis",
+      "time": "7:02 PM",
+      "text": "Glad to see Tigers sign a couple major league players"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:02 PM",
+      "text": "For real lol"
+    }
+  ]
+}

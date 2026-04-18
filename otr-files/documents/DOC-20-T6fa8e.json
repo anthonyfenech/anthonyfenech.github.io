@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-T6fa8e",
+  "title": "Text: DET Willie Horton ↔ Anthony Fenech",
+  "date": "2020-03-11",
+  "from": "DET Willie Horton",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Willie Horton",
+      "time": "5:05 PM",
+      "text": "When you have a min , give me a call"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:25 PM",
+      "text": "Give me 5 min, sorry just got to Lakeland"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:50 PM",
+      "text": "I called you"
+    }
+  ]
+}

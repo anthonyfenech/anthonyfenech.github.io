@@ -1,0 +1,31 @@
+{
+  "id": "DOC-20-Te46f9",
+  "title": "Text: DET Willie Horton ↔ Anthony Fenech",
+  "date": "2020-07-13",
+  "from": "DET Willie Horton",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:32 AM",
+      "text": "How is your grandson doing"
+    },
+    {
+      "from": "DET Willie Horton",
+      "time": "5:57 PM",
+      "text": "He alive"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:57 PM",
+      "text": "Good to hear, how is he"
+    },
+    {
+      "from": "DET Willie Horton",
+      "time": "7:00 PM",
+      "text": "So , so right now"
+    }
+  ]
+}

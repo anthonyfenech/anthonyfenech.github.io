@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-Tb580f",
+  "title": "Text: DET █████████████ ↔ Anthony Fenech",
+  "date": "2020-04-08",
+  "from": "DET █████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET █████████████",
+      "time": "4:41 PM",
+      "text": "Quarantine check in. How you doing?"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:16 PM",
+      "text": "Same as always I guess"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:17 PM",
+      "text": "Just sitting at home, really"
+    }
+  ]
+}

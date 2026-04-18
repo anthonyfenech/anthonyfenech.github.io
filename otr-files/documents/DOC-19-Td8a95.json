@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-Td8a95",
+  "title": "Text: DET Brian Britten ↔ Anthony Fenech",
+  "date": "2019-09-17",
+  "from": "DET Brian Britten",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "6:00 PM",
+      "text": "Booking travel... do you know which resort the GM meetings are located at in Scottsdale this year?"
+    },
+    {
+      "from": "DET Brian Britten",
+      "time": "6:05 PM",
+      "text": "I don’t have any involvement in booking anything for that like I do for the winter meetings, so I don’t have the answer to that question. Sorry."
+    },
+    {
+      "from": "Fenech",
+      "time": "6:31 PM",
+      "text": "Thank you"
+    }
+  ]
+}

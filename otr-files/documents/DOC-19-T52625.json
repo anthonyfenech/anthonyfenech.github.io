@@ -1,0 +1,36 @@
+{
+  "id": "DOC-19-T52625",
+  "title": "Text: DET Courtney Foyt ↔ Anthony Fenech",
+  "date": "2019-11-26",
+  "from": "DET Courtney Foyt",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "8:12 AM",
+      "text": "What’s good"
+    },
+    {
+      "from": "DET Courtney Foyt",
+      "time": "10:24 AM",
+      "text": "Hello!"
+    },
+    {
+      "from": "Fenech",
+      "time": "10:29 AM",
+      "text": "How’s it going?"
+    },
+    {
+      "from": "DET Courtney Foyt",
+      "time": "10:31 AM",
+      "text": "Good. Working a bit this am, heading to Plymouth this afternoon, open majority of tomorrow if you still want to meet up"
+    },
+    {
+      "from": "Fenech",
+      "time": "10:32 AM",
+      "text": "Ok, yeah, let me know when and where"
+    }
+  ]
+}

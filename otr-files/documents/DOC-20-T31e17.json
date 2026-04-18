@@ -1,0 +1,31 @@
+{
+  "id": "DOC-20-T31e17",
+  "title": "Text: DET Tom Moore ↔ Anthony Fenech",
+  "date": "2020-03-15",
+  "from": "DET Tom Moore",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Tom Moore",
+      "time": "10:01 AM",
+      "text": "Sorry I missed your call the other day. I hope all is well and glad to hear the trip went well. I just read the article, great job! Thanks very much for the positive coverage. I hope it was a good experience for you."
+    },
+    {
+      "from": "Fenech",
+      "time": "11:44 AM",
+      "text": "No problem. Thank you, and thank you for all the help in coordinating this. It was an awesome time and I can’t stress enough how helpful Oliver was"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:44 AM",
+      "text": "I will give you a call in the next couple days - I am doing another feature on the Dominican facility, highlighting other players for next Sunday"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "1:21 PM",
+      "text": "That’s great to hear. I’m glad you were able to see the operation first hand. Sounds good on the call."
+    }
+  ]
+}

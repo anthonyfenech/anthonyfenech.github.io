@@ -1,0 +1,41 @@
+{
+  "id": "DOC-20-T22664",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2020-02-26",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:30 PM",
+      "text": "Saw this stuff about a shooting... you good?"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "6:17 PM",
+      "text": "Yes thank you for checking. Right across from where shane works"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:19 PM",
+      "text": "Scary"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "7:11 PM",
+      "text": "Very"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "7:11 PM",
+      "text": "I think the Tigers are trying to sell"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:18 PM",
+      "text": "Oh yeah?"
+    }
+  ]
+}

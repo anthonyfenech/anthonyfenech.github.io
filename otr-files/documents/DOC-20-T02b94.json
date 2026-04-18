@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-T02b94",
+  "title": "Text: DET █████████████ ↔ Anthony Fenech",
+  "date": "2020-04-30",
+  "from": "DET █████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET █████████████",
+      "time": "4:44 PM",
+      "text": "Are you working? Furlough?"
+    },
+    {
+      "from": "DET █████████████",
+      "time": "4:44 PM",
+      "text": "Need to speak with you"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:49 PM",
+      "text": "Call whenever"
+    }
+  ]
+}

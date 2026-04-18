@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-Tb2298",
+  "title": "Text: DET Greg Garno ↔ Anthony Fenech",
+  "date": "2019-11-30",
+  "from": "DET Greg Garno",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "9:31 AM",
+      "text": "The Big Game!"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "9:43 AM",
+      "text": "Who ya got?"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:48 AM",
+      "text": "Big Blue"
+    }
+  ]
+}

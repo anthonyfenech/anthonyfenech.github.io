@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-T1e300",
+  "title": "Text: DET Drew VerHagen ↔ Anthony Fenech",
+  "date": "2020-03-18",
+  "from": "DET Drew VerHagen",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:42 PM",
+      "text": "How is everything going there?"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:42 PM",
+      "text": "Are you still there?"
+    },
+    {
+      "from": "DET Drew VerHagen",
+      "time": "10:52 PM",
+      "text": "Yeah we’re playing still. No fans and all of the games are exhibition games. It’s more under control here"
+    }
+  ]
+}

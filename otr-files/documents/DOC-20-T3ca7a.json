@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-T3ca7a",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2020-02-29",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET ███████████████",
+      "time": "9:14 AM",
+      "text": "Whats new"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:21 AM",
+      "text": "Nothing"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:21 AM",
+      "text": "At gym how are you"
+    }
+  ]
+}

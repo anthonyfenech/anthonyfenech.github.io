@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-Tebf73",
+  "title": "Text: DET Tom Moore ↔ Anthony Fenech",
+  "date": "2020-03-16",
+  "from": "DET Tom Moore",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "10:54 AM",
+      "text": "What’s your day looking like today?"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "1:27 PM",
+      "text": "A little crazy but I will let you know if I’m free in a couple of hours if that works."
+    },
+    {
+      "from": "Fenech",
+      "time": "2:10 PM",
+      "text": "Don’t worry about it, I’ll get at you later in the week."
+    }
+  ]
+}

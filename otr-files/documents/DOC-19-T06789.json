@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-T06789",
+  "title": "Text: DET Mikaela Higgins ↔ Anthony Fenech",
+  "date": "2019-10-09",
+  "from": "DET Mikaela Higgins",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Mikaela Higgins",
+      "time": "4:14 PM",
+      "text": "Cant talk whats up"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:14 PM",
+      "text": "Call me later, sensitive subject"
+    },
+    {
+      "from": "DET Mikaela Higgins",
+      "time": "4:37 PM",
+      "text": "You ok"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:37 PM",
+      "text": "Yeah"
+    }
+  ]
+}

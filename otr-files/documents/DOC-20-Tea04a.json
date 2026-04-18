@@ -1,0 +1,36 @@
+{
+  "id": "DOC-20-Tea04a",
+  "title": "Text: DET █████████████ ↔ Anthony Fenech",
+  "date": "2020-02-16",
+  "from": "DET █████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:09 AM",
+      "text": "I’m planning on heading your way this week to get lunch with Tom Gage. Wanted to reach out to you before...is there a good day to meet up when you’re off work?"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:11 AM",
+      "text": "(Or even later in the evening if you have to get home for dinner with the fam and what not. I have family out that way I can stop in and see, too.)"
+    },
+    {
+      "from": "DET █████████████, Jr.",
+      "time": "12:01 PM",
+      "text": "I normally have a coaching commitment on Thursdays at 6:30 but I don’t have it this week due to mid winter break. So, that should be open for me"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:48 PM",
+      "text": "Ok, let’s count on that, I’ll circle back to you on Tues or Wed."
+    },
+    {
+      "from": "DET █████████████, Jr.",
+      "time": "12:48 PM",
+      "text": "Sounds good"
+    }
+  ]
+}

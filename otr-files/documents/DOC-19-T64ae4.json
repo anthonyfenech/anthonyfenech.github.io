@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T64ae4",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-05-20",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:22 PM",
+      "text": "Did ███████ clear waivers? Is TEX taking him back"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "1:01 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:23 PM",
+      "text": "Ty"
+    }
+  ]
+}

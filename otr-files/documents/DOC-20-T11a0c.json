@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-T11a0c",
+  "title": "Text: DET █████████████ ↔ Anthony Fenech",
+  "date": "2020-06-16",
+  "from": "DET █████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET █████████████",
+      "time": "12:42 PM",
+      "text": "Do you have a minute?"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:52 PM",
+      "text": "Sorry I missed your call. What’s going on?"
+    },
+    {
+      "from": "DET █████████████",
+      "time": "6:23 PM",
+      "text": "Thanks. Appreciate the straight up conversation."
+    }
+  ]
+}

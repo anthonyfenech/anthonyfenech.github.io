@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T768b2",
+  "title": "Text: DET John Westhoff ↔ Anthony Fenech",
+  "date": "2019-12-12",
+  "from": "DET John Westhoff",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "3:09 PM",
+      "text": "Whiskey ginger"
+    },
+    {
+      "from": "DET John Westhoff",
+      "time": "3:09 PM",
+      "text": "Too early to drink"
+    },
+    {
+      "from": "Fenech",
+      "time": "3:10 PM",
+      "text": "You don’t have to write about minor league rule 5 picks"
+    }
+  ]
+}

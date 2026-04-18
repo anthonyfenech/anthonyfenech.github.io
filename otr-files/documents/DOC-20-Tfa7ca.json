@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-Tfa7ca",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2020-07-20",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:00 PM",
+      "text": "Can you pass my e-mail on to Rob Butcher about the Castellanos interview?"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "1:02 PM",
+      "text": "Just sent you an email with the info"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:02 PM",
+      "text": "THank you"
+    }
+  ]
+}

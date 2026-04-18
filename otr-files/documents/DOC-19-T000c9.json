@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-T000c9",
+  "title": "Text: DET Courtney Foyt ↔ Anthony Fenech",
+  "date": "2019-09-20",
+  "from": "DET Courtney Foyt",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:34 PM",
+      "text": "You here today?"
+    },
+    {
+      "from": "DET Courtney Foyt",
+      "time": "6:16 PM",
+      "text": "Nope. I’m in Lake Tahoe until Tuesday. What’s up?"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:57 PM",
+      "text": "Ooooh nice nothing was gonna chat"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:57 PM",
+      "text": "Have fun!"
+    }
+  ]
+}

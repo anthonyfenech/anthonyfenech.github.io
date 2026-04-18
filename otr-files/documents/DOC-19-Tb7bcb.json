@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-Tb7bcb",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-12-12",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:17 PM",
+      "text": "What’s going on with Romine"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "12:21 PM",
+      "text": "I called you"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:25 PM",
+      "text": "4 mill or 4.1 mill? No quotes again, someone put out there 4.1"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "12:30 PM",
+      "text": "That’s close enough"
+    }
+  ]
+}

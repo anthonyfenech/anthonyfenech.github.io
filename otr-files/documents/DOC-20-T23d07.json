@@ -1,0 +1,41 @@
+{
+  "id": "DOC-20-T23d07",
+  "title": "Text: DET Tom Moore ↔ Anthony Fenech",
+  "date": "2020-02-29",
+  "from": "DET Tom Moore",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Tom Moore",
+      "time": "11:33 AM",
+      "text": "Good morning Anthony. Can we catch up this afternoon?"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:34 AM",
+      "text": "Yep, I will be around"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "11:34 AM",
+      "text": "👍"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "2:56 PM",
+      "text": "Hi Anthony. I’m available for the next couple of hours if that works for you."
+    },
+    {
+      "from": "Fenech",
+      "time": "3:18 PM",
+      "text": "I’m sorry, I was in the middle of running an errand. I’ll give you a call in a few minutes"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "3:18 PM",
+      "text": "No worries."
+    }
+  ]
+}

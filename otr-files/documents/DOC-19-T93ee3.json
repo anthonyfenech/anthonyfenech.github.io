@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T93ee3",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-05-09",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "8:06 PM",
+      "text": "Are you on trip"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "8:52 PM",
+      "text": "No"
+    },
+    {
+      "from": "Fenech",
+      "time": "10:19 PM",
+      "text": "What do they even pay you for"
+    }
+  ]
+}

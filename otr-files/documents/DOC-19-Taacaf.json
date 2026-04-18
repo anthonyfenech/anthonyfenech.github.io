@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-Taacaf",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-07-13",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:01 PM",
+      "text": "What’s going on"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "6:27 PM",
+      "text": "Nothing"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:00 PM",
+      "text": "Cool"
+    }
+  ]
+}

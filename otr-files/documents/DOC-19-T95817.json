@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T95817",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-08-14",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:11 PM",
+      "text": "Are you going on the trip?"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "7:20 PM",
+      "text": "Part"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:22 PM",
+      "text": "Informative"
+    }
+  ]
+}

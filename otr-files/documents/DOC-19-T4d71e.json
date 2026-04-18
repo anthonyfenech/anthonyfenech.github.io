@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T4d71e",
+  "title": "Text: DET Doug Teter ↔ Anthony Fenech",
+  "date": "2019-09-16",
+  "from": "DET Doug Teter",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:25 PM",
+      "text": "EKG or ECG"
+    },
+    {
+      "from": "DET Doug Teter",
+      "time": "7:32 PM",
+      "text": "Sorry Anthony but can’t comment on any specific tests that we ran"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:33 PM",
+      "text": "K"
+    }
+  ]
+}

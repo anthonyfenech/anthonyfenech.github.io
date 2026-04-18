@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-Tb303f",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2020-07-24",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "7:48 PM",
+      "text": "Do you know anything about Kendall Maxwell’s thing? I’m just trying to rule out Sartori"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "7:48 PM",
+      "text": "Not involved"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:49 PM",
+      "text": "K"
+    }
+  ]
+}

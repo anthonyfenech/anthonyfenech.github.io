@@ -1,0 +1,31 @@
+{
+  "id": "DOC-20-T7efec",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2020-02-28",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET ███████████████",
+      "time": "9:31 PM",
+      "text": "Si"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "9:31 PM",
+      "text": "How are you"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:59 PM",
+      "text": "Hiiii"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:59 PM",
+      "text": "Good, I guess"
+    }
+  ]
+}

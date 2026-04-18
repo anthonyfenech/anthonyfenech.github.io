@@ -1,0 +1,31 @@
+{
+  "id": "DOC-20-T480dc",
+  "title": "Text: DET Bruce Tanner ↔ Anthony Fenech",
+  "date": "2020-03-12",
+  "from": "DET Bruce Tanner",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:03 PM",
+      "text": "Have they pulled you guys off the road for your assignments?"
+    },
+    {
+      "from": "DET Bruce Tanner",
+      "time": "1:04 PM",
+      "text": "Not yet."
+    },
+    {
+      "from": "Fenech",
+      "time": "1:04 PM",
+      "text": "K... it seems like they’re going to bang the rest of spring training games anyways"
+    },
+    {
+      "from": "DET Bruce Tanner",
+      "time": "1:05 PM",
+      "text": "Okay thanks"
+    }
+  ]
+}

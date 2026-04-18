@@ -1,0 +1,36 @@
+{
+  "id": "DOC-20-Tf8164",
+  "title": "Text: DET Miguel Garcia ↔ Anthony Fenech",
+  "date": "2020-03-16",
+  "from": "DET Miguel Garcia",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:26 PM",
+      "text": "Hey it’s Anthony. Thank you for talking to me about Campos. I am doing another story on some of the Dominican prospects I talked to, can I pick your brain on them?"
+    },
+    {
+      "from": "DET Miguel Garcia",
+      "time": "12:37 PM",
+      "text": "Of course no problem"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:37 PM",
+      "text": "What time is best?"
+    },
+    {
+      "from": "DET Miguel Garcia",
+      "time": "12:39 PM",
+      "text": "1:30 ok?"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:39 PM",
+      "text": "Yep, great. Thank you"
+    }
+  ]
+}

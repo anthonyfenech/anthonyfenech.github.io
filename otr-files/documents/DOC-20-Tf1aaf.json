@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-Tf1aaf",
+  "title": "Text: DET Dave Littlefield ↔ Anthony Fenech",
+  "date": "2020-04-03",
+  "from": "DET Dave Littlefield",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:32 PM",
+      "text": "I’m writing about Faedo this weekend. Is there a good time to give you a ring later?"
+    },
+    {
+      "from": "DET Dave Littlefield",
+      "time": "12:45 PM",
+      "text": "Anytime"
+    },
+    {
+      "from": "Fenech",
+      "time": "12:54 PM",
+      "text": "Ok"
+    }
+  ]
+}

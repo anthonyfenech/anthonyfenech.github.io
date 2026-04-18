@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-T2a4eb",
+  "title": "Text: DET Jerry Lewis ↔ Anthony Fenech",
+  "date": "2019-07-06",
+  "from": "DET Jerry Lewis",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:25 PM",
+      "text": "You at the game today?"
+    },
+    {
+      "from": "DET Jerry Lewis",
+      "time": "1:27 PM",
+      "text": "No day off .   How you been?  Got to love watching this every day."
+    },
+    {
+      "from": "Fenech",
+      "time": "1:31 PM",
+      "text": "Good thing I had a break in college World Series"
+    },
+    {
+      "from": "DET Jerry Lewis",
+      "time": "2:59 PM",
+      "text": "You deserve it not sure that was a break"
+    }
+  ]
+}

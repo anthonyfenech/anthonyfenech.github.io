@@ -1,0 +1,41 @@
+{
+  "id": "DOC-19-T34aa3",
+  "title": "Text: DET Ron Colangelo ↔ Anthony Fenech",
+  "date": "2019-09-13",
+  "from": "DET Ron Colangelo",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:32 PM",
+      "text": "Is today picture day?"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "2:51 PM",
+      "text": "You here today?"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "2:54 PM",
+      "text": "Weather permitting"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:58 PM",
+      "text": "K"
+    },
+    {
+      "from": "DET Ron Colangelo",
+      "time": "2:58 PM",
+      "text": "You around today?"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:59 PM",
+      "text": "Yes about 10 min away"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T6cc27",
+  "title": "Text: DET Tom Moore ↔ Anthony Fenech",
+  "date": "2019-07-02",
+  "from": "DET Tom Moore",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Tom Moore",
+      "time": "6:18 PM",
+      "text": "Hi Anthony! Weth told me you were looking for some info. Let me know if are looking for something."
+    },
+    {
+      "from": "Fenech",
+      "time": "6:33 PM",
+      "text": "Hey, thanks for getting back to me. I’m heading to dinner right now, could I call you after?"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "6:33 PM",
+      "text": "👍"
+    }
+  ]
+}

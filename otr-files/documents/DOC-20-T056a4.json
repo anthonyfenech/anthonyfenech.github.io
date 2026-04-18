@@ -1,0 +1,51 @@
+{
+  "id": "DOC-20-T056a4",
+  "title": "Text: DET Ramon Santiago ↔ Anthony Fenech",
+  "date": "2020-01-29",
+  "from": "DET Ramon Santiago",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "6:22 PM",
+      "text": "You gonna be around the hotel tonight?"
+    },
+    {
+      "from": "DET Ramon Santiago",
+      "time": "6:42 PM",
+      "text": "Yes Antony"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:42 PM",
+      "text": "Nice I will see you there"
+    },
+    {
+      "from": "DET Ramon Santiago",
+      "time": "6:48 PM",
+      "text": "Ok"
+    },
+    {
+      "from": "DET Ramon Santiago",
+      "time": "9:25 PM",
+      "text": "I’m haven dinner with the team"
+    },
+    {
+      "from": "DET Ramon Santiago",
+      "time": "9:25 PM",
+      "text": "I will be in the hotel"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:25 PM",
+      "text": "K...I’ll be around all night. Have fun"
+    },
+    {
+      "from": "DET Ramon Santiago",
+      "time": "9:25 PM",
+      "text": "Ok"
+    }
+  ]
+}

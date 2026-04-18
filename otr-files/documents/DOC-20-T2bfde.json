@@ -1,0 +1,31 @@
+{
+  "id": "DOC-20-T2bfde",
+  "title": "Text: DET Tom Moore ↔ Anthony Fenech",
+  "date": "2020-03-20",
+  "from": "DET Tom Moore",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:12 PM",
+      "text": "Do you have any time to talk today?"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "2:27 PM",
+      "text": "Yes, I’m available now if that works for you."
+    },
+    {
+      "from": "Fenech",
+      "time": "2:29 PM",
+      "text": "Ok, give me five min"
+    },
+    {
+      "from": "DET Tom Moore",
+      "time": "2:29 PM",
+      "text": "👍"
+    }
+  ]
+}

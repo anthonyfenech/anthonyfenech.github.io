@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-T681b4",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-04-17",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "4:27 PM",
+      "text": "You in your office?"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "4:42 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:44 PM",
+      "text": "Can I come up for a few...talking on TV at 5 pm"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "DOC-20-T990bf",
+  "title": "Text: DET █████████████ ↔ Anthony Fenech",
+  "date": "2020-02-19",
+  "from": "DET █████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "1:40 PM",
+      "text": "Can you send me details for tickets going on sale Friday am?"
+    },
+    {
+      "from": "DET █████████████",
+      "time": "4:47 PM",
+      "text": "Ben will be sending... how’s it going?"
+    },
+    {
+      "from": "Fenech",
+      "time": "6:57 PM",
+      "text": "Great, how’s Lakeland? Is there going to be an e-mail? Tonight?"
+    }
+  ]
+}

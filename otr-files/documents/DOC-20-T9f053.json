@@ -1,0 +1,36 @@
+{
+  "id": "DOC-20-T9f053",
+  "title": "Text: DET Greg Garno ↔ Anthony Fenech",
+  "date": "2020-02-12",
+  "from": "DET Greg Garno",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "9:31 PM",
+      "text": "How’s the Land?"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "9:39 PM",
+      "text": "Full of lakes"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:39 PM",
+      "text": "And swans"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "9:40 PM",
+      "text": "I haven’t noticed that many so far. But there are so many old white people everywhere I go"
+    },
+    {
+      "from": "Fenech",
+      "time": "9:40 PM",
+      "text": "Have you gone downtown?"
+    }
+  ]
+}

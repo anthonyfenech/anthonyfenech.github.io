@@ -1,0 +1,46 @@
+{
+  "id": "DOC-20-T6afce",
+  "title": "Text: DET █████████████ ↔ Anthony Fenech",
+  "date": "2020-07-13",
+  "from": "DET █████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET █████████████",
+      "time": "4:15 PM",
+      "text": "What’s up? On a call"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:15 PM",
+      "text": "Nothing in particular"
+    },
+    {
+      "from": "DET █████████████",
+      "time": "4:54 PM",
+      "text": "We can continue convo tomorrow"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:02 PM",
+      "text": "K"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:02 PM",
+      "text": "Disregard call. Didn’t see this"
+    },
+    {
+      "from": "DET █████████████",
+      "time": "5:02 PM",
+      "text": "Wife called"
+    },
+    {
+      "from": "DET █████████████",
+      "time": "5:02 PM",
+      "text": "Just got home. You owe me two more of your observations"
+    }
+  ]
+}

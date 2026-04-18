@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-T29375",
+  "title": "Text: DET Dick Egan ↔ Anthony Fenech",
+  "date": "2019-08-02",
+  "from": "DET Dick Egan",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "5:10 PM",
+      "text": "Are you coming here"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:11 PM",
+      "text": "There he is"
+    },
+    {
+      "from": "Fenech",
+      "time": "5:11 PM",
+      "text": "Like clock-work"
+    },
+    {
+      "from": "DET Dick Egan",
+      "time": "5:12 PM",
+      "text": "Yep"
+    }
+  ]
+}

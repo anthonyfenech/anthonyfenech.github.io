@@ -1,0 +1,36 @@
+{
+  "id": "DOC-19-T1c206",
+  "title": "Text: DET Dave Littlefield ↔ Anthony Fenech",
+  "date": "2019-06-24",
+  "from": "DET Dave Littlefield",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:37 AM",
+      "text": "How’s Mize doing"
+    },
+    {
+      "from": "DET Dave Littlefield",
+      "time": "1:23 PM",
+      "text": "Fine. In Lakeland working out"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:25 PM",
+      "text": "Not for use - planning upcoming trips - but would you say this would likely keep him from Futures Game consideration?"
+    },
+    {
+      "from": "DET Dave Littlefield",
+      "time": "1:52 PM",
+      "text": "Yes"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:52 PM",
+      "text": "Thanks"
+    }
+  ]
+}

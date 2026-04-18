@@ -1,0 +1,26 @@
+{
+  "id": "DOC-19-Ta8683",
+  "title": "Text: DET Al Avila ↔ Anthony Fenech",
+  "date": "2019-04-28",
+  "from": "DET Al Avila",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "2:01 PM",
+      "text": "Ken Williams says hello"
+    },
+    {
+      "from": "DET Al Avila",
+      "time": "2:15 PM",
+      "text": "You getting info"
+    },
+    {
+      "from": "Fenech",
+      "time": "2:34 PM",
+      "text": "I only get info from u"
+    }
+  ]
+}

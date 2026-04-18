@@ -1,0 +1,31 @@
+{
+  "id": "DOC-20-T8854b",
+  "title": "Text: DET Rick Anderson ↔ Anthony Fenech",
+  "date": "2020-07-11",
+  "from": "DET Rick Anderson",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "4:43 PM",
+      "text": "Could you take three lefties in the pen?"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:44 PM",
+      "text": "Alexander, Ramirez and Soto"
+    },
+    {
+      "from": "DET Rick Anderson",
+      "time": "4:44 PM",
+      "text": "Yep"
+    },
+    {
+      "from": "Fenech",
+      "time": "4:44 PM",
+      "text": "K"
+    }
+  ]
+}

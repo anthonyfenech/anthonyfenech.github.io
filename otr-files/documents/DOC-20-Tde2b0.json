@@ -1,0 +1,31 @@
+{
+  "id": "DOC-20-Tde2b0",
+  "title": "Text: DET █████████████ ↔ Anthony Fenech",
+  "date": "2020-07-29",
+  "from": "DET █████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "12:56 PM",
+      "text": "How’s it going"
+    },
+    {
+      "from": "DET █████████████",
+      "time": "1:03 PM",
+      "text": "Great. How’re you"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:03 PM",
+      "text": "I dunno man, sitting around watching baseball, wondering what they’re gonna do with me"
+    },
+    {
+      "from": "Fenech",
+      "time": "1:04 PM",
+      "text": "I really enjoy watching baseball now that I don’t have to sit in the press box and write stories on it, not gonna lie"
+    }
+  ]
+}

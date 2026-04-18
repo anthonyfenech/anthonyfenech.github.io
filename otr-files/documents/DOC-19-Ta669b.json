@@ -1,0 +1,41 @@
+{
+  "id": "DOC-19-Ta669b",
+  "title": "Text: DET Chad Crunk ↔ Anthony Fenech",
+  "date": "2019-06-28",
+  "from": "DET Chad Crunk",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET Chad Crunk",
+      "time": "7:28 PM",
+      "text": "Hey Anthony, how was your stay in Omaha? Will you be traveling to Chicago next week?"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:31 PM",
+      "text": "It was pretty cool, how’s everything going? No Chicago for me"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "7:33 PM",
+      "text": "Eh, it’s going alright. Had a nice week off during the last road trip. Sure it was fun covering UM’s run. Will the Freep be sending anyone to Chicago?"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:36 PM",
+      "text": "No, probably just run wires"
+    },
+    {
+      "from": "DET Chad Crunk",
+      "time": "7:37 PM",
+      "text": "Alright, enjoy the deserved time off"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:38 PM",
+      "text": "See you Sunday"
+    }
+  ]
+}

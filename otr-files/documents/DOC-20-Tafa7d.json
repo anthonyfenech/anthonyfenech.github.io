@@ -1,0 +1,61 @@
+{
+  "id": "DOC-20-Tafa7d",
+  "title": "Text: DET ███████████████ ↔ Anthony Fenech",
+  "date": "2020-03-09",
+  "from": "DET ███████████████",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "DET ███████████████",
+      "time": "7:11 PM",
+      "text": "How are you"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:13 PM",
+      "text": "Pretty great"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:13 PM",
+      "text": "Because I’m back to work, essentially"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:13 PM",
+      "text": "Imagine that"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:31 PM",
+      "text": "Pretty great"
+    },
+    {
+      "from": "Fenech",
+      "time": "7:32 PM",
+      "text": "How are you"
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "7:58 PM",
+      "text": "Pretty shitty."
+    },
+    {
+      "from": "DET ███████████████",
+      "time": "7:58 PM",
+      "text": "Whats new"
+    },
+    {
+      "from": "Fenech",
+      "time": "8:05 PM",
+      "text": "Back to work finally"
+    },
+    {
+      "from": "Fenech",
+      "time": "8:05 PM",
+      "text": "What's going on"
+    }
+  ]
+}

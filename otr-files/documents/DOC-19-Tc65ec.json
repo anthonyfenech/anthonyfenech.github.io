@@ -1,0 +1,31 @@
+{
+  "id": "DOC-19-Tc65ec",
+  "title": "Text: DET Greg Garno ↔ Anthony Fenech",
+  "date": "2019-08-07",
+  "from": "DET Greg Garno",
+  "to": "Anthony Fenech",
+  "type": "text",
+  "subjects": [],
+  "content": [
+    {
+      "from": "Fenech",
+      "time": "11:32 AM",
+      "text": "Greg look at me waving to you from DAC"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "11:33 AM",
+      "text": "Did you just sit down?"
+    },
+    {
+      "from": "Fenech",
+      "time": "11:34 AM",
+      "text": "Yeah"
+    },
+    {
+      "from": "DET Greg Garno",
+      "time": "11:34 AM",
+      "text": "Ok, I saw you."
+    }
+  ]
+}
