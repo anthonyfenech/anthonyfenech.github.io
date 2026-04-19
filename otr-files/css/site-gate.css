@@ -1,0 +1,114 @@
+/* OTR Files - Site Access Gate Styles */
+
+#site-gate-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-bg, #1A1A1A);
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+#site-gate-overlay.gate-success {
+  opacity: 0;
+}
+
+.gate-container {
+  text-align: center;
+  padding: var(--space-8, 2rem);
+  max-width: 400px;
+  width: 90%;
+}
+
+.gate-header {
+  font-family: var(--font-mono, 'Courier New', monospace);
+  font-size: var(--text-2xl, 1.5rem);
+  font-weight: bold;
+  color: var(--color-accent, #D42B2B);
+  letter-spacing: 0.15em;
+  margin-bottom: var(--space-4, 1rem);
+}
+
+.gate-line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--color-accent, #D42B2B);
+  margin-bottom: var(--space-8, 2rem);
+}
+
+.gate-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4, 1rem);
+}
+
+.gate-input {
+  font-family: var(--font-mono, 'Courier New', monospace);
+  font-size: var(--text-base, 1rem);
+  padding: var(--space-4, 1rem);
+  background-color: var(--color-bg-elevated, #252525);
+  border: 1px solid var(--color-border, #333333);
+  color: var(--color-text, #E8E8E8);
+  text-align: center;
+  letter-spacing: 0.2em;
+  outline: none;
+  transition: border-color var(--transition-fast, 0.15s ease);
+}
+
+.gate-input::placeholder {
+  color: var(--color-text-muted, #666666);
+  letter-spacing: 0.1em;
+}
+
+.gate-input:focus {
+  border-color: var(--color-accent, #D42B2B);
+}
+
+.gate-button {
+  font-family: var(--font-mono, 'Courier New', monospace);
+  font-size: var(--text-sm, 0.875rem);
+  font-weight: bold;
+  padding: var(--space-4, 1rem) var(--space-6, 1.5rem);
+  background-color: var(--color-accent, #D42B2B);
+  border: none;
+  color: #FFFFFF;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color var(--transition-fast, 0.15s ease);
+}
+
+.gate-button:hover {
+  background-color: var(--color-accent-hover, #E03535);
+}
+
+.gate-error {
+  font-family: var(--font-mono, 'Courier New', monospace);
+  font-size: var(--text-sm, 0.875rem);
+  color: var(--color-accent, #D42B2B);
+  margin-top: var(--space-4, 1rem);
+  letter-spacing: 0.1em;
+  opacity: 0;
+  transition: opacity var(--transition-fast, 0.15s ease);
+  height: 1.5em;
+}
+
+.gate-error.visible {
+  opacity: 1;
+}
+
+/* Shake animation for wrong password */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+  20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.gate-container.shake {
+  animation: shake 0.5s ease-in-out;
+}
