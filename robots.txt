@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /otr-files/
+
+Sitemap: https://anthonyfenech.com/sitemap.xml
