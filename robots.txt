@@ -3,7 +3,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /otr-files/
 
 # ALLOW — answer fetchers: fetch a page live to answer a user's question.
 User-agent: Googlebot
@@ -18,7 +17,6 @@ User-agent: meta-externalfetcher
 User-agent: Amzn-SearchBot
 User-agent: Amzn-User
 Allow: /
-Disallow: /otr-files/
 
 # BLOCK — training crawlers: collect content to train AI models.
 User-agent: GPTBot
