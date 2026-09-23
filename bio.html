@@ -136,6 +136,60 @@
         .bio-goodreads .pdf-download-btn {
             display: inline-block;
         }
+
+        /* Copied from the OFF-THE-RECORD guestbook RATE IT line.
+           .pdf-download-btn above already matches that rule property for property. */
+        .format-menu {
+            display: grid;
+            grid-template-columns: max-content max-content max-content;
+            column-gap: 12px;
+            row-gap: 24px;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        .format-item {
+            display: contents;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-decoration: none;
+            color: #000;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .format-name { text-align: right; }
+        .format-dash { text-align: center; }
+
+        .rate-the-book-btns {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-self: start;
+        }
+
+        /* Gap above the line: 2x the 20px that followed the last paragraph before. */
+        .rate-the-book {
+            margin-top: 40px;
+            padding-top: 0;
+        }
+
+        /* The pair overflows below ~360px, so stack them centred with the same 12px gap. */
+        @media (max-width: 360px) {
+            .format-menu {
+                grid-template-columns: max-content;
+                row-gap: 12px;
+                justify-items: center;
+            }
+            .format-name, .format-dash { text-align: center; }
+            .rate-the-book-btns { justify-self: center; justify-content: center; }
+            .format-dash { display: none; }
+        }
         
         @media (max-width: 600px) {
             .nav-links {
@@ -191,7 +245,8 @@
         "https://reddotbooks.com/anthony-fenech/",
         "https://x.com/anthonyfenech",
         "https://www.freep.com/staff/2648482001/anthony-fenech/",
-        "https://www.goodreads.com/author/show/70575290.Anthony_Fenech"
+        "https://www.goodreads.com/author/show/70575290.Anthony_Fenech",
+        "https://www.wikidata.org/wiki/Q141537982"
       ]
     }
     </script>
@@ -208,15 +263,24 @@
     </header>
     
     <div class="content">
-        <p>Anthony Fenech covered the Detroit Tigers as a beat writer for the Detroit Free Press from 2015 through 2020, five seasons that spanned the team's transition from a contending club into a full rebuild, ending with the pandemic shutdown that closed his beat.</p>
+        <p>Anthony Fenech covered the Detroit Tigers as a beat writer for the <i>Detroit Free Press</i> from 2015 through 2020, five seasons that spanned the team's transition from a contending club into a full rebuild, ending with the pandemic shutdown that closed his beat.</p>
         
-        <p>His work has been recognized by the Associated Press Sports Editors, where he was a top-10 finalist in Class A for beat writing in 2017 and for best digital package in 2020.</p>
+        <p>In 2017, the Associated Press Sports Editors named him one of the top 10 beat writers in the country.</p>
         
-        <p>Fenech began at the Free Press in 2007 and worked internships at the Las Vegas Sun, Pittsburgh Post-Gazette and MLB.com. He is a former member of the Baseball Writers' Association of America.</p>
+        <p>Fenech began at the <i>Free Press</i> in 2007 and worked internships at the <i>Las Vegas Sun</i>, <i>Pittsburgh Post-Gazette</i> and MLB.com. He is a former member of the Baseball Writers' Association of America.</p>
         
         <p>OFF-THE-RECORD is his first book.</p>
 
-        <p class="bio-goodreads"><a href="https://www.goodreads.com/author/show/70575290.Anthony_Fenech" target="_blank" rel="noopener noreferrer" class="pdf-download-btn" aria-label="Anthony Fenech on Goodreads">GOODREADS</a></p>
+        <nav class="format-menu rate-the-book">
+            <div class="format-item">
+                <span class="format-name">RATE IT</span>
+                <span class="format-dash">&mdash;</span>
+                <span class="rate-the-book-btns">
+                    <a href="https://www.goodreads.com/review/edit/252999523" target="_blank" rel="noopener noreferrer" class="pdf-download-btn" aria-label="Rate OFF-THE-RECORD on Goodreads">GOODREADS</a>
+                    <a href="https://www.amazon.com/review/create-review?asin=B0HJW85Y4J" target="_blank" rel="noopener noreferrer" class="pdf-download-btn" aria-label="Rate OFF-THE-RECORD on Amazon">AMAZON</a>
+                </span>
+            </div>
+        </nav>
 
     </div>
 
