@@ -80,6 +80,12 @@
             text-underline-offset: 2px;
         }
 
+        /* Current page: same font, weight, colour and size — underline off. */
+        .nav-link[aria-current="page"],
+        .nav-link[aria-current="page"]:hover {
+            text-decoration: none;
+        }
+
         /* Values copied from the bio.html .pdf-download-btn rule. */
         .pdf-download-btn {
             padding: 8px 20px;
@@ -197,7 +203,7 @@
         <h1>ANTHONY FENECH</h1>
 
         <nav class="nav-links">
-            <a href="index.html" class="nav-link underlined">Home</a>
+            <a href="index.html" class="nav-link underlined" aria-current="page">Home</a>
             <a href="bio.html" class="nav-link underlined">Bio</a>
             <a href="https://offrecordbook.com" class="nav-link underlined">Book</a>
             <a href="contact.html" class="nav-link underlined">Contact</a>
