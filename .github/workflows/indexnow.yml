@@ -1,0 +1,78 @@
+name: IndexNow
+
+# Tells Bing (and the other IndexNow engines) which pages changed, once
+# GitHub Pages has finished publishing them. Pinging before the deploy
+# lands would have Bing re-crawl the old page.
+#
+# After a deploy: submits the sitemap pages changed by the latest commit.
+# Run by hand: submits every page in the sitemap.
+#
+# The key is the 32-hex-character .txt file at the repo root; the host
+# comes from CNAME. Rotating the key = replace that file.
+
+on:
+  workflow_run:
+    workflows: [pages-build-deployment]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_branch == 'main')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          fetch-depth: 2
+
+      - name: Submit changed pages
+        env:
+          EVENT: ${{ github.event_name }}
+        run: |
+          set -euo pipefail
+          host=$(tr -d '[:space:]' < CNAME)
+          key_file=$(ls | grep -E '^[0-9a-f]{32}\.txt$' | head -1)
+          [ -n "$key_file" ] || { echo "No IndexNow key file at repo root"; exit 1; }
+          key=${key_file%.txt}
+          [ "$(cat "$key_file")" = "$key" ] || { echo "$key_file does not contain its own key"; exit 1; }
+
+          grep -oE '<loc>[^<]+</loc>' sitemap.xml | sed -E 's#</?loc>##g' > all.txt
+
+          if [ "$EVENT" = workflow_dispatch ] || ! git rev-parse -q --verify HEAD~1 >/dev/null; then
+            cp all.txt urls.txt
+          else
+            changed=$(git diff --name-only HEAD~1 HEAD)
+            if printf '%s\n' "$changed" | grep -qxE "sitemap\.xml|$key_file"; then
+              cp all.txt urls.txt
+            else
+              : > urls.txt
+              printf '%s\n' "$changed" | grep -E '^[^/]+\.html$' | while read -r f; do
+                if [ "$f" = index.html ]; then u="https://$host/"; else u="https://$host/$f"; fi
+                grep -qxF "$u" all.txt && echo "$u" >> urls.txt || true
+              done
+            fi
+          fi
+
+          if [ ! -s urls.txt ]; then echo "No sitemap pages changed; nothing to submit."; exit 0; fi
+          echo "Submitting:"; cat urls.txt
+
+          python3 - "$host" "$key" > body.json <<'PY'
+          import json, sys
+          host, key = sys.argv[1:]
+          urls = [l.strip() for l in open("urls.txt") if l.strip()]
+          print(json.dumps({"host": host, "key": key,
+                            "keyLocation": f"https://{host}/{key}.txt",
+                            "urlList": urls}))
+          PY
+
+          code=$(curl -sS -o resp.txt -w '%{http_code}' -X POST https://api.indexnow.org/indexnow \
+            -H 'Content-Type: application/json; charset=utf-8' --data @body.json)
+          echo "IndexNow responded $code"; cat resp.txt; echo
+          case "$code" in 200|202) ;; *) exit 1 ;; esac
